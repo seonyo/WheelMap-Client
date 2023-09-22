@@ -1706,30 +1706,30 @@
         "longitude":"127.121763"
       },{
         
-        "facility_name": "",
-        "address": "",
+        "facility_name": "석촌역",
+        "address": "서울특별시 송파구 송파대로 지하 439",
         "weekday_open_time": "10:00",
         "weekday_close_time": "18:00",
         "saturday_open_time": "10:00",
         "saturday_close_time": "18:00",
         "holiday_open_time": "08:00",
         "holiday_close_time": "21:00",
-        "number":"",
-        "latitude":"",
-        "longitude":""
+        "number":"02-2147-5000",
+        "latitude":"37.505948",
+        "longitude":"127.106344"
       },{
         
-        "facility_name": "",
-        "address": "",
+        "facility_name": "장지역",
+        "address": "서울특별시 송파구 송파대로 지하 82",
         "weekday_open_time": "10:00",
         "weekday_close_time": "18:00",
         "saturday_open_time": "10:00",
         "saturday_close_time": "18:00",
         "holiday_open_time": "08:00",
         "holiday_close_time": "21:00",
-        "number":"",
-        "latitude":"",
-        "longitude":""
+        "number":"02-2147-5000",
+        "latitude":"37.47811921",
+        "longitude":"127.126424"
       },{
         
         "facility_name": "",
