@@ -79,8 +79,8 @@ function initializeMap() {
     data: {
       "startX": longitude.toString(),
       "startY": latitude.toString(),
-      "endX": endX,
-      "endY": endY,
+      "endX": endY,
+      "endY": endX,
       "resCoordType": "EPSG3857",
       "startName": "출발지",
       "endName": "도착지"
