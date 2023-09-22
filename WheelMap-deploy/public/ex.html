@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/all.css">
+    <link rel="stylesheet" href="CSS/searchmenu.css">
+    <title>검색 애플리케이션</title>
+</head>
+<body>
+    <input type="text" id="searchInput" placeholder="장소를 입력하세요">
+    <button id="searchButton">검색</button>
+    <div id="searchResults"></div>
+
+    <script>
+        document.getElementById('searchButton').addEventListener('click', function() {
+            var searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            var searchResults = performSearch(searchTerm);
+
+            var resultContainer = document.getElementById('searchResults');
+            resultContainer.innerHTML = '';
+
+            if (searchResults.length > 0) {
+                for (var i = 0; i < searchResults.length; i++) {
+                    var result = searchResults[i];
+                    var resultElement = createResultElement(result);
+                    resultContainer.appendChild(resultElement);
+                }
+            } else {
+                resultContainer.textContent = '검색 결과가 없습니다.';
+            }
+        });
+
+        function performSearch(searchTerm) {
+            var jsonData = []; // JSON 데이터를 저장할 변수
+
+            // JSON 파일을 가져오는 비동기 요청
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', 'ex.json', false); // false는 동기 요청을 의미
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    jsonData = JSON.parse(xhr.responseText);
+                }
+            };
+            xhr.send();
+
+            var results = [];
+
+            // 검색어와 관련된 결과를 찾아서 results 배열에 추가
+            for (var i = 0; i < jsonData.length; i++) {
+                var result = jsonData[i];
+                var facilityName = result.facility_name.toLowerCase();
+
+                if (facilityName.includes(searchTerm)) {
+                    results.push(result);
+                }
+            }
+
+            return results;
+        }
+
+        function createResultElement(result) {
+            var resultElement = document.createElement('div');
+            resultElement.classList.add('item-container');
+
+            var storeId = result.id;
+
+            resultElement.innerHTML = `
+                <div class="star-rating">
+                    <i class="fas fa-star" id="star-icon-${storeId}"></i>
+                    <span class="place">${result.facility_name}</span>
+                    <div class="walk" onclick="window.location.href='walk.html'">안내하기</div>
+                </div>
+                <div class="hidden-box">
+                    <span class="place-text">
+                        <br>
+                        <b>상세주소</b><br>
+                        ${result.address}<br><hr>
+                        평일 운행시간 / ${result.weekday_open_time} - ${result.weekday_close_time}<br>
+                        주말 운행시간 / ${result.saturday_open_time} - ${result.saturday_close_time}<br>
+                        공휴일 운행시간 / ${result.holiday_open_time}
+                        ${result.holiday_close_time ? ' - ' + result.holiday_close_time : ''}<br><hr>
+                        전화걸기 <b>${result.managing_organization}</b>
+                    </span>
+                </div>
+            `;
+            return resultElement;
+        }
+    </script>
+</body>
+</html>
