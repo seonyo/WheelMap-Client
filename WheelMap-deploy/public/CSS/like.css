@@ -1,0 +1,31 @@
+html, body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    -ms-overflow-style: none;
+    width: 100%;
+    height: 100%;
+}
+
+::-webkit-scrollbar {
+    display: none;
+} 
+
+.nav {
+    padding: 10% 2% 2% 7%;
+}
+
+i {
+    font-size: 1.2rem;
+}
+
+.flex > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+.title {
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+    margin-top: -3%;
+}

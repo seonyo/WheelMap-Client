@@ -1,0 +1,84 @@
+html,
+body{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    overflow: hidden;
+}
+.login-container{
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    margin-top: 15%;
+}
+.line{
+    width: 100%;
+}
+.icon{
+    margin-top: 30px;
+    position: initial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin-right: 0;
+}
+.title{
+    font-size: 2.3rem;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.subText{
+    font-size: 1.2rem;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40%;
+}
+.kakao_icon{
+    width: 25px;
+}
+.btn.btnkakao{
+    /* position: absolute; */
+    width: 90vw;
+    height: 60px;
+    background-color: #fee500;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 15px;
+    padding-right: 7%;
+    bottom: 0;
+}
+.btn.notlogin{
+    /* position: absolute; */
+    width: 90vw;
+    height: 60px;
+    margin-top: 8%;
+    /* background-color: #fee500; */
+    border: 0;
+    border-color: darkgray;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 15px;
+    padding-right: 7%;
+    bottom: 0;
+}

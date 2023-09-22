@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="CSS/all.css">
+    <link rel="stylesheet" href="CSS/searchmenu.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+</head>
+<body>
+
+<div id="box">
+    <div class="nav container">
+        <div class="flex">
+            <div class="nav-toggle" id="nav_toggle">
+                <i class='bx bx-menu' style="font-size: 1.5rem;" onclick="window.location.href='menu.html'"></i>
+            </div>
+            <input type="text" placeholder="장소를 입력하세요" onfocus="this.placeholder=''" onblur="this.placeholder='장소를 입력하세요'" id="searchInput">
+            <button onclick="search()">검색</button>
+        </div>
+        <div>
+            <i class='bx bx-search' style="font-size: 1.5rem;"></i>
+        </div>
+    </div>
+
+    <div id="searchResults"></div>
+
+</div>
+
+<script>
+        
+    // 검색 기능을 호출하는 함수
+    function search() {
+        // 검색어 가져오기
+        const searchTerm = document.getElementById('searchInput').value;
+
+        // 서버에 POST 요청 보내기
+        fetch('http://ec2-52-79-64-36.ap-northeast-2.compute.amazonaws.com/search', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ searchTerm }),
+        })
+            .then((response) => response.json())
+            .then((data) => {
+                // 검색 결과 처리
+                displaySearchResults(data);
+            })
+            .catch((error) => {
+                console.error('오류 발생:', error);
+            });
+    }
+
+    // 검색 결과를 표시하는 함수
+    function displaySearchResults(results) {
+  const searchResults = document.getElementById('searchResults');
+  searchResults.innerHTML = ''; // 이전 결과 지우기
+
+  if (results.length === 0) {
+    searchResults.innerHTML = '<p>검색 결과가 없습니다.</p>';
+  } else {
+    results.forEach((result) => {
+      // 검색 결과를 생성하고 표시
+      const resultElement = document.createElement('div');
+      resultElement.classList.add('item-container');
+      resultElement.onclick = function() {
+        toggleBackgroundColorAndHiddenBox(this);
+      };
+
+      // 필요한 정보를 추가로 표시
+      const storeId = result.id; // 상점 ID 추가
+
+      resultElement.innerHTML = `
+        <div class="star-rating">
+            <i class="fas fa-star" id="star-icon-${storeId}" onclick="clickLike( '$[user_id]','${storeId}', this)"></i>
+          <span class="place">${result.facility_name}</span>
+          <div class="walk" onclick="window.location.href='walk.html'">안내하기</div>
+        </div>
+        <div class="hidden-box">
+          <span class="place-text">
+            <br>
+            <b>상세주소</b><br>
+            ${result.road_address}<br><hr>
+            평일 운행시간 / ${result.weekday_open_time} - ${result.weekday_close_time}<br>
+            주말 운행시간 / ${result.saturday_open_time} - ${result.saturday_close_time}<br>
+            공휴일 운행시간 / ${result.holiday_open_time} - ${result.holiday_close_time}<br><hr>
+            전화걸기 <b>${result.managing_organization}</b>
+          </span>
+        </div>
+      `;
+
+      searchResults.appendChild(resultElement);
+    });
+  }
+}
+function clickUnlike(user_id, store_id, starIcon) {
+    // "좋아요"를 제거하는 API
+    const apiEndpoint = 'http://ec2-52-79-64-36.ap-northeast-2.compute.amazonaws.com/unlike';
+
+    const requestData = {
+        'user_id': 1,
+        'store_id': store_id,
+    };
+
+    fetch(apiEndpoint, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(requestData),
+    })
+    .then((response) => {
+        if (response.status === 200) { // "좋아요" 제거 성공 시
+            starIcon.style.color = ''; // 스타 아이콘 색상을 기본값으로 변경
+        } else {
+            console.error('오류 발생:', response.status);
+        }
+    })
+    .catch((error) => {
+        console.error('오류 발생:', error);
+    });
+}
+function clickLike(user_id, store_id, starIcon) {
+    // API를 호출하여 찜 추가
+    const apiEndpoint = 'http://ec2-52-79-64-36.ap-northeast-2.compute.amazonaws.com/like';
+
+    const requestData = {
+        'user_id': 1,
+        'store_id': store_id,
+    };
+
+    fetch(apiEndpoint, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(requestData),
+    })
+    .then((response) => {
+        if (response.status === 201) { // 찜 추가가 성공하면
+            starIcon.style.color = '#FFC700'; // 별 아이콘 색깔 변경
+        } else {
+            console.error('오류 발생:', response.status);
+        }
+    })
+    .catch((error) => {
+        console.error('오류 발생:', error);
+    });
+}
+    let starColor = '#EAEAEA';
+    let backgroundColor = false;
+
+    function toggleStarColor(element) {
+        const starIcon = element;
+        if (starColor === '#EAEAEA') starColor = '#FFC700';
+        else starColor = '#EAEAEA';
+        starIcon.style.color = starColor;
+    }
+
+    function toggleBackgroundColorAndHiddenBox(element) {
+        const itemContainer = element;
+        const hiddenBox = itemContainer.querySelector('.hidden-box');
+
+        if (backgroundColor) {
+            itemContainer.style.backgroundColor = '#FFE999';
+            backgroundColor = false;
+        } else {
+            itemContainer.style.backgroundColor = '';
+            backgroundColor = true;
+        }
+
+        // 아래의 부분을 추가하여 hidden-box를 클릭한 item-container의 아래에 표시합니다.
+        const nextItemContainer = itemContainer.nextElementSibling;
+        if (nextItemContainer && nextItemContainer.classList.contains('item-container')) {
+            const itemContainerRect = itemContainer.getBoundingClientRect();
+            const nextItemContainerRect = nextItemContainer.getBoundingClientRect();
+            const yOffset = nextItemContainerRect.top - itemContainerRect.bottom;
+            hiddenBox.style.top = `${yOffset}px`;
+        }
+        
+        if (hiddenBox.style.display === 'none') hiddenBox.style.display = 'block';
+        else hiddenBox.style.display = 'none';
+    }
+</script>
+</body>
+</html>

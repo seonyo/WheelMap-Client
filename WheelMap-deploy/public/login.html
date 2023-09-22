@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="page-enter" content="blendTrans(duration=0.3)">
+    <meta http-equiv="page-exit" content="blendTrans(duration=0.3)">
+    <title>login</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./CSS/login.css">
+    <link rel="stylesheet" href="./CSS/all.css">
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+</head>
+<body>
+    <div class="login-container">
+        <img src="./image/login_img.png" class="line">
+        <img src="./image/logo.png" class="icon">
+        <p class="title">제 2의 발, 휠맵</p>
+        <p class="subText">휠체어 충전소 위치를 쉽고 빠르게!</p>
+        <div class="button">
+            <button class="btn btnkakao" onclick="moveKakaoLogin()">
+                <img src="./image/kakao.png" alt="kakao_logo" class="kakao_icon">
+                카카오계정으로 로그인
+            </button>
+            <button class="btn notlogin" onclick="notlogin()">
+                로그인 없이 사용하기
+            </button>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script>
+        const REST_API_KEY = "0fd52107db31ebeea09da3c053348a13";
+        const JAVASCRIPT_KEY = "5c4cb8cd9ce086f65a090e7fae1fc77d";
+        const kakaoLoginUrl = "https://kauth.kakao.com/oauth/authorize";
+        const kakaoTokenApiUrl = "https://kauth.kakao.com/oauth/token"; 
+        const redirectUrl = "https://stac-wheel-map.web.app/join.html";
+        
+        // 3-2. 카카오 로그인 창으로 이동
+        function moveKakaoLogin() {
+            location.href = `${kakaoLoginUrl}?client_id=${REST_API_KEY}&redirect_uri=${redirectUrl}&response_type=code`;
+        }
+
+        function notlogin(){
+            location.href = `index.html`;
+        }
+
+        // function loginApo() {
+        //     $.ajax("세연이가 준 에이피아이 주소 넣기", {
+        //         headers: {
+        //         'Authorization': `Bearer ${token}`,
+        //         },
+        //         contentType: "application/x-www-form-urlencoded;charset=utf-8",
+        //         dataType: "json",
+        //         data: resultData.id,
+        //         method: "POST",
+        //         async: false,
+        //         success: function (resultData) {
+        //             // resultData.id로 가입한 유저인지 판별 후 가입한 유저면 index 아니면 냅두기
+        //             // a.jax에서 세연이가 만든 api 호출하기 (함수로 따로 빼서 호출)
+        //             // 쿠키를 써서 저장
+        //             if(response.status == 200){
+        //                 location.href = index.html;
+        //             }
+        //         },
+        //         err:{
+                    
+        //         }
+        // })};
+
+        function getKakaoToken(code) {
+            let token = "";
+            let data = {
+                "grant_type": "authorization_code",
+                "client_id": REST_API_KEY,
+                "redirect_uri": redirectUrl,
+                "code": code,
+            };
+
+            $.ajax(kakaoTokenApiUrl, {
+                data: data,
+                dataType: "json",
+                method: "POST",
+                async: false,
+                success: function (resultData) {
+                token = resultData.access_token;
+                console.log(token);
+                }
+            }); 
+    }
+    </script>
+</body>
+</html>

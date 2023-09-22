@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="page-enter" content="blendTrans(duration=0.5)">
+    <meta http-equiv="page-exit" content="blendTrans(duration=0.5)">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script
+        src="https://apis.openapi.sk.com/tmap/jsv2?version=1&appKey=q1hz24YqUC7g84TRhAW3v8a52xq51B3472o9tPeF"></script>
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/all.css">
+    <script src="./JS/index.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <script src="http://127.0.0.1:5501/server.js" type="commonjs"></script>
+</head>
+
+<body>
+
+    <div id="box">
+
+        <div class="nav container">
+            <div class="flex">
+                <div class="nav-toggle" id="nav_toggle" onclick="toggleMenu(); toggleMenuIcon(this);">
+                    <i class='bx bx-menu' style="font-size: 1.5rem;"></i>
+                </div>
+                <form id="search-form">
+                    <input type="text" id="search-query" placeholder="장소를 입력하세요" onfocus="this.placeholder=''"
+                        onblur="this.placeholder='장소를 입력하세요'" onclick="window.location.href='searchmenu.html'">
+                    <button type="submit"><i class='bx bx-search' style="font-size: 1.5rem;"></i></button>
+                </form>
+            </div>
+        </div>
+        <div id="map">
+            <div id="map_div" style="height: 800px;"></div>
+        </div>
+        <div id="footer">
+            <div id="a2">
+                <i class='bx bxs-battery-charging'></i>
+                <span id="footer_text">가까운 충전소</span>
+            </div>
+            <div class="scroll">
+                <div class="btnClass">
+                    <div id="c2" class="spotbox" onclick="moveToNavigation1()">
+                    </div>
+                    <div id="d2" class="spotbox" onclick="moveToNavigation2()">
+                    </div>
+                    <div id="e2" class="spotbox" onclick="moveToNavigation3()">
+                    </div>
+                    <div id="div-container">
+                        <div id="f2" class="hidden spotbox" onclick="moveToNavigation4()"></div>
+                        <div id="g2" class="hidden spotbox" onclick="moveToNavigation5()"></div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="more" id="load-more-button">
+                <hr>
+                더보기
+            </button>
+
+        </div>
+        <div id="menu">
+            <div id="menubox1">
+                <br><br><br><br>
+                <span id="user">김회원님 안녕하세요!</span>
+                <div class="clear"></div>
+                <div id="side-menu">
+                    <div class="side-menu">
+                        <b>찜한 충전소</b>
+                        <i class="fas fa-chevron-right"
+                            style="font-size: 1rem; position: absolute; right: 40px; margin-top: 10px; color:gray;"
+                            onclick="window.location.href='like.html'"></i>
+                    </div>
+                    <div class="side-menu">
+                        이용약관
+                        <i class="fas fa-chevron-right"
+                            style="font-size: 1rem; position: absolute; right: 40px; margin-top: 10px; color:gray;"
+                            onclick="window.location.href='test.html'"></i>
+                    </div>
+                    <div class="side-menu">
+                        버전
+                        <i class="fas fa-chevron-right"
+                            style="font-size: 1rem; position: absolute; right: 40px; margin-top: 10px; color:gray;"
+                            onclick="window.location.href='test.html'"></i>
+                    </div>
+                    <div class="side-menu">
+                        문의하기
+                        <i class="fas fa-chevron-right"
+                            style="font-size: 1rem; position: absolute; right: 40px; margin-top: 10px; color:gray;"
+                            onclick="window.location.href='test.html'"></i>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <a href="./index.html">홈으로 가기</a>
+            </div>
+            <div id="menubox2"></div>
+        </div>
+    </div>
+    <script>
+        initTmap();
+        var latitude;
+        var longitude;
+        var road_address;
+        var jibun_address;
+        var facility_name;
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const loadMoreButton = document.getElementById("load-more-button");
+            const divContainer = document.querySelector(".scroll");
+            const initialDivs = divContainer.querySelectorAll(".hidden");
+            let buttonClicked = false;
+
+            // 더보기 버튼 클릭 시, 숨겨진 div를 보이도록 토글하고 스크롤을 활성화합니다.
+            loadMoreButton.addEventListener("click", function () {
+                if (!buttonClicked) {
+                    initialDivs.forEach(function (div) {
+                        div.style.display = "block";
+                        div.style.display = "flex"
+                        div.style.height = "55px";
+                        div.style.fontSize = "1.2rem";
+                        div.style.alignItems = "center";
+                        div.classList.remove("hidden");
+                    });
+
+                    // 스크롤을 활성화하고 컨테이너의 높이를 조절
+                    divContainer.style.overflow = "auto";
+                    divContainer.style.height = "auto";
+
+                    // "더보기" 버튼에 "clicked" 클래스 추가
+                    loadMoreButton.classList.add("clicked");
+
+                    buttonClicked = true;
+                }
+            });
+        });
+
+
+        async function getUserLocation() {
+            return new Promise(function (resolve, reject) {
+                if ("geolocation" in navigator) {
+                    navigator.geolocation.getCurrentPosition(function (position) {
+                        latitude = position.coords.latitude;
+                        longitude = position.coords.longitude;
+                        resolve({ latitude, longitude });
+                    }, function (error) {
+                        reject(error);
+                    });
+                } else {
+                    reject(new Error("브라우저가 위치 정보를 지원하지 않습니다."));
+                }
+            });
+        }
+
+        async function sendLocationDataToServer() {
+            try {
+                const { latitude, longitude } = await getUserLocation();
+                console.log(latitude);
+                console.log(longitude);
+                // 위도와 경도를 서버로 전송
+                const response = await axios.get(`http://ec2-52-79-64-36.ap-northeast-2.compute.amazonaws.com/sendLocation?latitude=${latitude}&longitude=${longitude}`);
+
+                if (response.status === 200) {
+                    console.log('위치 정보가 서버로 전송되었습니다.');
+                    console.log('서버 응답 데이터:', response.data);
+                    localStorage.setItem("facility_name1", response.data[0].facility_name);
+                    localStorage.setItem("facility_name2", response.data[1].facility_name);
+                    localStorage.setItem("facility_name3", response.data[2].facility_name);
+                    localStorage.setItem("facility_name4", response.data[3].facility_name);
+                    localStorage.setItem("facility_name5", response.data[4].facility_name);
+
+                    //c2
+                    document.getElementById("c2").dataset.longitude = response.data[0].longitude;
+                    document.getElementById("c2").dataset.latitude = response.data[0].latitude;
+                    if (response.data[0].road_address === "") {
+                        document.getElementById("c2").dataset.address = response.data[0].jibun_address;
+                    }
+                    else {
+                        document.getElementById("c2").dataset.address = response.data[0].road_address;
+                    }
+                    document.getElementById("c2").dataset.facility_name = response.data[0].facility_name;
+                    //d2
+                    document.getElementById("d2").dataset.longitude = response.data[1].longitude;
+                    document.getElementById("d2").dataset.latitude = response.data[1].latitude;
+                    if (response.data[1].road_address === "") {
+                        document.getElementById("d2").dataset.address = response.data[1].jibun_address;
+                    }
+                    else {
+                        document.getElementById("d2").dataset.address = response.data[1].road_address;
+                    }
+                    document.getElementById("d2").dataset.facility_name = response.data[1].facility_name;
+                    //e2
+                    document.getElementById("e2").dataset.longitude = response.data[2].longitude;
+                    document.getElementById("e2").dataset.latitude = response.data[2].latitude;
+                    if (response.data[2].road_address === "") {
+                        document.getElementById("e2").dataset.address = response.data[2].jibun_address;
+                    }
+                    else {
+                        document.getElementById("e2").dataset.address = response.data[2].road_address;
+                    }
+                    document.getElementById("e2").dataset.facility_name = response.data[2].facility_name;
+                    //f2
+                    document.getElementById("f2").dataset.longitude = response.data[3].longitude;
+                    document.getElementById("f2").dataset.latitude = response.data[3].latitude;
+                    if (response.data[2].road_address === "") {
+                        document.getElementById("f2").dataset.address = response.data[3].jibun_address;
+                    }
+                    else {
+                        document.getElementById("f2").dataset.address = response.data[3].road_address;
+                    }
+                    document.getElementById("f2").dataset.facility_name = response.data[3].facility_name;
+                    //g2
+                    document.getElementById("g2").dataset.longitude = response.data[4].longitude;
+                    document.getElementById("g2").dataset.latitude = response.data[4].latitude;
+                    if (response.data[2].road_address === "") {
+                        document.getElementById("g2").dataset.address = response.data[4].jibun_address;
+                    }
+                    else {
+                        document.getElementById("g2").dataset.address = response.data[4].road_address;
+                    }
+                    document.getElementById("g2").dataset.facility_name = response.data[4].facility_name;
+
+                    document.getElementById("c2").innerHTML = response.data[0].facility_name + " " + Math.floor(response.data[0].distance) + "m";
+                    document.getElementById("d2").innerHTML = response.data[1].facility_name + " " + Math.floor(response.data[1].distance) + "m";
+                    document.getElementById("e2").innerHTML = response.data[2].facility_name + " " + Math.floor(response.data[2].distance) + "m";
+                    document.getElementById("f2").innerHTML = response.data[3].facility_name + " " + Math.floor(response.data[3].distance) + "m";
+                    document.getElementById("g2").innerHTML = response.data[4].facility_name + " " + Math.floor(response.data[4].distance) + "m";
+
+                } else {
+                    console.error('위치 정보 전송 실패');
+                }
+            } catch (error) {
+                console.error('위치 정보를 가져오는 중 오류 발생:', error);
+            }
+        }
+
+        window.onload = function () {
+            getUserLocation().then(() => {
+                sendLocationDataToServer();
+            });
+        }
+
+        function moveToNavigation1() {
+            var longitude = document.getElementById("c2").dataset.longitude;
+            var latitude = document.getElementById("c2").dataset.latitude;
+            var address = document.getElementById("c2").dataset.address;
+            var facility_name = document.getElementById("c2").dataset.facility_name;
+            location.href = `navigation.html?latitude=${latitude}&longitude=${longitude}&address=${address}&facility_name=${facility_name}`;
+        }
+        function moveToNavigation2() {
+            var longitude = document.getElementById("d2").dataset.longitude;
+            var latitude = document.getElementById("d2").dataset.latitude;
+            var address = document.getElementById("d2").dataset.address;
+            var facility_name = document.getElementById("d2").dataset.facility_name;
+            location.href = `navigation.html?latitude=${latitude}&longitude=${longitude}&address=${address}&facility_name=${facility_name}`;
+        }
+        function moveToNavigation3() {
+            var longitude = document.getElementById("e2").dataset.longitude;
+            var latitude = document.getElementById("e2").dataset.latitude;
+            var address = document.getElementById("e2").dataset.address;
+            var facility_name = document.getElementById("e2").dataset.facility_name;
+            location.href = `navigation.html?latitude=${latitude}&longitude=${longitude}&address=${address}&facility_name=${facility_name}`;
+        }
+
+        function moveToNavigation4() {
+            var longitude = document.getElementById("f2").dataset.longitude;
+            var latitude = document.getElementById("f2").dataset.latitude;
+            var address = document.getElementById("f2").dataset.address;
+            var facility_name = document.getElementById("f2").dataset.facility_name;
+            location.href = `navigation.html?latitude=${latitude}&longitude=${longitude}&address=${address}&facility_name=${facility_name}`;
+        }
+        function moveToNavigation5() {
+            var longitude = document.getElementById("g2").dataset.longitude;
+            var latitude = document.getElementById("g2").dataset.latitude;
+            var address = document.getElementById("g2").dataset.address;
+            var facility_name = document.getElementById("g2").dataset.facility_name;
+            location.href = `navigation.html?latitude=${latitude}&longitude=${longitude}&address=${address}&facility_name=${facility_name}`;
+        }
+
+
+    </script>
+</body>
+
+</html>

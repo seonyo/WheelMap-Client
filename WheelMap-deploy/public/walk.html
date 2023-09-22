@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>walk</title>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v6.5.0/css/ol.css">
+    <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v6.5.0/build/ol.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://apis.openapi.sk.com/tmap/jsv2?version=1&appKey=q1hz24YqUC7g84TRhAW3v8a52xq51B3472o9tPeF"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v6.5.0/css/ol.css">
+    <link rel="stylesheet" href="CSS/walk.css">
+    <link rel="stylesheet" href="CSS/all.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="JS/walk.js"></script>
+
+    
+</head>
+<body>
+  <span class="slideshow-container">
+    <div class="slide">
+      <img id = "Img" src = ''>
+        <div class="text">
+            <div class="meter" id = "meter"></div>
+            <div class="subText" id = "subText"></div>
+        </div>
+    </div>
+  </span>
+  <div id="map"></div>
+  <button id="endBtn" onclick="openPopup()">안내종료</button>
+  <div class="popup" id="popup">
+    <div class="inner">
+      <p class="dsc">안내를 종료하시겠습니까?</p>
+      <button type="button" class="yes" onclick="closePopup()">확인</button>
+      <button type="button" class="no" onclick="cancelPopup()">취소</button>
+    </div>
+  </div>
+
+  <div class="startPop" id="startPop">
+    <div class="inner">
+      <p id = "dsc1" class="dsc1"></p>
+      <p class="dsc2">안내를 시작하시겠습니까?</p>
+      <button type="button" id="sound" class="sound" onclick="sound()">음성안내</button>
+      <button type="button" id="nosound" class="noSound" onclick="noSound()">지도안내</button>
+
+    </div>
+  </div>
+  <script>
+    document.getElementById("dsc1").innerHTML = localStorage.getItem("facility_name");
+  </script>
+</body>
+</html>

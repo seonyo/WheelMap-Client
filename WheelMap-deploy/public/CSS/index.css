@@ -1,0 +1,223 @@
+* {
+    margin : 0;
+    padding : 0;
+}
+html,
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+#box {
+    width: 100%;
+    height : 100%;
+}
+i{
+    font-size: 1.2rem;
+}
+.bxs-battery-charging{
+    font-size: 1.5rem;
+    color: #ffd53f;
+    transform: rotate(-90deg);
+}
+.nav{
+    /* position: fixed; */
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 2% 3% 4%;
+}
+form{
+    display: flex;
+    width: 88vw;
+}
+input{
+    width: 90%;
+}
+button{
+    border: none;
+    background-color: white;
+}
+
+.flex{
+    display: flex;
+    column-gap: 5%;
+}
+.flex > *{
+    z-index: 1;
+
+}
+input{
+    border: 0px;
+    outline: none;
+    font-size: 1rem;
+}
+#map {
+    position: absolute;
+    width : 100%;
+    height: 100%;
+    top: -750px;
+}
+#footer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width : 100%;
+    height : 35%;
+    border-radius: 20px 20px 0px 0px;
+    bottom: 0;
+    background-color: white;
+}
+#a2 {
+    height : 5%;
+    float: left;
+    margin : 5% 0 4% 5%;
+    font-size: 1.3rem;
+}
+.scroll{
+    height: 245px;
+    /* overflow-x: scroll; */
+    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0.5rem; /* 스크롤바 너비 설정 */
+    background-color: transparent; /* 스크롤바 배경색을 투명으로 설정하여 숨김 */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: transparent; /* 스크롤바 썸의 배경색을 투명으로 설정하여 숨김 */
+}
+.btnClass{
+    width : 100%;
+    height : 365px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    
+}
+.spotbox {
+    float : left;
+    width : 350px;
+    height : 40px;
+    border: 0.7px #e4e4e4 solid;
+    line-height : 40px;
+    border-radius: 10px;
+    margin : 3% 5% 0% 5%;
+    font-weight: 800;
+    padding-left : 15px;
+    cursor: pointer;
+}
+
+.div-container{
+    height: 600px;
+}
+
+.hidden
+ {
+    display: none;
+}
+
+.spotbox:hover{
+    background-color: #F3F3F3;
+}
+
+#footer_text{
+    margin-left : 5px;
+     font-size: 1.4rem;
+     font-weight: 800;
+}
+
+#c2,
+#d2,
+#e2,
+.hidden{
+    display: flex;
+    height: 55px;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.more{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    bottom: 0;
+    margin-bottom: 1.5%;
+    width: 100%;
+    height: 10%;
+    font-size: 1rem;
+    font-weight: 100;
+    align-items: center;
+    background-color: white;
+    border: none;
+    color: #c8c8c8;
+}
+.more.clicked{
+    display: none;
+}
+hr{
+    display: flex;
+    width: 90%;
+    height: 0.1px;
+    margin-bottom: 2%;
+    background: #dfdfdf;
+    border: 0;
+}
+
+.nav-toggle {
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: relative;
+    z-index: 4;
+}
+
+#menubox1 {
+    width: 70%;
+    background-color: white;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    z-index: 3;
+    transition: left 0.3s ease;
+}
+
+#menubox2 {
+    width: 30%;
+    background-color: black;
+    opacity: 0.5;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    right: -100%;
+}
+
+#user {
+    font-size: 18px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.clear {
+    height: 50px;
+}
+
+.side-menu {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 55px;
+    transition: font-weight 0.3s ease;
+}
+
+a {
+    text-decoration: none;
+    float : right;
+    margin-right : 30px;
+    font-weight: bold;
+    color: #222222;
+}
