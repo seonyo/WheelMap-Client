@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>회원가입</title>
     <link rel="stylesheet" href="CSS/all.css">
     <link rel="stylesheet" href="./CSS/join.css">
 </head>
@@ -24,20 +24,10 @@
                 <p class="T">이메일</p>
                 <input type="text" id="email"/>
             </div>
-            
-            <!-- <div class="phone">
-                <p class="T">휴대폰 번호</p>
-                <div class="phone-container">
-                    <input type="text" id="phoneNum" placeholder="000-0000-0000" onfocus="this.placeholder=''" onblur="this.placeholder='000-0000-0000'"/>
-                    <button type="text" id="numOk">인증번호 받기</button>
-                </div>
-            </div>
-            <input type="text" id="num" placeholder="인증번호 입력" onfocus="this.placeholder=''" onblur="this.placeholder='인증번호 입력'"/>
-        </div> -->
-        <button class="joinBtn" onclick="moveMainPage()">회원가입 하기</button>
-
-        
+        </div>
+        <button class="joinBtn" onclick="handleJoinButtonClick()">회원가입 하기</button>
     </div> 
+
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
     <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
     <script>         
@@ -47,10 +37,13 @@
         const redirectUrl = "https://stac-wheel-map.web.app/join.html";
         const urlParams = new URL(location.href).searchParams;
         const code = urlParams.get('code');
-        console.log(code)
+        console.log(code);
         const token = getKakaoToken(code);
         console.log(token);
         getKakaoUserInfo(token);
+
+        // 페이지 로드 시 로컬 스토리지 초기화
+        initializeLocalStorage();
 
         function moveMainPage() {
             location.href = `index.html`;
@@ -71,8 +64,8 @@
                 method: "POST",
                 async: false,
                 success: function (resultData) {
-                token = resultData.access_token;
-                console.log(token);
+                    token = resultData.access_token;
+                    console.log(token);
                 }
             }); 
             return token;
@@ -81,7 +74,7 @@
         function getKakaoUserInfo(token) {
             $.ajax(kakaoUserApiUrl, {
                 headers: {
-                'Authorization': `Bearer ${token}`,
+                    'Authorization': `Bearer ${token}`,
                 },
                 contentType: "application/x-www-form-urlencoded;charset=utf-8",
                 dataType: "json",
@@ -92,24 +85,30 @@
                     console.log(resultData.id);
                     // resultData.id로 가입한 유저인지 판별 후 가입한 유저면 index 아니면 냅두기
                     // a.jax에서 세연이가 만든 api 호출하기 (함수로 따로 빼서 호출)
-                console.log(resultData);
-                console.log();
-                
-                // profileImg1 = 'https://k.kakaocdn.net/dn/dpk9l1/btqmGhA2lKL/Oz0wDuJn1YV2DIn92f6DVK/img_640x640.jpg';
-                // console.log("이미지 주소 : " + profileImg1);
-                // // console.log(newProfileImageUrl);
-                // const newProfileImageUrl = resultData.properties.profile_image.replace("http://", "https://");
-                $("#profile").attr("src", resultData.properties.profile_image);
-                $("#name").val(resultData.properties.nickname);
-                $("#email").val(resultData.kakao_account.email);
-                getKakaoApi(token, resultData.id);
-            }});
+                    console.log(resultData);
+                    console.log();
+                    
+                    $("#profile").attr("src", resultData.properties.profile_image);
+                    const nameInput = document.getElementById("name");
+                    const emailInput = document.getElementById("email");
+
+                    // 로컬 스토리지에서 이름과 이메일 값을 가져옵니다.
+                    const storedName = localStorage.getItem("name");
+                    const storedEmail = localStorage.getItem("email");
+
+                    // 가져온 값이 null이 아니면 입력 필드에 설정합니다.
+                    if (storedName !== null) nameInput.value = storedName;
+                    if (storedEmail !== null) emailInput.value = storedEmail;
+
+                    getKakaoApi(token, resultData.id);
+                }
+            });
         }
 
         function getKakaoApi(token, kakaoId) {
             $.ajax("/login", {
                 headers: {
-                'Authorization': `Bearer ${token}`,
+                    'Authorization': `Bearer ${token}`,
                 },
                 contentType: "application/x-www-form-urlencoded;charset=utf-8",
                 dataType: "json",
@@ -117,19 +116,42 @@
                 method: "POST",
                 async: false,
                 success: function (response) {
-                    if (response.status === 200) {
-                        window.location.href = "index.html";
-                    } else {
-                        window.location.href = "join.html";
-                    }
-                }
-                ,err: function () {
+                    if (response.status === 200) window.location.href = "index.html";
+                    else window.location.href = "join.html";
+                },
+                err: function () {
                     window.location.href = "join.html";
-            }});
+                }
+            });
         }
-       
-        const profileImg = document.getElementById("profile");
-        const userName = document.getElementById("name");
+
+        function handleJoinButtonClick() {
+            // 입력된 값을 가져옵니다.
+            const nameInput = document.getElementById("name").value;
+            const emailInput = document.getElementById("email").value;
+
+            // 입력 값이 비어있는지 확인합니다.
+            if (nameInput.trim() === "" || emailInput.trim() === "") {
+                // 이름 또는 이메일이 비어있을 때 경고창 표시
+                alert("이름과 이메일을 모두 입력하세요.");
+            } else {
+                // 입력 값이 비어 있지 않으면 로컬 스토리지에 저장하고 페이지 이동
+                localStorage.setItem("name", nameInput);
+                localStorage.setItem("email", emailInput);
+                moveMainPage();
+            }
+        }
+
+        // 로컬 스토리지 초기화 함수
+        function initializeLocalStorage() {
+            // 로컬 스토리지에서 이름과 이메일 값을 가져옵니다.
+            const storedName = localStorage.getItem("name");
+            const storedEmail = localStorage.getItem("email");
+
+            // 가져온 값이 null이 아니면 입력 필드에 설정합니다.
+            if (storedName === null) localStorage.setItem("name", "");
+            if (storedEmail === null) localStorage.setItem("email", "");
+        }
     </script>   
 </body>
 </html>
