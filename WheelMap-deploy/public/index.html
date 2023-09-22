@@ -13,6 +13,7 @@
         src="https://apis.openapi.sk.com/tmap/jsv2?version=1&appKey=q1hz24YqUC7g84TRhAW3v8a52xq51B3472o9tPeF"></script>
     <link rel="stylesheet" href="CSS/index.css">
     <link rel="stylesheet" href="CSS/all.css">
+    <link rel="stylesheet" href="CSS/splash.css">
     <script src="./JS/index.js"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -31,94 +32,121 @@
 </head>
 
 <body>
+    <div id="splash-screen">
+        <img src="./image/logo.png" id="splashImg" alt="휠맵">
+        <p id="splashText">휠맵</p>
+    </div>
+    <div id="main-content" style="display: none;">
 
-    <div id="box">
-
-        <div class="nav container">
-            <div class="flex">
-                <div class="nav-toggle" id="nav_toggle" onclick="toggleMenu(); toggleMenuIcon(this);">
-                    <i class='bx bx-menu' style="font-size: 1.5rem;"></i>
-                </div>
-                <form id="search-form">
-                    <input type="text" id="search-query" placeholder="장소를 입력하세요" onfocus="this.placeholder=''"
-                        onblur="this.placeholder='장소를 입력하세요'" onclick="window.location.href='searchmenu.html'">
-                    <button type="submit"><i class='bx bx-search' style="font-size: 1.5rem;"></i></button>
-                </form>
-            </div>
-        </div>
-        <div id="map">
-            <div id="map_div" style="height: 800px;"></div>
-        </div>
-        <div id="footer">
-            <div id="a2">
-                <i class='bx bxs-battery-charging'></i>
-                <span id="footer_text">가까운 충전소</span>
-            </div>
-            <div class="scroll">
-                <div class="btnClass">
-                    <div id="c2" class="spotbox" onclick="moveToNavigation1()">
+        <div id="box">
+            <div class="nav container">
+                <div class="flex">
+                    <div class="nav-toggle" id="nav_toggle" onclick="toggleMenu(); toggleMenuIcon(this);">
+                        <i class='bx bx-menu' style="font-size: 1.5rem;"></i>
                     </div>
-                    <div id="d2" class="spotbox" onclick="moveToNavigation2()">
-                    </div>
-                    <div id="e2" class="spotbox" onclick="moveToNavigation3()">
-                    </div>
-                    <div id="div-container">
-                        <div id="f2" class="hidden spotbox" onclick="moveToNavigation4()"></div>
-                        <div id="g2" class="hidden spotbox" onclick="moveToNavigation5()"></div>
-                    </div>
+                    <form id="search-form">
+                        <input type="text" id="search-query" placeholder="장소를 입력하세요" onfocus="this.placeholder=''"
+                            onblur="this.placeholder='장소를 입력하세요'" onclick="window.location.href='searchmenu.html'">
+                        <button type="submit"><i class='bx bx-search' style="font-size: 1.5rem;"></i></button>
+                    </form>
                 </div>
             </div>
 
-            <button class="more" id="load-more-button">
-                <hr>
-                더보기
-            </button>
-
-        </div>
-        <div id="menu">
-            <div id="menubox1">
-                <br><br><br><br>
-                <span id="user">김회원님 안녕하세요!</span>
-                <div class="clear"></div>
-                <div id="side-menu">
-                    <div class="side-menu">
-                        <b>찜한 충전소</b>
-                        <i class="fas fa-chevron-right"
-                            style="font-size: 1rem; position: absolute; right: 40px; margin-top: 10px; color:gray;"
-                            onclick="window.location.href='like.html'"></i>
-                    </div>
-                    <div class="side-menu">
-                        이용약관
-                        <i class="fas fa-chevron-right"
-                            style="font-size: 1rem; position: absolute; right: 40px; margin-top: 10px; color:gray;"
-                            onclick="window.location.href='test.html'"></i>
-                    </div>
-                    <div class="side-menu">
-                        버전
-                        <i class="fas fa-chevron-right"
-                            style="font-size: 1rem; position: absolute; right: 40px; margin-top: 10px; color:gray;"
-                            onclick="window.location.href='test.html'"></i>
-                    </div>
-                    <div class="side-menu">
-                        문의하기
-                        <i class="fas fa-chevron-right"
-                            style="font-size: 1rem; position: absolute; right: 40px; margin-top: 10px; color:gray;"
-                            onclick="window.location.href='test.html'"></i>
+            <div id="map">
+                <div id="map_div" style="height: 800px;"></div>
+            </div>
+            <div id="footer">
+                <div id="a2">
+                    <i class='bx bxs-battery-charging'></i>
+                    <span id="footer_text">가까운 충전소</span>
+                </div>
+                <div class="scroll">
+                    <div class="btnClass">
+                        <div id="c2" class="spotbox" onclick="moveToNavigation1()">
+                        </div>
+                        <div id="d2" class="spotbox" onclick="moveToNavigation2()">
+                        </div>
+                        <div id="e2" class="spotbox" onclick="moveToNavigation3()">
+                        </div>
+                        <div id="div-container">
+                            <div id="f2" class="hidden spotbox" onclick="moveToNavigation4()"></div>
+                            <div id="g2" class="hidden spotbox" onclick="moveToNavigation5()"></div>
+                        </div>
                     </div>
                 </div>
-                <div class="clear"></div>
-                <a href="./index.html">홈으로 가기</a>
+
+                <button class="more" id="load-more-button">
+                    <hr>
+                    더보기
+                </button>
+
             </div>
-            <div id="menubox2"></div>
+            <div id="menu">
+                <div id="menubox1">
+                    <br><br><br><br>
+                    <span id="user"></span>
+                    <div class="clear"></div>
+                    <div id="side-menu">
+                        <div class="side-menu">
+                            <b>찜한 충전소</b>
+                            <i class="fas fa-chevron-right"
+                                style="font-size: 1rem; position: absolute; right: 40px; margin-top: 10px; color:gray;"
+                                onclick="window.location.href='like.html'"></i>
+                        </div>
+                        <div class="side-menu">
+                            이용약관
+                            <i class="fas fa-chevron-right"
+                                style="font-size: 1rem; position: absolute; right: 40px; margin-top: 10px; color:gray;"
+                                onclick="window.location.href='test.html'"></i>
+                        </div>
+                        <div class="side-menu">
+                            버전
+                            <i class="fas fa-chevron-right"
+                                style="font-size: 1rem; position: absolute; right: 40px; margin-top: 10px; color:gray;"
+                                onclick="window.location.href='test.html'"></i>
+                        </div>
+                        <div class="side-menu">
+                            문의하기
+                            <i class="fas fa-chevron-right"
+                                style="font-size: 1rem; position: absolute; right: 40px; margin-top: 10px; color:gray;"
+                                onclick="window.location.href='test.html'"></i>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <a href="./index.html">홈으로 가기</a>
+                </div>
+                <div id="menubox2"></div>
+            </div>
         </div>
     </div>
     <script>
-        initTmap();
+
+        setTimeout(function () {
+            const name = localStorage.getItem("name");
+            if (name === null || name === "") {
+                window.location.href = "login.html";
+            }
+            else {
+                document.getElementById("splash-screen").style.display = "none";
+                document.getElementById("main-content").style.display = "block";
+                initTmap();
+            }
+        }, 2000);
+
         var latitude;
         var longitude;
         var road_address;
         var jibun_address;
         var facility_name;
+
+        document.getElementById("user").innerHTML = localStorage.getItem("name") + "님 반갑습니다!";
+
+
+        window.onload = function () {
+            getUserLocation().then(() => {
+                sendLocationDataToServer();
+            });
+        }
 
         document.addEventListener("DOMContentLoaded", function () {
             const loadMoreButton = document.getElementById("load-more-button");
@@ -191,36 +219,30 @@
             document.getElementById("d2").dataset.latitude = 126.9615705;
             document.getElementById("d2").dataset.address = "서울특별시 용산구 효창원로93길 49";
             document.getElementById("d2").dataset.facility_name = "구립용산장애인복지관";
-            
+
             //e2
             document.getElementById("e2").dataset.longitude = 37.54945381;
             document.getElementById("e2").dataset.latitude = 126.9431055;
             document.getElementById("e2").dataset.address = "서울특별시 마포구 대흥로 109";
             document.getElementById("e2").dataset.facility_name = "대흥동 행정복지센터";
-            
+
             //f2
             document.getElementById("f2").dataset.longitude = 37.53933395;
             document.getElementById("f2").dataset.latitude = 126.9613166;
             document.getElementById("f2").dataset.address = "서울특별시 용산구 백범로 지하 287";
             document.getElementById("f2").dataset.facility_name = "효창공원역앞(경의중앙선)";
-            
+
             //g2
             document.getElementById("g2").dataset.longitude = 37.53933395;
             document.getElementById("g2").dataset.latitude = 126.9613166;
             document.getElementById("g2").dataset.address = "서울특별시 용산구 청파로47길 66";
             document.getElementById("g2").dataset.facility_name = "용산행복장애인자립생활센터";
-    
+
             document.getElementById("c2").innerHTML = "한벗장애인주간보호시설" + " " + 554 + "m";
-            document.getElementById("d2").innerHTML = "구립용산장애인복지관"+ " "+ 808+ "m";
+            document.getElementById("d2").innerHTML = "구립용산장애인복지관" + " " + 808 + "m";
             document.getElementById("e2").innerHTML = "대흥동 행정복지센터" + " " + 951 + "m";
             document.getElementById("f2").innerHTML = "효창공원앞역(경의중앙선)" + " " + 1025 + "m";
             document.getElementById("g2").innerHTML = "용산행복장애인자립생활센터" + " " + 1242 + "m";
-        }
-
-        window.onload = function () {
-            getUserLocation().then(() => {
-                sendLocationDataToServer();
-            });
         }
 
         function moveToNavigation1() {
@@ -259,7 +281,6 @@
             var facility_name = document.getElementById("g2").dataset.facility_name;
             location.href = `navigation.html?latitude=${latitude}&longitude=${longitude}&address=${address}&facility_name=${facility_name}`;
         }
-
 
     </script>
 </body>

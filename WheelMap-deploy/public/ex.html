@@ -36,7 +36,7 @@
 
             // JSON 파일을 가져오는 비동기 요청
             var xhr = new XMLHttpRequest();
-            xhr.open('GET', 'ex.json', false); // false는 동기 요청을 의미
+            xhr.open('GET', 'ex1.json', false); // false는 동기 요청을 의미
             xhr.onreadystatechange = function() {
                 if (xhr.readyState === 4 && xhr.status === 200) {
                     jsonData = JSON.parse(xhr.responseText);
@@ -50,7 +50,6 @@
             for (var i = 0; i < jsonData.length; i++) {
                 var result = jsonData[i];
                 var facilityName = result.facility_name.toLowerCase();
-
                 if (facilityName.includes(searchTerm)) {
                     results.push(result);
                 }

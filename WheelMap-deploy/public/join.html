@@ -18,7 +18,7 @@
         <div class="input-container">
             <div class="name-container">
                 <p class="T">이름</p>
-                <input type="text" id="name"/>
+                <input type="text" id="name" value=""/>
             </div>
             <div class="email-container">
                 <p class="T">이메일</p>
@@ -37,10 +37,13 @@
         const redirectUrl = "https://stac-wheel-map.web.app/join.html";
         const urlParams = new URL(location.href).searchParams;
         const code = urlParams.get('code');
-        console.log(code);
+        console.log("code : " + code);
         const token = getKakaoToken(code);
-        console.log(token);
+        console.log("token : " + token);
         getKakaoUserInfo(token);
+
+        var uemail;
+        var uname;
 
         // 페이지 로드 시 로컬 스토리지 초기화
         initializeLocalStorage();
@@ -65,7 +68,7 @@
                 async: false,
                 success: function (resultData) {
                     token = resultData.access_token;
-                    console.log(token);
+                    console.log("성공 토큰 : "  + token);
                 }
             }); 
             return token;
@@ -82,12 +85,17 @@
                 method: "POST",
                 async: false,
                 success: function (resultData) {
-                    console.log(resultData.id);
+                    console.log("결과점 아이디 : " + resultData.id);
                     // resultData.id로 가입한 유저인지 판별 후 가입한 유저면 index 아니면 냅두기
                     // a.jax에서 세연이가 만든 api 호출하기 (함수로 따로 빼서 호출)
                     console.log(resultData);
-                    console.log();
-                    
+
+                    uemail = resultData.kakao_account.email;
+                    uname = resultData.properties.nickname;
+
+                    $('#name').attr('value', resultData.properties.nickname);
+                    $('#uemail').attr('value', resultData.kakao_account.email);
+
                     $("#profile").attr("src", resultData.properties.profile_image);
                     const nameInput = document.getElementById("name");
                     const emailInput = document.getElementById("email");
@@ -116,7 +124,7 @@
                 method: "POST",
                 async: false,
                 success: function (response) {
-                    if (response.status === 200) window.location.href = "index.html";
+                    if (response.status === 200) window.location.href ="main.html";
                     else window.location.href = "join.html";
                 },
                 err: function () {
@@ -134,7 +142,10 @@
             if (nameInput.trim() === "" || emailInput.trim() === "") {
                 // 이름 또는 이메일이 비어있을 때 경고창 표시
                 alert("이름과 이메일을 모두 입력하세요.");
-            } else {
+            } else if (uname !== nameInput || uemail !== emailInput){
+                alert("이름 혹은 이메일을 잘못 입력하였습니다.");
+            }
+            else{
                 // 입력 값이 비어 있지 않으면 로컬 스토리지에 저장하고 페이지 이동
                 localStorage.setItem("name", nameInput);
                 localStorage.setItem("email", emailInput);
