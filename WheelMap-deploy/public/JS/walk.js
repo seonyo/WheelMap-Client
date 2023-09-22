@@ -151,8 +151,8 @@ function initializeMap() {
     data: {
       "startX": longitude.toString(),
       "startY": latitude.toString(),
-      "endX": localStorage.getItem("endX"),
-      "endY": localStorage.getItem("endY"),
+      "endX": localStorage.getItem("endY"),
+      "endY": localStorage.getItem("endX"),
       "resCoordType": "EPSG3857",
       "startName": "출발지",
       "endName": "도착지"
@@ -276,6 +276,7 @@ function initializeMap() {
         imgElement.src = "image/straightArrow.png";
         console.log("직진");
       }
+      textSpeach(meter, subText);
       navigator.geolocation.watchPosition(updateMapCenter);
     },
     error: function (request, status, error) {

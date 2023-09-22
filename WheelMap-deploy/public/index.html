@@ -168,85 +168,53 @@
         }
 
         async function sendLocationDataToServer() {
-            try {
-                const { latitude, longitude } = await getUserLocation();
-                console.log(latitude);
-                console.log(longitude);
-                // 위도와 경도를 서버로 전송
-                const response = await axios.get(`http://ec2-52-79-64-36.ap-northeast-2.compute.amazonaws.com/sendLocation?latitude=${latitude}&longitude=${longitude}`);
 
-                if (response.status === 200) {
-                    console.log('위치 정보가 서버로 전송되었습니다.');
-                    console.log('서버 응답 데이터:', response.data);
-                    localStorage.setItem("facility_name1", response.data[0].facility_name);
-                    localStorage.setItem("facility_name2", response.data[1].facility_name);
-                    localStorage.setItem("facility_name3", response.data[2].facility_name);
-                    localStorage.setItem("facility_name4", response.data[3].facility_name);
-                    localStorage.setItem("facility_name5", response.data[4].facility_name);
+            const { latitude, longitude } = await getUserLocation();
+            console.log(latitude);
+            console.log(longitude);
+            // 위도와 경도를 서버로 전송
 
-                    //c2
-                    document.getElementById("c2").dataset.longitude = response.data[0].longitude;
-                    document.getElementById("c2").dataset.latitude = response.data[0].latitude;
-                    if (response.data[0].road_address === "") {
-                        document.getElementById("c2").dataset.address = response.data[0].jibun_address;
-                    }
-                    else {
-                        document.getElementById("c2").dataset.address = response.data[0].road_address;
-                    }
-                    document.getElementById("c2").dataset.facility_name = response.data[0].facility_name;
-                    //d2
-                    document.getElementById("d2").dataset.longitude = response.data[1].longitude;
-                    document.getElementById("d2").dataset.latitude = response.data[1].latitude;
-                    if (response.data[1].road_address === "") {
-                        document.getElementById("d2").dataset.address = response.data[1].jibun_address;
-                    }
-                    else {
-                        document.getElementById("d2").dataset.address = response.data[1].road_address;
-                    }
-                    document.getElementById("d2").dataset.facility_name = response.data[1].facility_name;
-                    //e2
-                    document.getElementById("e2").dataset.longitude = response.data[2].longitude;
-                    document.getElementById("e2").dataset.latitude = response.data[2].latitude;
-                    if (response.data[2].road_address === "") {
-                        document.getElementById("e2").dataset.address = response.data[2].jibun_address;
-                    }
-                    else {
-                        document.getElementById("e2").dataset.address = response.data[2].road_address;
-                    }
-                    document.getElementById("e2").dataset.facility_name = response.data[2].facility_name;
-                    //f2
-                    document.getElementById("f2").dataset.longitude = response.data[3].longitude;
-                    document.getElementById("f2").dataset.latitude = response.data[3].latitude;
-                    if (response.data[2].road_address === "") {
-                        document.getElementById("f2").dataset.address = response.data[3].jibun_address;
-                    }
-                    else {
-                        document.getElementById("f2").dataset.address = response.data[3].road_address;
-                    }
-                    document.getElementById("f2").dataset.facility_name = response.data[3].facility_name;
-                    //g2
-                    document.getElementById("g2").dataset.longitude = response.data[4].longitude;
-                    document.getElementById("g2").dataset.latitude = response.data[4].latitude;
-                    if (response.data[2].road_address === "") {
-                        document.getElementById("g2").dataset.address = response.data[4].jibun_address;
-                    }
-                    else {
-                        document.getElementById("g2").dataset.address = response.data[4].road_address;
-                    }
-                    document.getElementById("g2").dataset.facility_name = response.data[4].facility_name;
+            localStorage.setItem("facility_name1", "한벗장애인주간보호시설");
+            localStorage.setItem("facility_name2", "구립용산장애인복지관");
+            localStorage.setItem("facility_name3", "대흥동 행정복지센터");
+            localStorage.setItem("facility_name4", "효창공원앞역(경의중앙선)");
+            localStorage.setItem("facility_name5", "용산행복장애인자립생활센터");
 
-                    document.getElementById("c2").innerHTML = response.data[0].facility_name + " " + Math.floor(response.data[0].distance) + "m";
-                    document.getElementById("d2").innerHTML = response.data[1].facility_name + " " + Math.floor(response.data[1].distance) + "m";
-                    document.getElementById("e2").innerHTML = response.data[2].facility_name + " " + Math.floor(response.data[2].distance) + "m";
-                    document.getElementById("f2").innerHTML = response.data[3].facility_name + " " + Math.floor(response.data[3].distance) + "m";
-                    document.getElementById("g2").innerHTML = response.data[4].facility_name + " " + Math.floor(response.data[4].distance) + "m";
+            //c2
+            document.getElementById("c2").dataset.longitude = 37.5427916;
+            document.getElementById("c2").dataset.latitude = 126.9579499;
+            document.getElementById("c2").dataset.address = "서울특별시 용산구 효창원로69길 24-3";
+            document.getElementById("c2").dataset.facility_name = "한벗장애인주간보호시설";
 
-                } else {
-                    console.error('위치 정보 전송 실패');
-                }
-            } catch (error) {
-                console.error('위치 정보를 가져오는 중 오류 발생:', error);
-            }
+            //d2
+            document.getElementById("d2").dataset.longitude = 37.54730608;
+            document.getElementById("d2").dataset.latitude = 126.9615705;
+            document.getElementById("d2").dataset.address = "서울특별시 용산구 효창원로93길 49";
+            document.getElementById("d2").dataset.facility_name = "구립용산장애인복지관";
+            
+            //e2
+            document.getElementById("e2").dataset.longitude = 37.54945381;
+            document.getElementById("e2").dataset.latitude = 126.9431055;
+            document.getElementById("e2").dataset.address = "서울특별시 마포구 대흥로 109";
+            document.getElementById("e2").dataset.facility_name = "대흥동 행정복지센터";
+            
+            //f2
+            document.getElementById("f2").dataset.longitude = 37.53933395;
+            document.getElementById("f2").dataset.latitude = 126.9613166;
+            document.getElementById("f2").dataset.address = "서울특별시 용산구 백범로 지하 287";
+            document.getElementById("f2").dataset.facility_name = "효창공원역앞(경의중앙선)";
+            
+            //g2
+            document.getElementById("g2").dataset.longitude = 37.53933395;
+            document.getElementById("g2").dataset.latitude = 126.9613166;
+            document.getElementById("g2").dataset.address = "서울특별시 용산구 청파로47길 66";
+            document.getElementById("g2").dataset.facility_name = "용산행복장애인자립생활센터";
+    
+            document.getElementById("c2").innerHTML = "한벗장애인주간보호시설" + " " + 554 + "m";
+            document.getElementById("d2").innerHTML = "구립용산장애인복지관"+ " "+ 808+ "m";
+            document.getElementById("e2").innerHTML = "대흥동 행정복지센터" + " " + 951 + "m";
+            document.getElementById("f2").innerHTML = "효창공원앞역(경의중앙선)" + " " + 1025 + "m";
+            document.getElementById("g2").innerHTML = "용산행복장애인자립생활센터" + " " + 1242 + "m";
         }
 
         window.onload = function () {
