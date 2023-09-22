@@ -8,9 +8,10 @@
     "saturday_close_time": "16:00",
     "holiday_open_time": "08:00",
     "holiday_close_time": "21:00",
-    "number": "02-933-5228"
+    "number":"02-933-5228"
   },
   {
+
     "facility_name": "서울 공원",
     "address": "서울 특별시 서초구 서초대로 123",
     "weekday_open_time": "08:00",
@@ -19,9 +20,10 @@
     "saturday_close_time": "21:00",
     "holiday_open_time": "08:00",
     "holiday_close_time": "21:00",
-    "number": "02-933-5228"
+    "number":"02-933-5228"
   },
   {
+
     "facility_name": "서울 박물관",
     "address": "서울 특별시 종로구 삼청로 45",
     "weekday_open_time": "10:00",
@@ -30,9 +32,10 @@
     "saturday_close_time": "18:00",
     "holiday_open_time": "08:00",
     "holiday_close_time": "21:00",
-    "number": "02-933-5228"
+    "number":"02-933-5228"
   },
   {
+      
     "facility_name": "늘편한집",
     "address": "서울특별시 노원구  중계로 163",
     "weekday_open_time": "10:00",
@@ -41,1937 +44,3160 @@
     "saturday_close_time": "18:00",
     "holiday_open_time": "08:00",
     "holiday_close_time": "21:00",
-    "number": "02-933-5228"
-  },
-  {
-    "facility_name": "수락산 순환산책로 제1데크쉼터",
-    "address": "서울특별시 노원구 상계1동 산59-2번지",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-933-5228"
-  },
-  {
-    "facility_name": "장애인친화미용실",
-    "address": "서울특별시 노원구  동일로243길 49",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2116-3327"
-  },
-  {
-    "facility_name": "수락산 순환산책로 제1데크쉼터",
-    "address": "서울특별시 노원구 상계1동 산59-2번지",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-933-5228"
-  },
-  {
-    "facility_name": "월계문화복지센터",
-    "address": "서울특별시 노원구  월계로 42길 9",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-909-3273"
-  },
-  {
-    "facility_name": "서울특별시 노원구 월계보건지소",
-    "address": "서울특별시 노원구  월계로378",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2116-4585"
-  },
-  {
-    "facility_name": "지체장애인협회 하계2동 분회",
-    "address": "서울특별시 노원구  하계동 272",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-952-9000"
-  },
-  {
-    "facility_name": "불암산 순환산책로 중턱 쉼터",
-    "address": "서울특별시 노원구 중계동 산42-3 일대",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2116-3327"
-  },
-  {
-    "facility_name": "월계문화복지센터",
-    "address": "서울특별시 노원구  월계로 42길 9",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-909-3273"
-  },
-  {
-    "facility_name": "성신여대입구역 우이신설",
-    "address": "서울특별시 성북구 동선동4가 1",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-3499-5561"
-  },
-  {
-    "facility_name": "월계문화복지센터",
-    "address": "서울특별시 노원구  월계로 42길 9",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-909-3273"
-  },
-  {
-    "facility_name": "정릉역 우이신설",
-    "address": "서울특별시 성북구 정릉동 966-330",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-3499-5561"
-  },
-  {
-    "facility_name": "아리랑시네센터",
-    "address": "서울특별시 성북구 돈암동 538-98",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-3291-5541"
-  },
-  {
-    "facility_name": "장항읍행정복지센터",
-    "address": "충청남도 서천군 장항읍 창선1리 40",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "041-950-6300"
-  },
-  {
-    "facility_name": "한성대역",
-    "address": "서울특별시 성북구 삼선동1가 14",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-6110-4191"
-  },
-  {
-    "facility_name": "월계문화복지센터",
-    "address": "서울특별시 노원구  월계로 42길 9",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-909-3273"
-  },
-  {
-    "facility_name": "보문역",
-    "address": "서울특별시 성북구 보문동1가 127-1",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-6311-6381"
-  },
-  {
-    "facility_name": "돌곶이역",
-    "address": "서울특별시 성북구 석관동 349-8",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-6311-6431"
-  },
-  {
-    "facility_name": "월곡역",
-    "address": "서울특별시 성북구 장월로 1길 91",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-6311-6411"
-  },
-  {
-    "facility_name": "성북장애인자립생활센터",
-    "address": "서울특별시 성북구 보문동2가 41",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-921-7232"
-  },
-  {
-    "facility_name": "성북장애인보장구수리센터",
-    "address": "서울특별시 노원구  월계로 42길 9",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-921-7230"
-  },
-  {
-    "facility_name": "월곡종합사회복지관",
-    "address": "서울특별시 성북구 오패산로 16길 23",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-911-5511"
-  },
-  {
-    "facility_name": "성북구지체장애인협회",
-    "address": "서울특별시 성북구 화랑로 13가길 100",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-914-2070"
-  },
-  {
-    "facility_name": "길음종합사회복지관",
-    "address": "서울특별시 성북구 길음동 1061",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-985-0161"
-  },
-  {
-    "facility_name": "길음역",
-    "address": "서울특별시 성북구 하월곡동 96-76서울특별시 성북구 길음동 877-66",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-6110-4171"
-  },
-  {
-    "facility_name": "안암역",
-    "address": "서울특별시 성북구 안암동5가 146-1",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-6311-6391"
-  },
-  {
-    "facility_name": "아차산 동행숲길",
-    "address": "서울특별시 광진구 워커힐로 127",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-450-7532"
-  },
-  {
-    "facility_name": "아현역",
-    "address": "서울특별시 마포구 신촌로 270",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-6110-2420"
-  },
-  {
-    "facility_name": "독립문역",
-    "address": "서울특별시 서대문구 현저동 101",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-6110-3261"
-  },
-  {
-    "facility_name": "안산자락길",
-    "address": "서울특별시 서대문구 봉원동 산1",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-330-1266"
-  },
-  {
-    "facility_name": "연세대학교 인권센터",
-    "address": "서울특별시 서대문구 연세로 50",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2123-2114"
-  },
-  {
-    "facility_name": "연세대학교 재활학교",
-    "address": "서울특별시 서대문구 신촌동 134",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2123-2114"
-  },
-  {
-    "facility_name": "이화여자대학교",
-    "address": "서울특별시 서대문구 대현동 11-1",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-3277-2114"
-  },
-  {
-    "facility_name": "홍록배드민턴장",
-    "address": "서울특별시 서대문구 홍은동 산1-85",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-330-1266"
-  },
-  {
-    "facility_name": "가좌역",
-    "address": "서울특별시 서대문구 수색로 27",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "1544-7788"
-  },
-  {
-    "facility_name": "천연동주민센터",
-    "address": "서울특별시 서대문구 성산로 694",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-330-8245"
-  },
-  {
-    "facility_name": "서대문자연사박물관",
-    "address": "서울특별시 서대문구 연희동 141-52",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-330-8854"
-  },
-  {
-    "facility_name": "",
-    "address": "",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": ""
-  },
-  {
-    "facility_name": "서대문문화체육회관",
-    "address": "서울특별시 서대문구 백련사길 39",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-360-8682"
-  },
-  {
-    "facility_name": "이진아도서관",
-    "address": "서울특별시 서대문구 현저동 101",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-360-8627"
-  },
-  {
-    "facility_name": "가양4종합사회복지관",
-    "address": "서울특별시 강서구 양천로57길 37 (가양동, 가양4단지아파트)",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2668-6689"
-  },
-  {
-    "facility_name": "가양5종합사회복지관",
-    "address": "서울특별시 강서구 양천로57길 36 (가양동, 가양5단지아파트)",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2668-4603"
-  },
-  {
-    "facility_name": "등촌9종합사회복지관",
-    "address": "서울특별시 강서구 화곡로63가길 92 (등촌동, 등촌9단지주공아파트)",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2658-4127"
-  },
-  {
-    "facility_name": "강서다솔장애인자립생활센터",
-    "address": "서울특별시 강서구 가양동 1481",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "070-4200-2136"
-  },
-  {
-    "facility_name": "강서구 장애인단체 총연합회",
-    "address": "서울특별시 강서구 공항대로 247 (마곡동)",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-6346-3918"
-  },
-  {
-    "facility_name": "허니장애인자립생활센터",
-    "address": "서울특별시 강서구 공항대로 228 (마곡동)",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2661-7724"
-  },
-  {
-    "facility_name": "행복을파는장사꾼",
-    "address": "서울특별시 강서구 까치산로 134 (화곡동)",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2065-1591"
-  },
-  {
-    "facility_name": "꿈장애인자립생활센터",
-    "address": "서울특별시 강서구 화곡로31다길 11 (화곡동, 윤탁아트리움아파트)",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2691-2692"
-  },
-  {
-    "facility_name": "장애여성인력개발센터",
-    "address": "서울특별시 강서구 화곡로 346 (화곡동)",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-6929-0002"
-  },
-  {
-    "facility_name": "샬롬의집",
-    "address": "서울특별시 강서구 공항동 661-5",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2662-2488"
-  },
-  {
-    "facility_name": "남은자장애인자립생활센터",
-    "address": "서울특별시 강서구 공항대로 164 (마곡동)",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-3664-0874"
-  },
-  {
-    "facility_name": "강서길라장애인자립생활센터",
-    "address": "서울특별시 강서구 양천로 551-24 (가양동, 한화비즈메트로2차)",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-3662-0946"
-  },
-  {
-    "facility_name": "맑은장애인자립생활센터",
-    "address": "서울특별시 강서구 등촌동 684-2",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2605-0420"
-  },
-  {
-    "facility_name": "기쁜우리복지관",
-    "address": "서울특별시 강서구 가양동 1466",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-3665-3831"
-  },
-  {
-    "facility_name": "방화역",
-    "address": "서울특별시 강서구 금낭화로 지하132 (방화동)",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-6311-5101"
-  },
-  {
-    "facility_name": "개화산역",
-    "address": "서울특별시 강서구 양천로 22 (방화동)",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-6311-5111"
-  },
-  {
-    "facility_name": "김포공항역",
-    "address": "서울특별시 강서구 하늘길 지하77 (방화동)",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2656-0902"
-  },
-  {
-    "facility_name": "마곡나루역",
-    "address": "서울특별시 강서구 마곡중앙5로 지하2 (마곡동)",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2656-0905"
-  },
-  {
-    "facility_name": "양천향교역",
-    "address": "서울특별시 강서구 양천로 지하341 (가양동)",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2656-0906"
-  },
-  {
-    "facility_name": "가양역",
-    "address": "서울특별시 강서구 양천로 지하485 (가양동)",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2656-0907"
-  },
-  {
-    "facility_name": "공항동주민센터",
-    "address": "서울특별시 강서구 송정로 45 (공항동)",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2600-7937"
-  },
-  {
-    "facility_name": "발산1동주민센터",
-    "address": "서울특별시 강서구 내발산동 681-5",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2600-7897"
-  },
-  {
-    "facility_name": "강서구청 별관 복지지원센터",
-    "address": "서울특별시 강서구 화곡로 302 (화곡동)",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2600-6696"
-  },
-  {
-    "facility_name": "강서구보건소",
-    "address": "서울특별시 강서구 공항대로 561 (염창동)",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2600-5807"
-  },
-  {
-    "facility_name": "가양7종합사회복지관",
-    "address": "서울특별시 강서구 허준로 209 (가양동, 가양7단지아파트)",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2668-8600"
-  },
-  {
-    "facility_name": "등촌1종합사회복지관",
-    "address": "서울특별시 강서구 강서로68길 36 (등촌동, 등촌주공1,2단지아파트)",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2658-1010"
-  },
-  {
-    "facility_name": "등촌7종합사회복지관",
-    "address": "서울특별시 강서구 공항대로43길 104 (등촌동, 등촌주공7,8단지아파트)",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2658-6521"
-  },
-  {
-    "facility_name": "방화2종합사회복지관",
-    "address": "서울특별시 강서구 방화대로48길 40 (방화동, 방화2단지아파트)",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2662-6662"
-  },
-  {
-    "facility_name": "강서구립봉제산어르신복지센터",
-    "address": "서울특별시 강서구 초록마을로15길 12 (화곡동)",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2605-1553"
-  },
-  {
-    "facility_name": "겸재정선미술관",
-    "address": "서울특별시 강서구 양천로47길 36 (가양동)",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2659-2206"
-  },
-  {
-    "facility_name": "등촌3동주민센터",
-    "address": "서울특별시 강서구 화곡로63길 96 (등촌동)",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2600-7445"
-  },
-  {
-    "facility_name": "중랑구청",
-    "address": "서울특별시 중랑구 신내동 662",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2094-2483"
-  },
-  {
-    "facility_name": "아산시지체장애인협회",
-    "address": "충청남도 아산시 권곡동 538-11",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "041-536-8657"
-  },
-  {
-    "facility_name": "중랑세무서",
-    "address": "서울특별시 중랑구 망우로 176",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2094-2483"
-  },
-  {
-    "facility_name": "신세계중랑장애인자립생활센터",
-    "address": "서울특별시 중랑구 망우로 316",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2094-2483"
-  },
-  {
-    "facility_name": "서울특별시 북부병원",
-    "address": "서울특별시 중랑구 양원역로 38",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2094-2483"
-  },
-  {
-    "facility_name": "LH서울양원1단지",
-    "address": "서울특별시 중랑구 양원역로 92",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2094-2483"
-  },
-  {
-    "facility_name": "대구광역시 서구청",
-    "address": "대구광역시 서구 평리동 1230-9",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "053-663-2000"
-  },
-  {
-    "facility_name": "대구서구보건소",
-    "address": "대구광역시 서구 평리동 1230-9",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "053-663-3111"
-  },
-  {
-    "facility_name": "고속터미널역 9호선",
-    "address": "서울특별시 서초구 신반포로 179-3",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2155-6652"
-  },
-  {
-    "facility_name": "경부선 고속버스터미널",
-    "address": "서울특별시 서초구 신반포로 194",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2155-6652"
-  },
-  {
-    "facility_name": "센트럴시티 고속버스터미널",
-    "address": "서울특별시 서초구 신반포로 176",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2155-6652"
-  },
-  {
-    "facility_name": "예술의전당",
-    "address": "서울특별시 서초구 남부순환로 2406",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2155-6652"
-  },
-  {
-    "facility_name": "서울성모병원",
-    "address": "서울특별시 서초구 반포대로 222",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2155-6652"
-  },
-  {
-    "facility_name": "우면주공아파트",
-    "address": "서울특별시 서초구 바우뫼로7길 11",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2155-6652"
-  },
-  {
-    "facility_name": "은행2동 행정복지센터",
-    "address": "경기도 성남시 중원구 은이로 21(은행동)",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "070-4236-4587"
-  },
-  {
-    "facility_name": "분당장애인자립생활센터",
-    "address": "경기도 성남시 분당구 황새울로351번길10(서현동)",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "031-701-2779"
-  },
-  {
-    "facility_name": "청량리역",
-    "address": "서울특별시 동대문구 전농동 588-1",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2127-5028"
-  },
-  {
-    "facility_name": "회기역",
-    "address": "서울특별시 동대문구 휘경동 191-3",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2127-5028"
-  },
-  {
-    "facility_name": "답십리1동주민센터",
-    "address": "서울특별시 동대문구 답십리동 477-9",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2127-5028"
-  },
-  {
-    "facility_name": "휘경1동주민센터",
-    "address": "서울특별시 동대문구 외대역동로6길 3",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2127-5028"
-  },
-  {
-    "facility_name": "면목역",
-    "address": "서울특별시 중랑구 면목동 282-6",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2094-2483"
-  },
-  {
-    "facility_name": "봉화산역",
-    "address": "서울특별시 중랑구 신내로 232",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2094-2483"
-  },
-  {
-    "facility_name": "사가정역",
-    "address": "서울특별시 중랑구 사가정로 393",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2094-2483"
-  },
-  {
-    "facility_name": "상봉역",
-    "address": "서울특별시 중랑구 망우로 297",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2094-2483"
-  },
-  {
-    "facility_name": "신내역",
-    "address": "서울특별시 중랑구 신내역로 20",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2094-2483"
-  },
-  {
-    "facility_name": "양원역",
-    "address": "서울특별시 중랑구 송림길 147",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2094-2483"
-  },
-  {
-    "facility_name": "용마산역",
-    "address": "서울특별시 중랑구 용마산로 227",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2094-2483"
-  },
-  {
-    "facility_name": "중랑역",
-    "address": "서울특별시 중랑구 중화동 72-7",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2094-2483"
-  },
-  {
-    "facility_name": "중화역",
-    "address": "서울특별시 중랑구 동일로 797",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2094-2483"
-  },
-  {
-    "facility_name": "화랑대역",
-    "address": "서울특별시 노원구 화랑로 510",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2094-2483"
-  },
-  {
-    "facility_name": "양재2동주민센터",
-    "address": "서울특별시 서초구 양재동 323-1",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2155-6652"
-  },
-  {
-    "facility_name": "내곡열린문화센터",
-    "address": "서울특별시 서초구 청계산로15길 77",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2155-6652"
-  },
-  {
-    "facility_name": "한우리보장구수리센터",
-    "address": "서울특별시 서초구 서초동 380",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2155-6652"
-  },
-  {
-    "facility_name": "중앙노인종합복지관",
-    "address": "서울특별시 서초구 서초대로54길 45",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2155-6652"
-  },
-  {
-    "facility_name": "사랑의 복지관",
-    "address": "서울특별시 서초구 서초동 1310-10",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2155-6652"
-  },
-  {
-    "facility_name": "우면종합사회복지관 별관",
-    "address": "서울특별시 서초구 바우뫼로 43",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2155-6652"
-  },
-  {
-    "facility_name": "서초역 2호선",
-    "address": "서울특별시 서초구 서초동 1748-5",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2155-6652"
-  },
-  {
-    "facility_name": "사당역 2호선",
-    "address": "서울특별시 서초구 남부순환로2103-2",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2155-6652"
-  },
-  {
-    "facility_name": "잠원역 3호선",
-    "address": "서울특별시 서초구 잠원로4길 46",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2155-6652"
-  },
-  {
-    "facility_name": "이수역 7호선",
-    "address": "서울특별시 서초구 동작대로 118-2",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2155-6652"
-  },
-  {
-    "facility_name": "내방역 7호선",
-    "address": "서울특별시 서초구 방배동 874-16",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2155-6652"
-  },
-  {
-    "facility_name": "반포역 7호선",
-    "address": "서울특별시 서초구 잠원동 103",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2155-6652"
-  },
-  {
-    "facility_name": "논현역 7호선",
-    "address": "서울특별시 서초구 학동로 102",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2155-6652"
-  },
-  {
-    "facility_name": "자양1동주민센터",
-    "address": "서울특별시 광진구 자양로13길 37",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-450-7532"
-  },
-  {
-    "facility_name": "자양2동주민센터",
-    "address": "서울특별시 광진구 자양로3가길 26",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-450-7532"
-  },
-  {
-    "facility_name": "자양3동주민센터",
-    "address": "서울특별시 광진구 뚝섬로 568",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-450-7532"
-  },
-  {
-    "facility_name": "자양4동주민센터",
-    "address": "서울특별시 광진구 뚝섬로 26길 58",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-450-7532"
-  },
-  {
-    "facility_name": "화양동주민센터",
-    "address": "서울특별시 광진구 능동로 76",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-450-7532"
-  },
-  {
-    "facility_name": "군자동주민센터",
-    "address": "서울특별시 광진구 군자로 151",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-450-7532"
-  },
-  {
-    "facility_name": "자양한강도서관",
-    "address": "서울특별시 광진구 뚝섬로 52길 66",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-450-7532"
-  },
-  {
-    "facility_name": "광진문화예술회관",
-    "address": "서울특별시 광진구 능동로 76",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-450-7532"
-  },
-  {
-    "facility_name": "올림픽공원역",
-    "address": "서울특별시 송파구 양재대로 지하 1231",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2147-5000"
-  },
-  {
-    "facility_name": "인성장애인복지관",
-    "address": "서울특별시 송파구 마천로61길 26",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2147-5000"
-  },
-  {
-    "facility_name": "송파구장애인운전교육원",
-    "address": "서울특별시 송파구 삼학사로2길 49",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2147-5000"
-  },
-  {
-    "facility_name": "서울지체장애인협회 송파구지회",
-    "address": "서울특별시 송파구 문정동 2-5",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2147-5000"
-  },
-  {
-    "facility_name": "송파노인종합복지관",
-    "address": "서울특별시 송파구 백제고분로32길 41",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2147-5000"
-  },
-  {
-    "facility_name": "송파안전체험교육관",
-    "address": "서울특별시 송파구 성내천로 35길 53",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2147-5000"
-  },
-  {
-    "facility_name": "아산병원",
-    "address": "서울특별시 송파구 올림픽로 43길 88",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2147-5000"
-  },
-  {
-    "facility_name": "위례동주민센터",
-    "address": "서울특별시 송파구 장지동 882",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2147-5000"
-  },
-  {
-    "facility_name": "곰두리체육센터",
-    "address": "서울특별시 송파구 오금동 51",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2147-5000"
-  },
-  {
-    "facility_name": "마천1동주민센터",
-    "address": "서울특별시 송파구 마천로 303",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2147-5000"
-  },
-  {
-    "facility_name": "오금동주민센터",
-    "address": "서울특별시 송파구 중대로25길 5",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2147-5000"
-  },
-  {
-    "facility_name": "장지동주민센터",
-    "address": "서울특별시 송파구 문정동 114-4",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2147-5000"
-  },
-  {
-    "facility_name": "잠실본동주민센터",
-    "address": "서울특별시 송파구 백제고분로 145",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2147-5000"
-  },
-  {
-    "facility_name": "서초구청",
-    "address": "서울특별시 서초구 남부순환로 2584",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2155-6652"
-  },
-  {
-    "facility_name": "종합운동장역",
-    "address": "서울특별시 송파구 올림픽로 지하 23",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2147-5000"
-  },
-  {
-    "facility_name": "잠실역",
-    "address": "서울특별시 송파구 올림픽로 305",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2147-5000"
-  },
-  {
-    "facility_name": "몽촌토성역",
-    "address": "서울특별시 송파구 올림픽로 지하 383",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2147-5000",
-    "latitude": "37.517623",
-    "longitude": "127.112428"
-  },
-  {
-    "facility_name": "올림픽공원역",
-    "address": "서울특별시 송파구 양재대로 지하 1233",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2147-5000",
-    "latitude": "37.516087",
-    "longitude": "127.130601"
-  },
-  {
-    "facility_name": "마천역",
-    "address": "서울특별시 송파구 마천로57길 7",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2147-5000",
-    "latitude": "37.494639",
-    "longitude": "127.152027"
-  },
-  {
-    "facility_name": "가락시장역",
-    "address": "서울특별시 송파구 송파대로 지하 257",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2147-5000",
-    "latitude": "37.492742",
-    "longitude": "127.118484"
-  },
-  {
-    "facility_name": "복정역",
-    "address": "서울특별시 송파구 송파대로 지하 6",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2147-5000",
-    "latitude": "37.471055",
-    "longitude": "127.1267712"
-  },
-  {
-    "facility_name": "송파구청",
-    "address": "서울특별시 송파구 신천동 29-5",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2147-5000",
-    "latitude": "37.514476",
-    "longitude": "127.105859"
-  },
-  {
-    "facility_name": "방이복지관",
-    "address": "서울특별시 송파구 백제고분로37길 4",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2147-5000",
-    "latitude": "37.5043061",
-    "longitude": "127.104039"
-  },
-  {
-    "facility_name": "송파구 보건지소",
-    "address": "서울특별시 송파구 거여동 289-4",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2147-5000",
-    "latitude": "37.489771",
-    "longitude": "127.142672"
-  },
-  {
-    "facility_name": "가락본동주민센터",
-    "address": "서울특별시 송파구 송파대로 28길 39",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2147-5000",
-    "latitude": "37.495579",
-    "longitude": "127.121763"
-  },
-  {
-    "facility_name": "석촌역",
-    "address": "서울특별시 송파구 송파대로 지하 439",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2147-5000",
-    "latitude": "37.505948",
-    "longitude": "127.106344"
-  },
-  {
-    "facility_name": "장지역",
-    "address": "서울특별시 송파구 송파대로 지하 82",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2147-5000",
-    "latitude": "37.47811921",
-    "longitude": "127.126424"
-  },
-  {
-    "facility_name": "삼전역",
-    "address": "서울특별시 송파구 백제고분로 지하 189",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2147-5000",
-    "latitude": "37.50449957",
-    "longitude": "127.0874507"
-  },
-  {
-    "facility_name": "석촌고분역",
-    "address": "서울특별시 송파구 백제고분로 지하 274",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2147-5000",
-    "latitude": "37.502489",
-    "longitude": "127.0967037"
-  },
-  {
-    "facility_name": "석촌역",
-    "address": "서울특별시 송파구 백제고분로 지하 368",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2147-5000",
-    "latitude": "37.50513046",
-    "longitude": "127.1069281"
-  },
-  {
-    "facility_name": "송파나루역",
-    "address": "서울특별시 송파구 백제고분로 지하 446",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2147-5000",
-    "latitude": "37.5106317",
-    "longitude": "127.1123939"
-  },
-  {
-    "facility_name": "서울특별시 노원구 상계1동주민센터",
-    "address": "서울특별시 노원구  동일로 1697",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2116-2757",
-    "latitude": "37.67991633",
-    "longitude": "127.0549604842"
-  },
-  {
-    "facility_name": "서울특별시 노원구 공릉2동주민센터",
-    "address": "서울특별시 노원구  노원로1길 68",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2116-2526",
-    "latitude": "37.62122704",
-    "longitude": "127.0833727"
-  },
-  {
-    "facility_name": "경춘선숲길공원 방문자센터 옆",
-    "address": "서울특별시 노원구  동일로198가길 13",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2116-3327",
-    "latitude": "37.6298024340",
-    "longitude": "127.0726188218"
-  },
-  {
-    "facility_name": "태릉입구역(6) 지하1층 화장실 옆",
-    "address": "서울특별시 노원구  화랑로 425",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-6311-7171",
-    "latitude": "37.6175697290",
-    "longitude": "127.0746472092"
-  },
-  {
-    "facility_name": "경춘선숲길공원 화랑대역사",
-    "address": "서울특별시 노원구  공릉동 29-16",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2116-3327",
-    "latitude": "37.62498284",
-    "longitude": "127.0947437640"
-  },
-  {
-    "facility_name": "공릉역(7호선)",
-    "address": "서울특별시 노원구  동일로 지하 1074",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-6311-7161",
-    "latitude": "37.6254769202",
-    "longitude": "127.0730052010"
-  },
-  {
-    "facility_name": "마들역(7호선)",
-    "address": "서울특별시 노원구  동일로 지하 1530-1",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-6311-7121",
-    "latitude": "37.6650864331",
-    "longitude": "127.057639"
-  },
-  {
-    "facility_name": "노원노인종합복지관",
-    "address": "서울특별시 노원구  노원로16길 15",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2092-1725",
-    "latitude": "37.6434450655",
-    "longitude": "127.0733372081"
-  },
-  {
-    "facility_name": "청담동 주민센터",
-    "address": "서울특별시 강남구 압구정로79길 26",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-3423-7705",
-    "latitude": "37.52509058",
-    "longitude": "127.049244"
-  },
-  {
-    "facility_name": "수서역",
-    "address": "서울특별시 강남구 광평로 지하270",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-6110-3491",
-    "latitude": "37.48738773",
-    "longitude": "127.101893"
-  },
-  {
-    "facility_name": "선릉역",
-    "address": "서울특별시 강남구 테헤란로 지하340",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-6110-2201",
-    "latitude": "37.50450288",
-    "longitude": "127.0489425"
-  },
-  {
-    "facility_name": "굿잡자립센터",
-    "address": "서울특별시 강남구 테헤란로8길 36",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-518-2209",
-    "latitude": "37.49649864",
-    "longitude": "127.032067"
-  },
-  {
-    "facility_name": "논현노인 종합복지관",
-    "address": "서울특별시 강남구 강남대로128길 59",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-541-0226",
-    "latitude": "37.51206587",
-    "longitude": "127.0260872"
-  },
-  {
-    "facility_name": "수서명화종합사회복지관",
-    "address": "서울특별시 강남구 광평로51길 49",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-459-2696",
-    "latitude": "37.49213604",
-    "longitude": "127.0997527"
-  },
-  {
-    "facility_name": "강남세움복지관",
-    "address": "서울특별시 강남구 광평로60길 22",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-2184-8700",
-    "latitude": "37.48698084",
-    "longitude": "127.106951"
-  },
-  {
-    "facility_name": "난향동주민센터",
-    "address": "서울특별시 관악구 난곡로 67",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-879-4651",
-    "latitude": "37.4615194350",
-    "longitude": "126.9187964926"
-  },
-  {
-    "facility_name": "서원동주민센터",
-    "address": "서울특별시 관악구 신림로 282",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time": "18:00",
-    "holiday_open_time": "08:00",
-    "holiday_close_time": "21:00",
-    "number": "02-879-4681",
-    "latitude": "37.4797691760",
-    "longitude": "126.9313746978"
-  },
-  {
-    "facility_name": "서림동주민센터",
-    "address": "서울특별시 관악구 신림로29길 6",
-    "weekday_open_time": "10:00",
-    "weekday_close_time": "18:00",
-    "saturday_open_time": "10:00",
-    "saturday_close_time":""
-  }
+    "number":"02-933-5228"
+  },
+  {
+      
+      "facility_name": "수락산 순환산책로 제1데크쉼터",
+      "address": "서울특별시 노원구 상계1동 산59-2번지",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+    "holiday_close_time": "21:00",
+      "number":"02-933-5228"
+    },
+
+    {
+      
+      "facility_name": "장애인친화미용실",
+      "address": "서울특별시 노원구  동일로243길 49",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2116-3327"
+    },
+
+    {
+      
+      "facility_name": "수락산 순환산책로 제1데크쉼터",
+      "address": "서울특별시 노원구 상계1동 산59-2번지",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-933-5228"
+    },
+
+    {
+      
+      "facility_name": "월계문화복지센터",
+      "address": "서울특별시 노원구  월계로 42길 9",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-909-3273"
+    },
+
+    {
+      
+      "facility_name": "서울특별시 노원구 월계보건지소",
+      "address": "서울특별시 노원구  월계로378",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2116-4585"
+    },
+
+    {
+      
+      "facility_name": "지체장애인협회 하계2동 분회",
+      "address": "서울특별시 노원구  하계동 272",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-952-9000"
+    },
+
+    {
+      
+      "facility_name": "불암산 순환산책로 중턱 쉼터",
+      "address": "서울특별시 노원구 중계동 산42-3 일대",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2116-3327"
+    },
+    {
+      
+      "facility_name": "월계문화복지센터",
+      "address": "서울특별시 노원구  월계로 42길 9",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-909-3273"
+    },
+    {
+      
+      "facility_name": "성신여대입구역 우이신설",
+      "address": "서울특별시 성북구 동선동4가 1",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-3499-5561"
+    },
+    {
+      
+      "facility_name": "월계문화복지센터",
+      "address": "서울특별시 노원구  월계로 42길 9",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-909-3273"
+    },
+    {
+      
+      "facility_name": "정릉역 우이신설",
+      "address": "서울특별시 성북구 정릉동 966-330",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-3499-5561"
+    },
+    {
+      
+      "facility_name": "아리랑시네센터",
+      "address": "서울특별시 성북구 돈암동 538-98",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-3291-5541"
+    },
+    {
+      
+      "facility_name": "장항읍행정복지센터",
+      "address": "충청남도 서천군 장항읍 창선1리 40",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"041-950-6300"
+    },
+    {
+      
+      "facility_name": "한성대역",
+      "address": "서울특별시 성북구 삼선동1가 14",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-6110-4191"
+    },
+    {
+      
+      "facility_name": "월계문화복지센터",
+      "address": "서울특별시 노원구  월계로 42길 9",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-909-3273"
+    },
+    {
+      
+      "facility_name": "보문역",
+      "address": "서울특별시 성북구 보문동1가 127-1",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-6311-6381"
+    },
+    {
+      
+      "facility_name": "돌곶이역",
+      "address": "서울특별시 성북구 석관동 349-8",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-6311-6431"
+    },
+    {
+      
+      "facility_name": "월곡역",
+      "address": "서울특별시 성북구 장월로 1길 91",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-6311-6411"
+    },
+    {
+      
+      "facility_name": "성북장애인자립생활센터",
+      "address": "서울특별시 성북구 보문동2가 41",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-921-7232"
+    },
+    {
+      
+      "facility_name": "성북장애인보장구수리센터",
+      "address": "서울특별시 노원구  월계로 42길 9",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-921-7230"
+    },
+    {
+      
+      "facility_name": "월곡종합사회복지관",
+      "address": "서울특별시 성북구 오패산로 16길 23",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-911-5511"
+    },
+    {
+      
+      "facility_name": "성북구지체장애인협회",
+      "address": "서울특별시 성북구 화랑로 13가길 100",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-914-2070"
+    },
+    {
+      
+      "facility_name": "길음종합사회복지관",
+      "address": "서울특별시 성북구 길음동 1061",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-985-0161"
+    },
+    {
+      
+      "facility_name": "길음역",
+      "address": "서울특별시 성북구 하월곡동 96-76서울특별시 성북구 길음동 877-66",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-6110-4171"
+    },
+    {
+      
+      "facility_name": "안암역",
+      "address": "서울특별시 성북구 안암동5가 146-1",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-6311-6391"
+    },
+    {
+      
+      "facility_name": "아차산 동행숲길",
+      "address": "서울특별시 광진구 워커힐로 127",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-450-7532"
+    },
+    {
+      
+      "facility_name": "아현역",
+      "address": "서울특별시 마포구 신촌로 270",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-6110-2420"
+    },{
+      
+      "facility_name": "독립문역",
+      "address": "서울특별시 서대문구 현저동 101",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-6110-3261"
+    },{
+      
+      "facility_name": "안산자락길",
+      "address": "서울특별시 서대문구 봉원동 산1",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-330-1266"
+    },{
+      
+      "facility_name": "연세대학교 인권센터",
+      "address": "서울특별시 서대문구 연세로 50",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2123-2114"
+    },{
+      
+      "facility_name": "연세대학교 재활학교",
+      "address": "서울특별시 서대문구 신촌동 134",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2123-2114"
+    },{
+      
+      "facility_name": "이화여자대학교",
+      "address": "서울특별시 서대문구 대현동 11-1",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-3277-2114"
+    },{
+      
+      "facility_name": "홍록배드민턴장",
+      "address": "서울특별시 서대문구 홍은동 산1-85",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-330-1266"
+    },{
+      
+      "facility_name": "가좌역",
+      "address": "서울특별시 서대문구 수색로 27",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"1544-7788"
+    },{
+      
+      "facility_name": "천연동주민센터",
+      "address": "서울특별시 서대문구 성산로 694",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-330-8245"
+    },{
+      
+      "facility_name": "서대문자연사박물관",
+      "address": "서울특별시 서대문구 연희동 141-52",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-330-8854"
+    },{
+      
+      "facility_name": "",
+      "address": "",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":""
+    },{
+      
+      "facility_name": "서대문문화체육회관",
+      "address": "서울특별시 서대문구 백련사길 39",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-360-8682"
+    },{
+      
+      "facility_name": "이진아도서관",
+      "address": "서울특별시 서대문구 현저동 101",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-360-8627"
+    },{
+      
+      "facility_name": "가양4종합사회복지관",
+      "address": "서울특별시 강서구 양천로57길 37 (가양동, 가양4단지아파트)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2668-6689"
+    },{
+      
+      "facility_name": "가양5종합사회복지관",
+      "address": "서울특별시 강서구 양천로57길 36 (가양동, 가양5단지아파트)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2668-4603"
+    },{
+      
+      "facility_name": "등촌9종합사회복지관",
+      "address": "서울특별시 강서구 화곡로63가길 92 (등촌동, 등촌9단지주공아파트)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2658-4127"
+    },{
+      
+      "facility_name": "강서다솔장애인자립생활센터",
+      "address": "서울특별시 강서구 가양동 1481",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"070-4200-2136"
+    },{
+      
+      "facility_name": "강서구 장애인단체 총연합회",
+      "address": "서울특별시 강서구 공항대로 247 (마곡동)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-6346-3918"
+    },{
+      
+      "facility_name": "허니장애인자립생활센터",
+      "address": "서울특별시 강서구 공항대로 228 (마곡동)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2661-7724"
+    },{
+      
+      "facility_name": "행복을파는장사꾼",
+      "address": "서울특별시 강서구 까치산로 134 (화곡동)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2065-1591"
+    },{
+      
+      "facility_name": "꿈장애인자립생활센터",
+      "address": "서울특별시 강서구 화곡로31다길 11 (화곡동, 윤탁아트리움아파트)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2691-2692"
+    },{
+      
+      "facility_name": "장애여성인력개발센터",
+      "address": "서울특별시 강서구 화곡로 346 (화곡동)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-6929-0002"
+    },{
+      
+      "facility_name": "샬롬의집",
+      "address": "서울특별시 강서구 공항동 661-5",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2662-2488"
+    },{
+      
+      "facility_name": "남은자장애인자립생활센터",
+      "address": "서울특별시 강서구 공항대로 164 (마곡동)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-3664-0874"
+    },{
+      
+      "facility_name": "강서길라장애인자립생활센터",
+      "address": "서울특별시 강서구 양천로 551-24 (가양동, 한화비즈메트로2차)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-3662-0946"
+    },{
+      
+      "facility_name": "맑은장애인자립생활센터",
+      "address": "서울특별시 강서구 등촌동 684-2",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2605-0420"
+    },{
+      
+      "facility_name": "기쁜우리복지관",
+      "address": "서울특별시 강서구 가양동 1466",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-3665-3831"
+    },{
+      
+      "facility_name": "방화역",
+      "address": "서울특별시 강서구 금낭화로 지하132 (방화동)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-6311-5101"
+    },{
+      
+      "facility_name": "개화산역",
+      "address": "서울특별시 강서구 양천로 22 (방화동)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-6311-5111"
+    },{
+      
+      "facility_name": "김포공항역",
+      "address": "서울특별시 강서구 하늘길 지하77 (방화동)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2656-0902"
+    },{
+      
+      "facility_name": "마곡나루역",
+      "address": "서울특별시 강서구 마곡중앙5로 지하2 (마곡동)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2656-0905"
+    },{
+      
+      "facility_name": "양천향교역",
+      "address": "서울특별시 강서구 양천로 지하341 (가양동)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2656-0906"
+    },{
+      
+      "facility_name": "가양역",
+      "address": "서울특별시 강서구 양천로 지하485 (가양동)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2656-0907"
+    },{
+      
+      "facility_name": "공항동주민센터",
+      "address": "서울특별시 강서구 송정로 45 (공항동)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2600-7937"
+    },{
+      
+      "facility_name": "발산1동주민센터",
+      "address": "서울특별시 강서구 내발산동 681-5",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2600-7897"
+    },{
+      
+      "facility_name": "강서구청 별관 복지지원센터",
+      "address": "서울특별시 강서구 화곡로 302 (화곡동)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2600-6696"
+    },{
+      
+      "facility_name": "강서구보건소",
+      "address": "서울특별시 강서구 공항대로 561 (염창동)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2600-5807"
+    },{
+      
+      "facility_name": "가양7종합사회복지관",
+      "address": "서울특별시 강서구 허준로 209 (가양동, 가양7단지아파트)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2668-8600"
+    },{
+      
+      "facility_name": "등촌1종합사회복지관",
+      "address": "서울특별시 강서구 강서로68길 36 (등촌동, 등촌주공1,2단지아파트)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2658-1010"
+    },{
+      
+      "facility_name": "등촌7종합사회복지관",
+      "address": "서울특별시 강서구 공항대로43길 104 (등촌동, 등촌주공7,8단지아파트)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2658-6521"
+    },{
+      
+      "facility_name": "방화2종합사회복지관",
+      "address": "서울특별시 강서구 방화대로48길 40 (방화동, 방화2단지아파트)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2662-6662"
+    },{
+      
+      "facility_name": "강서구립봉제산어르신복지센터",
+      "address": "서울특별시 강서구 초록마을로15길 12 (화곡동)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2605-1553"
+    },{
+      
+      "facility_name": "겸재정선미술관",
+      "address": "서울특별시 강서구 양천로47길 36 (가양동)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2659-2206"
+    },{
+      
+      "facility_name": "등촌3동주민센터",
+      "address": "서울특별시 강서구 화곡로63길 96 (등촌동)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2600-7445"
+    },{
+      
+      "facility_name": "중랑구청",
+      "address": "서울특별시 중랑구 신내동 662",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2094-2483"
+    },{
+      
+      "facility_name": "아산시지체장애인협회",
+      "address": "충청남도 아산시 권곡동 538-11",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"041-536-8657"
+    },{
+      
+      "facility_name": "중랑세무서",
+      "address": "서울특별시 중랑구 망우로 176",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2094-2483"
+    },{
+      
+      "facility_name": "신세계중랑장애인자립생활센터",
+      "address": "서울특별시 중랑구 망우로 316",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2094-2483"
+    },{
+      
+      "facility_name": "서울특별시 북부병원",
+      "address": "서울특별시 중랑구 양원역로 38",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2094-2483"
+    },{
+      
+      "facility_name": "LH서울양원1단지",
+      "address": "서울특별시 중랑구 양원역로 92",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2094-2483"
+    },{
+      
+      "facility_name": "대구광역시 서구청",
+      "address": "대구광역시 서구 평리동 1230-9",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"053-663-2000"
+    },{
+      
+      "facility_name": "대구서구보건소",
+      "address": "대구광역시 서구 평리동 1230-9",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"053-663-3111"
+    },{
+      
+      "facility_name": "고속터미널역 9호선",
+      "address": "서울특별시 서초구 신반포로 179-3",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2155-6652"
+    },{
+      
+      "facility_name": "경부선 고속버스터미널",
+      "address": "서울특별시 서초구 신반포로 194",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2155-6652"
+    },{
+      
+      "facility_name": "센트럴시티 고속버스터미널",
+      "address": "서울특별시 서초구 신반포로 176",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2155-6652"
+    },{
+      
+      "facility_name": "예술의전당",
+      "address": "서울특별시 서초구 남부순환로 2406",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2155-6652"
+    },{
+      
+      "facility_name": "서울성모병원",
+      "address": "서울특별시 서초구 반포대로 222",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2155-6652"
+    },{
+      
+      "facility_name": "우면주공아파트",
+      "address": "서울특별시 서초구 바우뫼로7길 11",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2155-6652"
+    },{
+      
+      "facility_name": "은행2동 행정복지센터",
+      "address": "경기도 성남시 중원구 은이로 21(은행동)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"070-4236-4587"
+    },{
+      
+      "facility_name": "분당장애인자립생활센터",
+      "address": "경기도 성남시 분당구 황새울로351번길10(서현동)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"031-701-2779"
+    },{
+      
+      "facility_name": "청량리역",
+      "address": "서울특별시 동대문구 전농동 588-1",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2127-5028"
+    },{
+      
+      "facility_name": "회기역",
+      "address": "서울특별시 동대문구 휘경동 191-3",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2127-5028"
+    },{
+      
+      "facility_name": "답십리1동주민센터",
+      "address": "서울특별시 동대문구 답십리동 477-9",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2127-5028"
+    },{
+      
+      "facility_name": "휘경1동주민센터",
+      "address": "서울특별시 동대문구 외대역동로6길 3",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2127-5028"
+    },{
+      
+      "facility_name": "면목역",
+      "address": "서울특별시 중랑구 면목동 282-6",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2094-2483"
+    },{
+      
+      "facility_name": "봉화산역",
+      "address": "서울특별시 중랑구 신내로 232",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2094-2483"
+    },{
+      
+      "facility_name": "사가정역",
+      "address": "서울특별시 중랑구 사가정로 393",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2094-2483"
+    },{
+      
+      "facility_name": "상봉역",
+      "address": "서울특별시 중랑구 망우로 297",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2094-2483"
+    },{
+      
+      "facility_name": "신내역",
+      "address": "서울특별시 중랑구 신내역로 20",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2094-2483"
+    },{
+      
+      "facility_name": "양원역",
+      "address": "서울특별시 중랑구 송림길 147",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2094-2483"
+    },{
+      
+      "facility_name": "용마산역",
+      "address": "서울특별시 중랑구 용마산로 227",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2094-2483"
+    },{
+      
+      "facility_name": "중랑역",
+      "address": "서울특별시 중랑구 중화동 72-7",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2094-2483"
+    },{
+      
+      "facility_name": "중화역",
+      "address": "서울특별시 중랑구 동일로 797",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2094-2483"
+    },{
+      
+      "facility_name": "화랑대역",
+      "address": "서울특별시 노원구 화랑로 510",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2094-2483"
+    },{
+      
+      "facility_name": "양재2동주민센터",
+      "address": "서울특별시 서초구 양재동 323-1",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2155-6652"
+    },{
+      
+      "facility_name": "내곡열린문화센터",
+      "address": "서울특별시 서초구 청계산로15길 77",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2155-6652"
+    },{
+      
+      "facility_name": "한우리보장구수리센터",
+      "address": "서울특별시 서초구 서초동 380",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2155-6652"
+    },{
+      
+      "facility_name": "중앙노인종합복지관",
+      "address": "서울특별시 서초구 서초대로54길 45",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2155-6652"
+    },{
+      
+      "facility_name": "사랑의 복지관",
+      "address": "서울특별시 서초구 서초동 1310-10",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2155-6652"
+    },{
+      
+      "facility_name": "우면종합사회복지관 별관",
+      "address": "서울특별시 서초구 바우뫼로 43",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2155-6652"
+    },{
+      
+      "facility_name": "서초역 2호선",
+      "address": "서울특별시 서초구 서초동 1748-5",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2155-6652"
+    },{
+      
+      "facility_name": "사당역 2호선",
+      "address": "서울특별시 서초구 남부순환로2103-2",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2155-6652"
+    },{
+      
+      "facility_name": "잠원역 3호선",
+      "address": "서울특별시 서초구 잠원로4길 46",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2155-6652"
+    },{
+      
+      "facility_name": "이수역 7호선",
+      "address": "서울특별시 서초구 동작대로 118-2",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2155-6652"
+    },{
+      
+      "facility_name": "내방역 7호선",
+      "address": "서울특별시 서초구 방배동 874-16",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2155-6652"
+    },{
+      
+      "facility_name": "반포역 7호선",
+      "address": "서울특별시 서초구 잠원동 103",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2155-6652"
+    },{
+      
+      "facility_name": "논현역 7호선",
+      "address": "서울특별시 서초구 학동로 102",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2155-6652"
+    },{
+      
+      "facility_name": "자양1동주민센터",
+      "address": "서울특별시 광진구 자양로13길 37",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-450-7532"
+    },{
+      
+      "facility_name": "자양2동주민센터",
+      "address": "서울특별시 광진구 자양로3가길 26",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-450-7532"
+    },{
+      
+      "facility_name": "자양3동주민센터",
+      "address": "서울특별시 광진구 뚝섬로 568",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-450-7532"
+    },{
+      
+      "facility_name": "자양4동주민센터",
+      "address": "서울특별시 광진구 뚝섬로 26길 58",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-450-7532"
+    },{
+      
+      "facility_name": "화양동주민센터",
+      "address": "서울특별시 광진구 능동로 76",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-450-7532"
+    },{
+      
+      "facility_name": "군자동주민센터",
+      "address": "서울특별시 광진구 군자로 151",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-450-7532"
+    },{
+      
+      "facility_name": "자양한강도서관",
+      "address": "서울특별시 광진구 뚝섬로 52길 66",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-450-7532"
+    },{
+      
+      "facility_name": "광진문화예술회관",
+      "address": "서울특별시 광진구 능동로 76",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-450-7532"
+    },{
+      
+      "facility_name": "올림픽공원역",
+      "address": "서울특별시 송파구 양재대로 지하 1231",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2147-5000"
+    },{
+      
+      "facility_name": "인성장애인복지관",
+      "address": "서울특별시 송파구 마천로61길 26",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2147-5000"
+    },{
+      
+      "facility_name": "송파구장애인운전교육원",
+      "address": "서울특별시 송파구 삼학사로2길 49",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2147-5000"
+    },{
+      
+      "facility_name": "서울지체장애인협회 송파구지회",
+      "address": "서울특별시 송파구 문정동 2-5",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2147-5000"
+    },{
+      
+      "facility_name": "송파노인종합복지관",
+      "address": "서울특별시 송파구 백제고분로32길 41",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2147-5000"
+    },{
+      
+      "facility_name": "송파안전체험교육관",
+      "address": "서울특별시 송파구 성내천로 35길 53",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2147-5000"
+    },{
+      
+      "facility_name": "아산병원",
+      "address": "서울특별시 송파구 올림픽로 43길 88",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2147-5000"
+    },{
+      
+      "facility_name": "위례동주민센터",
+      "address": "서울특별시 송파구 장지동 882",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2147-5000"
+    },{
+      
+      "facility_name": "곰두리체육센터",
+      "address": "서울특별시 송파구 오금동 51",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2147-5000"
+    },{
+      
+      "facility_name": "마천1동주민센터",
+      "address": "서울특별시 송파구 마천로 303",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2147-5000"
+    },{
+      
+      "facility_name": "오금동주민센터",
+      "address": "서울특별시 송파구 중대로25길 5",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2147-5000"
+    },{
+      
+      "facility_name": "장지동주민센터",
+      "address": "서울특별시 송파구 문정동 114-4",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2147-5000"
+    },{
+      
+      "facility_name": "잠실본동주민센터",
+      "address": "서울특별시 송파구 백제고분로 145",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2147-5000"
+    },{
+      
+      "facility_name": "서초구청",
+      "address": "서울특별시 서초구 남부순환로 2584",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2155-6652"
+    },{
+      
+      "facility_name": "종합운동장역",
+      "address": "서울특별시 송파구 올림픽로 지하 23",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2147-5000"
+    },{
+      
+      "facility_name": "잠실역",
+      "address": "서울특별시 송파구 올림픽로 305",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2147-5000"
+    },{
+      
+      "facility_name": "몽촌토성역",
+      "address": "서울특별시 송파구 올림픽로 지하 383",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2147-5000",
+      "latitude":"37.517623",
+      "longitude":"127.112428"
+    },
+  {
+      
+      "facility_name": "올림픽공원역",
+      "address": "서울특별시 송파구 양재대로 지하 1233",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2147-5000",
+      "latitude":"37.516087",
+      "longitude":"127.130601"
+    },
+    {
+      
+      "facility_name": "마천역",
+      "address": "서울특별시 송파구 마천로57길 7",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2147-5000",
+      "latitude":"37.494639",
+      "longitude":"127.152027"
+    },{
+      
+      "facility_name": "가락시장역",
+      "address": "서울특별시 송파구 송파대로 지하 257",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2147-5000",
+      "latitude":"37.492742",
+      "longitude":"127.118484"
+    },{
+      
+      "facility_name": "복정역",
+      "address": "서울특별시 송파구 송파대로 지하 6",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2147-5000",
+      "latitude":"37.471055",
+      "longitude":"127.1267712"
+    },{
+      
+      "facility_name": "송파구청",
+      "address": "서울특별시 송파구 신천동 29-5",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2147-5000",
+      "latitude":"37.514476",
+      "longitude":"127.105859"
+    },{
+      
+      "facility_name": "방이복지관",
+      "address": "서울특별시 송파구 백제고분로37길 4",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2147-5000",
+      "latitude":"37.5043061",
+      "longitude":"127.104039"
+    },{
+      
+      "facility_name": "송파구 보건지소",
+      "address": "서울특별시 송파구 거여동 289-4",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2147-5000",
+      "latitude":"37.489771",
+      "longitude":"127.142672"
+    },{
+      
+      "facility_name": "가락본동주민센터",
+      "address": "서울특별시 송파구 송파대로 28길 39",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2147-5000",
+      "latitude":"37.495579",
+      "longitude":"127.121763"
+    },{
+      
+      "facility_name": "석촌역",
+      "address": "서울특별시 송파구 송파대로 지하 439",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2147-5000",
+      "latitude":"37.505948",
+      "longitude":"127.106344"
+    },{
+      
+      "facility_name": "장지역",
+      "address": "서울특별시 송파구 송파대로 지하 82",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2147-5000",
+      "latitude":"37.47811921",
+      "longitude":"127.126424"
+    },{
+      
+      "facility_name": "삼전역",
+      "address": "서울특별시 송파구 백제고분로 지하 189",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2147-5000",
+      "latitude":"37.50449957",
+      "longitude":"127.0874507"
+    },{
+      
+      "facility_name": "석촌고분역",
+      "address": "서울특별시 송파구 백제고분로 지하 274",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2147-5000",
+      "latitude":"37.502489",
+      "longitude":"127.0967037"
+    },{
+      
+      "facility_name": "석촌역",
+      "address": "서울특별시 송파구 백제고분로 지하 368",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2147-5000",
+      "latitude":"37.50513046",
+      "longitude":"127.1069281"
+    },{
+      
+      "facility_name": "송파나루역",
+      "address": "서울특별시 송파구 백제고분로 지하 446",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2147-5000",
+      "latitude":"37.5106317",
+      "longitude":"127.1123939"
+    },{
+      
+      "facility_name": "서울특별시 노원구 상계1동주민센터",
+      "address": "서울특별시 노원구  동일로 1697",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2116-2757",
+      "latitude":"37.67991633",
+      "longitude":"127.0549604842"
+    },{
+      
+      "facility_name": "서울특별시 노원구 공릉2동주민센터",
+      "address": "서울특별시 노원구  노원로1길 68",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2116-2526",
+      "latitude":"37.62122704",
+      "longitude":"127.0833727"
+    },{
+      
+      "facility_name": "경춘선숲길공원 방문자센터 옆",
+      "address": "서울특별시 노원구  동일로198가길 13",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2116-3327",
+      "latitude":"37.6298024340",
+      "longitude":"127.0726188218"
+    },{
+      
+      "facility_name": "태릉입구역(6) 지하1층 화장실 옆",
+      "address": "서울특별시 노원구  화랑로 425",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-6311-7171",
+      "latitude":"37.6175697290",
+      "longitude":"127.0746472092"
+    },{
+      
+      "facility_name": "경춘선숲길공원 화랑대역사",
+      "address": "서울특별시 노원구  공릉동 29-16",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2116-3327",
+      "latitude":"37.62498284",
+      "longitude":"127.0947437640"
+    },{
+      
+      "facility_name": "공릉역(7호선)",
+      "address": "서울특별시 노원구  동일로 지하 1074",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-6311-7161",
+      "latitude":"37.6254769202",
+      "longitude":"127.0730052010"
+    },{
+      
+      "facility_name": "마들역(7호선)",
+      "address": "서울특별시 노원구  동일로 지하 1530-1",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-6311-7121",
+      "latitude":"37.6650864331",
+      "longitude":"127.057639"
+    },{
+      
+      "facility_name": "노원노인종합복지관",
+      "address": "서울특별시 노원구  노원로16길 15",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2092-1725",
+      "latitude":"37.6434450655",
+      "longitude":"127.0733372081"
+    },{
+      
+      "facility_name": "청담동 주민센터",
+      "address": "서울특별시 강남구 압구정로79길 26",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-3423-7705",
+      "latitude":"37.52509058",
+      "longitude":"127.049244"
+    },{
+      
+      "facility_name": "수서역",
+      "address": "서울특별시 강남구 광평로 지하270",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-6110-3491",
+      "latitude":"37.48738773",
+      "longitude":"127.101893"
+    },{
+      
+      "facility_name": "선릉역",
+      "address": "서울특별시 강남구 테헤란로 지하340",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-6110-2201",
+      "latitude":"37.50450288",
+      "longitude":"127.0489425"
+    },{
+      
+      "facility_name": "굿잡자립센터",
+      "address": "서울특별시 강남구 테헤란로8길 36",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-518-2209",
+      "latitude":"37.49649864",
+      "longitude":"127.032067"
+    },{
+      
+      "facility_name": "논현노인 종합복지관",
+      "address": "서울특별시 강남구 강남대로128길 59",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-541-0226",
+      "latitude":"37.51206587",
+      "longitude":"127.0260872"
+    },{
+      
+      "facility_name": "수서명화종합사회복지관",
+      "address": "서울특별시 강남구 광평로51길 49",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-459-2696",
+      "latitude":"37.49213604",
+      "longitude":"127.0997527"
+    },{
+      
+      "facility_name": "강남세움복지관",
+      "address": "서울특별시 강남구 광평로60길 22",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2184-8700",
+      "latitude":"37.48698084",
+      "longitude":"127.106951"
+    },{
+      
+      "facility_name": "난향동주민센터",
+      "address": "서울특별시 관악구 난곡로 67",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-879-4651",
+      "latitude":"37.4615194350",
+      "longitude":"126.9187964926"
+    },{
+      
+      "facility_name": "서원동주민센터",
+      "address": "서울특별시 관악구 신림로 282",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-879-4681",
+      "latitude":"37.4797691760",
+      "longitude":"126.9313746978"
+    },{
+      
+      "facility_name": "서림동주민센터",
+      "address": "서울특별시 관악구 신림로29길 6",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-879-4741",
+      "latitude":"37.4749958758",
+      "longitude":"126.9349995500"
+    },{
+      
+      "facility_name": "삼성동주민센터",
+      "address": "서울특별시 관악구 호암로 589",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-879-4771",
+      "latitude":"37.4701072980",
+      "longitude":"126.9329623117"
+    },{
+      
+      "facility_name": "대학동주민센터",
+      "address": "서울특별시 관악구 신림로 111",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-879-4801",
+      "latitude":"37.4705960426",
+      "longitude":"126.9369573479"
+    },{
+      
+      "facility_name": "신림종합사회복지관",
+      "address": "서울특별시 관악구 난곡로 110",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-851-1767",
+      "latitude":"37.4648375950",
+      "longitude":"126.9198595175"
+    },{
+      
+      "facility_name": "보훈회관",
+      "address": "서울특별시 관악구 남부순환로 1427",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"070-7039-3265",
+      "latitude":"37.4811668620",
+      "longitude":"126.9093752144"
+    },{
+      
+      "facility_name": "한울림장애인자립생활센터",
+      "address": "서울특별시 관악구 남부순환로 1692",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-878-2031",
+      "latitude":"37.4835915851",
+      "longitude":"126.9381743148"
+    },{
+      
+      "facility_name": "서울대학교",
+      "address": "서울특별시 관악구 관악로 1",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-880-5114",
+      "latitude":"37.4680380579",
+      "longitude":"126.9592943376"
+    },{
+      
+      "facility_name": "서울새롬학교",
+      "address": "서울특별시 관악구 보라매로 44",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-840-3535",
+      "latitude":"37.4931684664",
+      "longitude":"126.9273716454"
+    },{
+      
+      "facility_name": "신원동주민센터",
+      "address": "서울특별시 관악구 신원로3길 13",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-879-4714",
+      "latitude":"37.4816106129",
+      "longitude":"126.9273798943"
+    },{
+      
+      "facility_name": "보건지소",
+      "address": "서울특별시 관악구 봉천로 279-8",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-879-7400",
+      "latitude":"37.4881757605",
+      "longitude":"126.9327780310"
+    },{
+      
+      "facility_name": "정립회관(2)",
+      "address": "서울특별시 광진구 워커힐로93",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-450-7532",
+      "latitude":"37.550536",
+      "longitude":"127.097915"
+    },{
+      
+      "facility_name": "중곡보건지소",
+      "address": "서울특별시 광진구 긴고랑로 110",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-450-7532",
+      "latitude":"37.559373",
+      "longitude":"127.087089"
+    },{
+      
+      "facility_name": "건대입구역",
+      "address": "서울특별시 광진구 아차산로 243",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-450-7532",
+      "latitude":"37.540419",
+      "longitude":"127.069171"
+    },{
+      
+      "facility_name": "군자역",
+      "address": "서울특별시 광진구 천호대로 550",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-450-7532",
+      "latitude":"37.557203",
+      "longitude":"127.079014"
+    },{
+      
+      "facility_name": "중곡1동주민센터",
+      "address": "서울특별시 광진구 긴고랑로12길 49",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-450-7532",
+      "latitude":"37.56061082",
+      "longitude":"127.0800521"
+    },{
+      
+      "facility_name": "중곡2동주민센터",
+      "address": "서울특별시 광진구 능동로 346",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-450-7532",
+      "latitude":"37.56015047",
+      "longitude":"127.0814751"
+    },{
+      
+      "facility_name": "능동주민센터",
+      "address": "서울특별시 광진구 천호대로112길 55",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-450-7532",
+      "latitude":"37.5537606",
+      "longitude":"127.0805521"
+    },{
+      
+      "facility_name": "광장동주민센터",
+      "address": "서울특별시 광진구 광장로 52",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-450-7532",
+      "latitude":"37.54684012",
+      "longitude":"127.1030232"
+    },{
+      
+      "facility_name": "장애인지원센터 디딤돌(금호프라자 1층)(2)",
+      "address": "서울특별시 노원구  상계로5길 32",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-952-9000",
+      "latitude":"37.6571152502",
+      "longitude":"127.0628045"
+    },{
+      
+      "facility_name": "희성프라자 613호, 지체장애인협회서울특별시 노원구 지회",
+      "address": "서울특별시 노원구  월계로 370",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-952-9000",
+      "latitude":"37.6309766775",
+      "longitude":"127.0610256402"
+    },{
+      
+      "facility_name": "월계사슴아파트 106동옆, 월계3분회(지체장애인협회)",
+      "address": "서울특별시 노원구  월계로55길 4",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-975-0505",
+      "latitude":"37.6319318700",
+      "longitude":"127.0609776"
+    },{
+      
+      "facility_name": "상계마들아파트 관리사무소 1층, 상계6동분회(지체장애인협회)",
+      "address": "서울특별시 노원구  덕릉로70가길 101",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-0000-0000",
+      "latitude":"37.6419755630",
+      "longitude":"127.0570244510"
+    },{
+      
+      "facility_name": "상계뉴타운 프라자, 한국뇌성마비장애인협회 청우(1)",
+      "address": "서울특별시 노원구  덕릉로 805",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-932-8314",
+      "latitude":"37.66882585",
+      "longitude":"127.079787"
+    },{
+      
+      "facility_name": "상계뉴타운 프라자, 한국뇌성마비장애인협회 청우(2)",
+      "address": "서울특별시 노원구  덕릉로 805",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-932-8314",
+      "latitude":"37.66882585",
+      "longitude":"127.079787"
+    },{
+      
+      "facility_name": "하계역(7) 지하1층 2호기 엘리베이터 맞은편",
+      "address": "서울특별시 노원구  한글비석로 55-2",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2092-1725",
+      "latitude":"37.6362992152",
+      "longitude":"127.0684760234"
+    },{
+      
+      "facility_name": "삼성2동주민센터",
+      "address": "서울특별시 강남구 봉은사로 419",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-3423-8242",
+      "latitude":"37.51120565",
+      "longitude":"127.0459755"
+    },{
+      
+      "facility_name": "강남구청",
+      "address": "서울특별시 강남구 학동로426",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-3423-5888",
+      "latitude":"37.51796636",
+      "longitude":"127.0470611"
+    },{
+      
+      "facility_name": "압구정동 주민센터",
+      "address": "서울특별시 강남구 압구정로 201",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-3423-7617",
+      "latitude":"37.53153399",
+      "longitude":"127.0292754"
+    },{
+      
+      "facility_name": "관악구종합청사",
+      "address": "서울특별시 관악구 관악로 145",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-879-5192",
+      "latitude":"37.4782106746",
+      "longitude":"126.9515012441"
+    },{
+      
+      "facility_name": "장애인종합복지관",
+      "address": "서울특별시 관악구 남부순환로 1914",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-877-0750",
+      "latitude":"37.4774378017",
+      "longitude":"126.9618584284"
+    },{
+      
+      "facility_name": "관악산 무장애숲길",
+      "address": "서울특별시 관악구 신림동 197",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-879-6521",
+      "latitude":"37.4566144764",
+      "longitude":"126.9457969095"
+    },{
+      
+      "facility_name": "관악구보건소",
+      "address": "서울특별시 관악구 관악로 145",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-879-7106",
+      "latitude":"37.4782106746",
+      "longitude":"126.9515012441"
+    },{
+      
+      "facility_name": "관악구민체육센터",
+      "address": "서울특별시 관악구 낙성대로3길 37",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-870-7625",
+      "latitude":"37.4730673056",
+      "longitude":"126.9603152692"
+    },{
+      
+      "facility_name": "보라매동주민센터",
+      "address": "서울특별시 관악구 봉천로 279-8",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-879-4201",
+      "latitude":"37.4881757605",
+      "longitude":"126.9327780310"
+    },{
+      
+      "facility_name": "번동3단지종합사회복지관",
+      "address": "서울특별시 강북구 오현로 208",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-901-6677",
+      "latitude":"37.6296739",
+      "longitude":"127.0411454"
+    },{
+      
+      "facility_name": "번동5단지종합사회복지관",
+      "address": "서울특별시 강북구 한천로115길 20",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-901-6677",
+      "latitude":"37.6336872",
+      "longitude":"127.0345359"
+    },{
+      
+      "facility_name": "강북구장애인단체총연합회",
+      "address": "서울특별시 강북구 인수봉로 291",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-901-6677",
+      "latitude":"37.6447919",
+      "longitude":"127.0105151"
+    },{
+      
+      "facility_name": "삼양동종합복지센터",
+      "address": "서울특별시 강북구 삼양로 47길 9",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-901-6677",
+      "latitude":"37.622933",
+      "longitude":"127.018544"
+    },{
+      
+      "facility_name": "시립 강북노인종합복지관",
+      "address": "서울특별시 강북구 삼양로 92길 40",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-901-6677",
+      "latitude":"37.6356874",
+      "longitude":"127.018719"
+    },{
+      
+      "facility_name": "미아동복합청사",
+      "address": "서울특별시 강북구 솔매로49길 14",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-901-6677",
+      "latitude":"37.6270904",
+      "longitude":"127.026989"
+    },{
+      
+      "facility_name": "수유역",
+      "address": "서울특별시 강북구 도봉로 338길",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-901-6677",
+      "latitude":"37.6432857823",
+      "longitude":"127.0220493287"
+    },{
+      
+      "facility_name": "미아사거리역",
+      "address": "서울특별시 강북구 도봉로 50길",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-901-6677",
+      "latitude":"37.6138741",
+      "longitude":"127.0301002"
+    },{
+      
+      "facility_name": "강북경찰서",
+      "address": "서울특별시 강북구 오패산로 406",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-901-6677",
+      "latitude":"37.6371706",
+      "longitude":"127.0270418"
+    },{
+      
+      "facility_name": "수유제1동 주민센터",
+      "address": "서울특별시 강북구 삼양로 299",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-901-6677",
+      "latitude":"37.630051",
+      "longitude":"127.017543"
+    },{
+      
+      "facility_name": "강북문화예술회관",
+      "address": "서울특별시 강북구 삼각산로 85",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-901-6677",
+      "latitude":"37.6409894",
+      "longitude":"127.0138774"
+    },{
+      
+      "facility_name": "북서울꿈의숲(아트센터)",
+      "address": "서울특별시 강북구 월계로 173",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-901-6677",
+      "latitude":"37.6202556",
+      "longitude":"127.0443254"
+    },{
+      
+      "facility_name": "가오리역",
+      "address": "서울특별시 강북구 삼양로 107길",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-901-6677",
+      "latitude":"37.6416271",
+      "longitude":"127.016776"
+    },{
+      
+      "facility_name": "안양천 산책로",
+      "address": "서울특별시 금천구 안양천동자전거길 1233",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2627-1390",
+      "latitude":"37.4568513",
+      "longitude":"126.8929573"
+    },{
+      
+      "facility_name": "안양천 다목적광장",
+      "address": "서울특별시 금천구 안양천동자전거길 1441",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2627-1390",
+      "latitude":"37.4393698",
+      "longitude":"126.9007998"
+    },{
+      
+      "facility_name": "금천장애인종합복지관",
+      "address": "서울특별시 금천구 시흥대로101길 17",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-6912-8000",
+      "latitude":"37.4639733",
+      "longitude":"126.8963126"
+    },{
+      
+      "facility_name": "금천장애인자립생활센터",
+      "address": "서울특별시 금천구 두산로 70, C동630호",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"070-4035-4340",
+      "latitude":"37.46896278",
+      "longitude":"126.8956207"
+    },{
+      
+      "facility_name": "지체장애인협회금천구지회",
+      "address": "서울특별시 금천구 시흥대로 155, 218호",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-809-9660",
+      "latitude":"37.4478849",
+      "longitude":"126.9026928"
+    },{
+      
+      "facility_name": "목5동 주민센터",
+      "address": "서울특별시 양천구 목동서로 41(목동)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2620-4033",
+      "latitude":"37.53718334",
+      "longitude":"126.8817165"
+    },{
+      
+      "facility_name": "목동종합사회복지관",
+      "address": "서울특별시 양천구 목동중앙북로8길 104(목동)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2651-2332",
+      "latitude":"37.54424009",
+      "longitude":"126.8663764"
+    },{
+      
+      "facility_name": "사람사랑양천자립생활센터",
+      "address": "서울특별시 양천구 신정로 267(신정동)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"070-7834-0557",
+      "latitude":"37.51221979",
+      "longitude":"126.8506681"
+    },{
+      
+      "facility_name": "서서울어르신복지관",
+      "address": "서울특별시 양천구 가로공원로60가길 16(신월동)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2608-4042",
+      "latitude":"37.53426132",
+      "longitude":"126.8266346"
+    },{
+      
+      "facility_name": "신목종합사회복지관",
+      "address": "서울특별시 양천구 신목로 5(신정동)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2223-8802",
+      "latitude":"37.51722556",
+      "longitude":"126.8764675"
+    },{
+      
+      "facility_name": "신월보건지소",
+      "address": "서울특별시 양천구 남부순환로 407(신월동)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2620-4751",
+      "latitude":"37.53133706",
+      "longitude":"126.8318233"
+    },{
+      
+      "facility_name": "신정1동 주민센터",
+      "address": "서울특별시 양천구 중앙로 32길 1(신정동)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2620-4201",
+      "latitude":"37.51857188",
+      "longitude":"126.8542861"
+    },{
+      
+      "facility_name": "신정3동 넓은들민원센터",
+      "address": "서울특별시 양천구 남부순환로88길 5-7(신정동)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2620-5403",
+      "latitude":"37.51143336",
+      "longitude":"126.841513"
+    },{
+      
+      "facility_name": "신정종합사회복지관",
+      "address": "서울특별시 양천구 신정중앙로 36(신정동)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2603-1792",
+      "latitude":"37.52730285",
+      "longitude":"126.8555308"
+    },{
+      
+      "facility_name": "양천어르신종합복지관",
+      "address": "서울특별시 양천구 목동로3길 106(신정동)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2649-8815",
+      "latitude":"37.51044253",
+      "longitude":"126.8586279"
+    },{
+      
+      "facility_name": "지체장애연협회 양천구지회",
+      "address": "서울특별시 양천구 가로공원로 101(신월동)",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2698-5887",
+      "latitude":"37.53593022",
+      "longitude":"126.827237"
+    },{
+      
+      "facility_name": "서울특별시기능장애인협회 노원",
+      "address": "서울특별시 노원구  한글비석로 178",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-0000-0000",
+      "latitude":"37.64343847",
+      "longitude":"127.0767736660"
+    },{
+      
+      "facility_name": "가산동 주민센터",
+      "address": "서울특별시 금천구 가산로 129",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2627-2501",
+      "latitude":"37.4768907",
+      "longitude":"126.891784"
+    },{
+      
+      "facility_name": "시흥5동 주민센터",
+      "address": "서울특별시 금천구 금하로24길 6",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2627-2521",
+      "latitude":"37.45067291",
+      "longitude":"126.9082725"
+    },{
+      
+      "facility_name": "독산4동 주민센터",
+      "address": "서울특별시 금천구 독산로 232",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2627-2509",
+      "latitude":"37.4675545",
+      "longitude":"126.9021682"
+    },{
+      
+      "facility_name": "강북구청",
+      "address": "서울특별시 강북구 도봉로89길 13",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-901-6677",
+      "latitude":"37.6391855",
+      "longitude":"127.0254518"
+    },{
+      
+      "facility_name": "국립재활원",
+      "address": "서울특별시 강북구 삼각산로 58",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-901-6677",
+      "latitude":"37.6386544",
+      "longitude":"127.0102649"
+    },{
+      
+      "facility_name": "오동근린공원",
+      "address": "서울특별시 강북구 오현로31길 51",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-901-6677",
+      "latitude":"37.6304571",
+      "longitude":"127.0377699"
+    },{
+      
+      "facility_name": "번동2단지종합사회복지관",
+      "address": "서울특별시 강북구 한천로105길 24, 202동",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-901-6677",
+      "latitude":"37.6276084",
+      "longitude":"127.0448051"
+    },{
+      
+      "facility_name": "역촌동주민센터",
+      "address": "서울특별시 은평구 연서로 59",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-351-5302",
+      "latitude":"37.6044012400",
+      "longitude":"126.9151783000"
+    },{
+      
+      "facility_name": "은평노인종합복지관",
+      "address": "서울특별시 은평구 연서로 415",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-385-1351",
+      "latitude":"37.6322515300",
+      "longitude":"126.9299824000"
+    },{
+      
+      "facility_name": "은평재활원",
+      "address": "서울특별시 은평구 갈현로 11길 30",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-385-2046",
+      "latitude":"37.6056451900",
+      "longitude":"126.9063428000"
+    },{
+      
+      "facility_name": "증산역",
+      "address": "서울특별시 은평구 증산로 306",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-6311-6171",
+      "latitude":"37.5842165400",
+      "longitude":"126.9100346000"
+    },{
+      
+      "facility_name": "새절역",
+      "address": "서울특별시 은평구 증산로 400",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-6311-6161",
+      "latitude":"37.5918417800",
+      "longitude":"126.9138891000"
+    },{
+      
+      "facility_name": "응암역",
+      "address": "서울특별시 은평구 증산로 477 지하철6호선응암역사",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-6311-6101",
+      "latitude":"37.5987546500",
+      "longitude":"126.9154879000"
+    },{
+      
+      "facility_name": "역촌역",
+      "address": "서울특별시 은평구 서오릉로 63",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-6311-6111",
+      "latitude":"37.6060452400",
+      "longitude":"126.9229823000"
+    },{
+      
+      "facility_name": "연신내역",
+      "address": "서울특별시 은평구 통일로 849",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-6110-3211",
+      "latitude":"37.6189675600",
+      "longitude":"126.9211781000"
+    },{
+      
+      "facility_name": "독바위역",
+      "address": "서울특별시 은평구 불광로 129-1",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-6311-6131",
+      "latitude":"37.6184090100",
+      "longitude":"126.9328282000"
+    },{
+      
+      "facility_name": "불광역",
+      "address": "서울특별시 은평구 통일로 723-1",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-6311-6131",
+      "latitude":"37.6103503300",
+      "longitude":"126.9328282"
+    },{
+      
+      "facility_name": "대조동주민센터",
+      "address": "서울특별시 은평구 연서로20길 24-3",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-351-5182",
+      "latitude":"37.6141487900",
+      "longitude":"126.9208026000"
+    },{
+      
+      "facility_name": "개포1동주민센터",
+      "address": "서울특별시 강남구 개포로 303",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-3423-7664",
+      "latitude":"37.48328034",
+      "longitude":"127.0543931"
+    },{
+      
+      "facility_name": "역삼1동주민센터",
+      "address": "서울특별시 강남구 역삼로7길 16",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-3423-8644",
+      "latitude":"37.495369",
+      "longitude":"127.0332825"
+    },{
+      
+      "facility_name": "세곡동주민센터",
+      "address": "서울특별시 강남구 밤고개로 286",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"",
+      "latitude":"",
+      "longitude":""
+    },{
+      "facility_name": "역삼2동주민센터",
+      "address": "서울특별시 강남구 도곡로43길 25",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-3423-7394",
+      "latitude":"37.495974",
+      "longitude":"127.046801"
+    },{
+      
+      "facility_name": "강남장애인복지관",
+      "address": "서울특별시 강남구 개포로 605",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-445-8006",
+      "latitude":"37.491954",
+      "longitude":"127.0734687"
+    },{
+      
+      "facility_name": "충현복지관",
+      "address": "서울특별시 강남구 논현로98길 16",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2192-0600",
+      "latitude":"37.503611",
+      "longitude":"127.036971"
+    },{
+      
+      "facility_name": "수서동주민센터",
+      "address": "서울특별시 강남구 광평로 301-4",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-3423-8598",
+      "latitude":"37.48890229",
+      "longitude":"127.104955"
+    },{
+      
+      "facility_name": "노유자시설",
+      "address": "서울특별시 도봉구 시루봉로17길 42",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-3491-0500",
+      "latitude":"37.66931252",
+      "longitude":"127.0326388"
+    },{
+      
+      "facility_name": "행정청사",
+      "address": "서울특별시 도봉구 노해로 147",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-2091-5513",
+      "latitude":"37.64803784",
+      "longitude":"127.0260513"
+    },{
+      
+      "facility_name": "의료시설",
+      "address": "서울특별시 도봉구 우이천로 308",
+      "weekday_open_time": "10:00",
+      "weekday_close_time": "18:00",
+      "saturday_open_time": "10:00",
+      "saturday_close_time": "18:00",
+      "holiday_open_time": "08:00",
+      "holiday_close_time": "21:00",
+      "number":"02-901-3114",
+      "latitude":"37.64668485",
+      "longitude":"127.0290583"
+    },
+    
 ]
