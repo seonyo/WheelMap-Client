@@ -5,12 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/all.css">
     <link rel="stylesheet" href="CSS/searchmenu.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>검색 애플리케이션</title>
 </head>
 <body>
-    <input type="text" id="searchInput" placeholder="장소를 입력하세요">
-    <button id="searchButton">검색</button>
-    <div id="searchResults"></div>
+    <div id="box">
+        <div class="nav container">
+            <div class="flex">
+                <div class="nav-toggle" id="nav_toggle" onclick="toggleMenu(); toggleMenuIcon(this);">
+                    <i class='bx bx-menu' style="font-size: 1.5rem;"></i>
+                </div>
+
+                <form id="search-form">
+                    <input type="text" id="searchInput" placeholder="장소를 입력하세요" onfocus="this.placeholder=''"
+                        onblur="this.placeholder='장소를 입력하세요'">
+                    <button type="submit" id="searchButton"><i class='bx bx-search' style="font-size: 1.5rem;"
+                            onclick='search()'></i></button>
+                </form>
+
+            </div>
+        </div>
+
+        <div id="searchResults"></div>
+        <div style="padding-top: 15px;"></div>
+        <div class="item-container" onclick="toggleBackgroundColorAndHiddenBox(this);">
+            <div class="star-rating">
+                <i class="fas fa-star" id="star-icon" onclick="toggleStarColor(this)"></i>
+                <span id="place1" class="place"></span>
+                <div class="walk" onclick="window.location.href='walk.html'">안내하기</div>
+            </div>
+            <div class="hidden-box">
+                <span class="place-text">
+                    <p> <span style="color: #222227; font-weight: 700; font-size: 18px;">상세주소</span> <br>
+
+                        <span id="address" style="color: #5B5B5B; font-size: 16;">서울 특별시 영등포구 도림동</span>
+                        <hr>
+                        평일 운행시간 <span id="weekday-state"
+                            style="margin-left : 17%; color:#F2BD00; font-weight: 700;">운영중</span>
+                        <span id="weekday-time"
+                            style="float: right;color : #6F6F6F; position:absolute; right: 20px;">9:00 ~
+                            18:00</span><br><br>
+                        주말 운행시간 <span id="weekend-state"
+                            style="margin-left : 14.8%; color:#F2BD00; font-weight: 700;">운영종료</span>
+                        <span id="weekend-time"
+                            style="float: right;color : #6F6F6F; position:absolute; right: 20px;">9:00 ~
+                            18:00</span><br><br>
+                        공휴일 운행시간 <span id="holiday-state"
+                            style="margin-left : 13.3%; color:#F2BD00; font-weight: 700;">운영중</span>
+                        <span id="holiday-time"
+                            style="float: right;color : #6F6F6F; position:absolute; right: 20px;">9:00 ~
+                            18:00</span><br><br>
+                        <hr>
+                        전화걸기 <span id="pnumber" style="margin-left:133px; font-weight:600;">02-2670-1454</span>
+                    </p>
+                </span>
+            </div>
+        </div>
 
     <script>
         document.getElementById('searchButton').addEventListener('click', function() {
@@ -85,7 +136,133 @@
                 </div>
             `;
             return resultElement;
+
+            // function toggleBackgroundColorAndHiddenBox(element) {
+            //     // const itemContainer = element;
+            //     // const hiddenBox = itemContainer.querySelector('.hidden-box');
+            //     // if (hiddenBox.style.display === 'none' || hiddenBox.style.display === '') {
+            //     //     // hidden-box가 숨겨져 있을 때 처리
+            //     //     itemContainer.style.backgroundColor = '#FFE999';
+            //     //     hiddenBox.style.display = 'block';
+            //     //     // 아래 아이템 컨테이너에 193px 여백 주기
+            //     //     const nextItemContainer = itemContainer.nextElementSibling;
+            //     //     if (nextItemContainer && nextItemContainer.classList.contains('item-container')) {
+
+            //     //         nextItemContainer.style.marginTop = '280px';
+            //     //     }
+            //     // } else {
+            //     //     // hidden-box가 보이고 있을 때 처리
+            //     //     itemContainer.style.backgroundColor = ''; // 배경색 초기화
+            //     //     hiddenBox.style.display = 'none'; // hidden-box 숨기기
+            //     //     // 아래 아이템 컨테이너의 여백 초기화
+            //     //     const nextItemContainer = itemContainer.nextElementSibling;
+            //     //     if (nextItemContainer && nextItemContainer.classList.contains('item-container')) {
+            //     //         nextItemContainer.style.marginTop = '0';
+            //     //     }
+            //     // }
+                
+            //     const itemContainer = element;
+            //     const hiddenBox = itemContainer.querySelector('.hidden-box');
+            //     if (hiddenBox.style.display === 'none' || hiddenBox.style.display === '') {
+            //         // hidden-box가 숨겨져 있을 때 처리
+            //         itemContainer.style.backgroundColor = '#FFE999';
+            //         hiddenBox.style.display = 'block';
+            //         // 아래 아이템 컨테이너에 193px 여백 주기
+            //         const nextItemContainer = itemContainer.nextElementSibling;
+            //         if (nextItemContainer && nextItemContainer.classList.contains('item-container')) {
+            //             nextItemContainer.style.marginTop = '280px';
+            //         }
+            //     } else {
+            //         // hidden-box가 보이고 있을 때 처리
+            //         itemContainer.style.backgroundColor = ''; // 배경색 초기화
+            //         hiddenBox.style.display = 'none'; // hidden-box 숨기기
+            //         // 아래 아이템 컨테이너의 여백 초기화
+            //         const nextItemContainer = itemContainer.nextElementSibling;
+            //         if (nextItemContainer && nextItemContainer.classList.contains('item-container')) {
+            //             nextItemContainer.style.marginTop = '0';
+            //         }
+            //     }
+
+            // }
+
+            function toggleBackgroundColorAndHiddenBox(element) {
+            const itemContainer = element;
+            const hiddenBox = itemContainer.querySelector('.hidden-box');
+            if (hiddenBox.style.display === 'none' || hiddenBox.style.display === '') {
+                // hidden-box가 숨겨져 있을 때 처리
+                itemContainer.style.backgroundColor = '#FFE999';
+                hiddenBox.style.display = 'block';
+                // 아래 아이템 컨테이너에 193px 여백 주기
+                const nextItemContainer = itemContainer.nextElementSibling;
+                if (nextItemContainer && nextItemContainer.classList.contains('item-container')) {
+                    nextItemContainer.style.marginTop = '280px';
+                }
+            } else {
+                // hidden-box가 보이고 있을 때 처리
+                itemContainer.style.backgroundColor = ''; // 배경색 초기화
+                hiddenBox.style.display = 'none'; // hidden-box 숨기기
+                // 아래 아이템 컨테이너의 여백 초기화
+                const nextItemContainer = itemContainer.nextElementSibling;
+                if (nextItemContainer && nextItemContainer.classList.contains('item-container')) {
+                    nextItemContainer.style.marginTop = '0';
+                }
+            }
         }
+            
+            let menuOpen = false;
+            function toggleMenu() {
+                const menubox1 = document.getElementById('menubox1');
+                const menubox2 = document.getElementById('menubox2');
+
+                if (menuOpen) {
+
+                    menubox1.style.left = '-100%';
+
+                    menubox2.style.right = '-100%';
+                    menuOpen = false;
+                } else {
+                    menubox1.style.left = '0';
+                    menubox2.style.right = '0';
+                    menuOpen = true;
+                }
+            }
+            function toggleMenuIcon(element) {
+                const navToggle = element;
+                const icon = navToggle.querySelector('i');
+                if (menuOpen) icon.classList.add('bx-x');
+                else icon.classList.remove('bx-x');
+            }
+
+        }
+
+        document.getElementById('searchButton').addEventListener('click', function(event) {
+            event.preventDefault(); // 기본 이벤트 동작 방지
+            performSearch();
+        });
+
+        async function performSearch() {
+            var searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            var jsonData = await fetch('ex.json').then(response => response.json());
+
+            var results = jsonData.filter(function(result) {
+                return result.facility_name.toLowerCase().includes(searchTerm);
+            });
+
+            var resultContainer = document.getElementById('searchResults');
+            resultContainer.innerHTML = '';
+
+            if (results.length > 0) {
+                for (var i = 0; i < results.length; i++) {
+                    var result = results[i];
+                    var resultElement = createResultElement(result);
+                    resultContainer.appendChild(resultElement);
+                }
+            } else {
+                resultContainer.textContent = '검색 결과가 없습니다.';
+            }
+        }
+
+
     </script>
 </body>
 </html>
