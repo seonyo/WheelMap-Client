@@ -1,0 +1,107 @@
+html,
+body{
+    display: flex;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+.join-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.joinText{
+    font-size: 1.4rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 0;
+}
+hr{
+    width: 100%;
+    margin-top: 1%;
+    background-color: #ffd53f;
+    height: 3px;
+    border: 0;
+}
+#profile{
+    width: 30%;
+    height: 30%;
+    margin-top: 10%;
+    border-radius: 100%;
+}
+.input-container{
+    width: 93.6vw;
+    height: 50vh;
+    margin-left: 3.8%;
+}
+.T{
+    margin-bottom: 2%;
+    font-size: 1.2rem;
+    color: #222227;
+}
+.name-container,
+.email-container {
+    margin: 0;
+    width: 90.5%;
+    height: 20%;
+}
+.phone {
+    margin: 0;
+    width: 100%;
+    height: 20%;
+}
+.phone-container{
+    display: flex;
+    margin: 0;
+    width: 96%;
+    column-gap: 3%;
+}
+#name,
+#email,
+#num{
+    width: 100%;
+    height: 55px;
+    font-size: 1.1rem;
+    padding-left: 5%;
+    border-radius: 8px;
+    border: 1px solid #b2b2b2;
+}
+#phoneNum{
+    width: 70%;
+    height: 55px;
+    border-radius: 8px;
+    border: 1px solid #b2b2b2;
+    font-size: 1.1rem;
+    padding-left: 5%;
+}
+#numOk{
+    width: 38%;
+    height: 59px;
+    border-radius: 8px;
+    border: 0;
+    font-weight: 500;
+}
+#num{
+    width: 90%;
+    height: 55px;
+    font-size: 1.1rem;
+    padding-left: 5%;
+    border-color: #b2b2b2;
+    border-radius: 8px;
+    margin-top: 5%;
+}
+.joinBtn{
+    width: 96%;
+    height: 70px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #ffd53f;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 10%;
+}

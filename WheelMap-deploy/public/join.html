@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/all.css">
+    <link rel="stylesheet" href="./CSS/join.css">
+</head>
+<body>
+    <div class="join-container">
+        <div class="text">
+            <p class="joinText">회원가입</p>
+            <hr>
+        </div>
+        <img src="" alt="" srcset="" id="profile">
+        <div class="input-container">
+            <div class="name-container">
+                <p class="T">이름</p>
+                <input type="text" id="name"/>
+            </div>
+            <div class="email-container">
+                <p class="T">이메일</p>
+                <input type="text" id="email"/>
+            </div>
+            
+            <!-- <div class="phone">
+                <p class="T">휴대폰 번호</p>
+                <div class="phone-container">
+                    <input type="text" id="phoneNum" placeholder="000-0000-0000" onfocus="this.placeholder=''" onblur="this.placeholder='000-0000-0000'"/>
+                    <button type="text" id="numOk">인증번호 받기</button>
+                </div>
+            </div>
+            <input type="text" id="num" placeholder="인증번호 입력" onfocus="this.placeholder=''" onblur="this.placeholder='인증번호 입력'"/>
+        </div> -->
+        <button class="joinBtn" onclick="moveMainPage()">회원가입 하기</button>
+
+        
+    </div> 
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <script>         
+        const kakaoTokenApiUrl = "https://kauth.kakao.com/oauth/token";
+        const kakaoUserApiUrl = "https://kapi.kakao.com/v2/user/me";
+        const REST_API_KEY = "0fd52107db31ebeea09da3c053348a13";
+        const redirectUrl = "https://stac-wheel-map.web.app/join.html";
+        const urlParams = new URL(location.href).searchParams;
+        const code = urlParams.get('code');
+        console.log(code)
+        const token = getKakaoToken(code);
+        console.log(token);
+        getKakaoUserInfo(token);
+
+        function moveMainPage() {
+            location.href = `index.html`;
+        }
+
+        function getKakaoToken(code) {
+            let token = "";
+            let data = {
+                "grant_type": "authorization_code",
+                "client_id": REST_API_KEY,
+                "redirect_uri": redirectUrl,
+                "code": code,
+            };
+
+            $.ajax(kakaoTokenApiUrl, {
+                data: data,
+                dataType: "json",
+                method: "POST",
+                async: false,
+                success: function (resultData) {
+                token = resultData.access_token;
+                console.log(token);
+                }
+            }); 
+            return token;
+        }
+
+        function getKakaoUserInfo(token) {
+            $.ajax(kakaoUserApiUrl, {
+                headers: {
+                'Authorization': `Bearer ${token}`,
+                },
+                contentType: "application/x-www-form-urlencoded;charset=utf-8",
+                dataType: "json",
+                data: JSON.stringify({}),
+                method: "POST",
+                async: false,
+                success: function (resultData) {
+                    console.log(resultData.id);
+                    // resultData.id로 가입한 유저인지 판별 후 가입한 유저면 index 아니면 냅두기
+                    // a.jax에서 세연이가 만든 api 호출하기 (함수로 따로 빼서 호출)
+                console.log(resultData);
+                console.log();
+                
+                // profileImg1 = 'https://k.kakaocdn.net/dn/dpk9l1/btqmGhA2lKL/Oz0wDuJn1YV2DIn92f6DVK/img_640x640.jpg';
+                // console.log("이미지 주소 : " + profileImg1);
+                // // console.log(newProfileImageUrl);
+                // const newProfileImageUrl = resultData.properties.profile_image.replace("http://", "https://");
+                $("#profile").attr("src", resultData.properties.profile_image);
+                $("#name").val(resultData.properties.nickname);
+                $("#email").val(resultData.kakao_account.email);
+                getKakaoApi(token, resultData.id);
+            }});
+        }
+
+        function getKakaoApi(token, kakaoId) {
+            $.ajax("/login", {
+                headers: {
+                'Authorization': `Bearer ${token}`,
+                },
+                contentType: "application/x-www-form-urlencoded;charset=utf-8",
+                dataType: "json",
+                data: kakaoId,
+                method: "POST",
+                async: false,
+                success: function (response) {
+                    if (response.status === 200) {
+                        window.location.href = "index.html";
+                    } else {
+                        window.location.href = "join.html";
+                    }
+                }
+                ,err: function () {
+                    window.location.href = "join.html";
+            }});
+        }
+       
+        const profileImg = document.getElementById("profile");
+        const userName = document.getElementById("name");
+    </script>   
+</body>
+</html>

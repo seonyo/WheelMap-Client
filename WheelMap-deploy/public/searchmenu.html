@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="CSS/searchmenu.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="CSS/all.css">
+</head>
+
+<body>
+    <div id="box">
+        <div class="nav container">
+            <div class="flex">
+                <div class="nav-toggle" id="nav_toggle" onclick="toggleMenu(); toggleMenuIcon(this);">
+                    <i class='bx bx-menu' style="font-size: 1.5rem;"></i>
+                </div>
+
+                <form id="search-form">
+                    <input type="text" id="searchInput" placeholder="장소를 입력하세요" onfocus="this.placeholder=''"
+                        onblur="this.placeholder='장소를 입력하세요'">
+                    <button type="submit"><i class='bx bx-search' style="font-size: 1.5rem;"
+                            onclick='search()'></i></button>
+                </form>
+
+            </div>
+        </div>
+
+        <div id="searchResults"></div>
+        <div style="padding-top: 15px;"></div>
+        <div class="item-container" onclick="toggleBackgroundColorAndHiddenBox(this);">
+            <div class="star-rating">
+                <i class="fas fa-star" id="star-icon" onclick="toggleStarColor(this)"></i>
+                <span id="place1" class="place"></span>
+                <div class="walk" onclick="window.location.href='walk.html'">안내하기</div>
+            </div>
+            <div class="hidden-box">
+                <span class="place-text">
+                    <p> <span style="color: #222227; font-weight: 700; font-size: 18px;">상세주소</span> <br>
+
+                        <span id="address" style="color: #5B5B5B; font-size: 16;">서울 특별시 영등포구 도림동</span>
+                        <hr>
+                        평일 운행시간 <span id="weekday-state"
+                            style="margin-left : 17%; color:#F2BD00; font-weight: 700;">운영중</span>
+                        <span id="weekday-time"
+                            style="float: right;color : #6F6F6F; position:absolute; right: 20px;">9:00 ~
+                            18:00</span><br><br>
+                        주말 운행시간 <span id="weekend-state"
+                            style="margin-left : 14.8%; color:#F2BD00; font-weight: 700;">운영종료</span>
+                        <span id="weekend-time"
+                            style="float: right;color : #6F6F6F; position:absolute; right: 20px;">9:00 ~
+                            18:00</span><br><br>
+                        공휴일 운행시간 <span id="holiday-state"
+                            style="margin-left : 13.3%; color:#F2BD00; font-weight: 700;">운영중</span>
+                        <span id="holiday-time"
+                            style="float: right;color : #6F6F6F; position:absolute; right: 20px;">9:00 ~
+                            18:00</span><br><br>
+                        <hr>
+                        전화걸기 <span id="pnumber" style="margin-left:133px; font-weight:600;">02-2670-1454</span>
+                    </p>
+
+                </span>
+            </div>
+        </div>
+        <div class="item-container" onclick="toggleBackgroundColorAndHiddenBox(this);">
+            <div class="star-rating">
+                <i class="fas fa-star" id="star-icon" onclick="toggleStarColor(this)"></i>
+                <span id="place2" class="place">대림2동주민센터</span>
+                <div class="walk" onclick="window.location.href='walk.html'">안내하기</div>
+            </div>
+            <div class="hidden-box">
+                <span class="place-text">
+                    <p> <span style="color: #222227; font-weight: 700; font-size: 18px;">상세주소</span> <br>
+                        <span id="address" style="color: #5B5B5B; font-size: 16;">서울 특별시 영등포구 도림동</span>
+                        <hr>
+                        평일 운행시간 <span id="weekday-state"
+                            style="margin-left : 17%; color:#F2BD00; font-weight: 700;">운영중</span>
+                        <span id="weekday-time"
+                            style="float: right;color : #6F6F6F; position:absolute; right: 20px;">9:00 ~
+                            18:00</span><br><br>
+                        주말 운행시간 <span id="weekend-state"
+                            style="margin-left : 14.8%; color:#F2BD00; font-weight: 700;">운영종료</span>
+                        <span id="weekend-time"
+                            style="float: right;color : #6F6F6F; position:absolute; right: 20px;">9:00 ~
+                            18:00</span><br><br>
+                        공휴일 운행시간 <span id="holiday-state"
+                            style="margin-left : 13.3%; color:#F2BD00; font-weight: 700;">운영중</span>
+                        <span id="holiday-time"
+                            style="float: right;color : #6F6F6F; position:absolute; right: 20px;">9:00 ~
+                            18:00</span><br><br>
+                        <hr>
+                        전화걸기 <span id="pnumber" style="margin-left:133px; font-weight:600;">02-2670-1454</span>
+                    </p>
+                </span>
+            </div>
+        </div>
+        <div class="item-container" onclick="toggleBackgroundColorAndHiddenBox(this);">
+            <div class="star-rating">
+                <i class="fas fa-star" id="star-icon" onclick="toggleStarColor(this)"></i>
+                <span id="place3" class="place">시립영등포장애인복지관</span>
+                <div class="walk" onclick="window.location.href='walk.html'">안내하기</div>
+            </div>
+            <div class="hidden-box">
+                <span class="place-text">
+                    <p> <span style="color: #222227; font-weight: 700; font-size: 18px;">상세주소</span> <br>
+                        <span id="address" style="color: #5B5B5B; font-size: 16;">서울 특별시 영등포구 도림동</span>
+                        <hr>
+                        평일 운행시간 <span id="weekday-state"
+                            style="margin-left : 17%; color:#F2BD00; font-weight: 700;">운영중</span>
+                        <span id="weekday-time"
+                            style="float: right;color : #6F6F6F; position:absolute; right: 20px;">9:00 ~
+                            18:00</span><br><br>
+                        주말 운행시간 <span id="weekend-state"
+                            style="margin-left : 14.8%; color:#F2BD00; font-weight: 700;">운영종료</span>
+                        <span id="weekend-time"
+                            style="float: right;color : #6F6F6F; position:absolute; right: 20px;">9:00 ~
+                            18:00</span><br><br>
+                        공휴일 운행시간 <span id="holiday-state"
+                            style="margin-left : 13.3%; color:#F2BD00; font-weight: 700;">운영중</span>
+                        <span id="holiday-time"
+                            style="float: right;color : #6F6F6F; position:absolute; right: 20px;">9:00 ~
+                            18:00</span><br><br>
+                        <hr>
+                        전화걸기 <span id="pnumber" style="margin-left:133px; font-weight:600;">02-2670-1454</span>
+                    </p>
+                </span>
+            </div>
+        </div>
+        <div class="item-container" onclick="toggleBackgroundColorAndHiddenBox(this);">
+            <div class="star-rating">
+                <i class="fas fa-star" id="star-icon" onclick="toggleStarColor(this)"></i>
+                <span id="place4" class="place">시립영등포장애인복지관</span>
+                <div class="walk" onclick="window.location.href='walk.html'">안내하기</div>
+            </div>
+            <div class="hidden-box">
+                <span class="place-text">
+                    <p> <span style="color: #222227; font-weight: 700; font-size: 18px;">상세주소</span> <br>
+                        <span id="address" style="color: #5B5B5B; font-size: 16;">서울 특별시 영등포구 도림동</span>
+                        <hr>
+                        평일 운행시간 <span id="weekday-state"
+                            style="margin-left : 17%; color:#F2BD00; font-weight: 700;">운영중</span>
+                        <span id="weekday-time"
+                            style="float: right;color : #6F6F6F; position:absolute; right: 20px;">9:00 ~
+                            18:00</span><br><br>
+                        주말 운행시간 <span id="weekend-state"
+                            style="margin-left : 14.8%; color:#F2BD00; font-weight: 700;">운영종료</span>
+                        <span id="weekend-time"
+                            style="float: right;color : #6F6F6F; position:absolute; right: 20px;">9:00 ~
+                            18:00</span><br><br>
+                        공휴일 운행시간 <span id="holiday-state"
+                            style="margin-left : 13.3%; color:#F2BD00; font-weight: 700;">운영중</span>
+                        <span id="holiday-time"
+                            style="float: right;color : #6F6F6F; position:absolute; right: 20px;">9:00 ~
+                            18:00</span><br><br>
+                        <hr>
+                        전화걸기 <span id="pnumber" style="margin-left:133px; font-weight:600;">02-2670-1454</span>
+                    </p>
+                </span>
+            </div>
+        </div>
+        <div class="item-container" onclick="toggleBackgroundColorAndHiddenBox(this);">
+            <div class="star-rating">
+                <i class="fas fa-star" id="star-icon" onclick="toggleStarColor(this)"></i>
+                <span id="place5" class="place">시립영등포장애인복지관</span>
+                <div class="walk" onclick="window.location.href='walk.html'">안내하기</div>
+            </div>
+            <div class="hidden-box">
+                <span class="place-text">
+                    <p> <span style="color: #222227; font-weight: 700; font-size: 18px;">상세주소</span> <br>
+                        <span id="address" style="color: #5B5B5B; font-size: 16;">서울 특별시 영등포구 도림동</span>
+                        <hr>
+                        평일 운행시간 <span id="weekday-state"
+                            style="margin-left : 17%; color:#F2BD00; font-weight: 700;">운영중</span>
+                        <span id="weekday-time"
+                            style="float: right;color : #6F6F6F; position:absolute; right: 20px;">9:00 ~
+                            18:00</span><br><br>
+                        주말 운행시간 <span id="weekend-state"
+                            style="margin-left : 14.8%; color:#F2BD00; font-weight: 700;">운영종료</span>
+                        <span id="weekend-time"
+                            style="float: right;color : #6F6F6F; position:absolute; right: 20px;">9:00 ~
+                            18:00</span><br><br>
+                        공휴일 운행시간 <span id="holiday-state"
+                            style="margin-left : 13.3%; color:#F2BD00; font-weight: 700;">운영중</span>
+                        <span id="holiday-time"
+                            style="float: right;color : #6F6F6F; position:absolute; right: 20px;">9:00 ~
+                            18:00</span><br><br>
+                        <hr>
+                        전화걸기 <span id="pnumber" style="margin-left:133px; font-weight:600;">02-2670-1454</span>
+                    </p>
+                </span>
+            </div>
+        </div>
+        <div id="menu">
+            <div id="menubox1">
+                <br><br><br><br>
+                <span id="user">김회원님 안녕하세요!</span>
+                <div class="clear"></div>
+                <div id="side-menu">
+                    <div class="side-menu">
+                        <b>찜한 충전소</b>
+                        <i class="fas fa-chevron-right"
+                            style="font-size: 1rem; position: absolute; right: 40px; margin-top: 10px; color:gray;"
+                            onclick="window.location.href='like.html'"></i>
+                    </div>
+                    <div class="side-menu">
+                        이용약관
+                        <i class="fas fa-chevron-right"
+                            style="font-size: 1rem; position: absolute; right: 40px; margin-top: 10px; color:gray;"
+                            onclick="window.location.href='test.html'"></i>
+                    </div>
+                    <div class="side-menu">
+                        버전
+                        <i class="fas fa-chevron-right"
+                            style="font-size: 1rem; position: absolute; right: 40px; margin-top: 10px; color:gray;"
+                            onclick="window.location.href='test.html'"></i>
+                    </div>
+                    <div class="side-menu">
+                        문의하기
+                        <i class="fas fa-chevron-right"
+                            style="font-size: 1rem; position: absolute; right: 40px; margin-top: 10px; color:gray;"
+                            onclick="window.location.href='test.html'"></i>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <a href="./index.html">홈으로 가기</a>
+            </div>
+            <div id="menubox2"></div>
+        </div>
+        <script>
+            document.getElementById("place1").innerHTML = localStorage.getItem("facility_name1");
+            document.getElementById("place2").innerHTML = localStorage.getItem("facility_name2");
+            document.getElementById("place3").innerHTML = localStorage.getItem("facility_name3");
+            document.getElementById("place4").innerHTML = localStorage.getItem("facility_name4");
+            document.getElementById("place5").innerHTML = localStorage.getItem("facility_name5");
+            // 검색 기능을 호출하는 함수
+            function search() {
+                // 검색어 가져오기
+                const searchTerm = document.getElementById('searchInput').value;
+                console.log(searchTerm);
+                // 서버에 POST 요청 보내기
+                fetch('http://ec2-52-79-64-36.ap-northeast-2.compute.amazonaws.com/search', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ searchTerm }),
+                })
+                    .then((response) => response.json())
+                    .then((data) => {
+                        // 검색 결과 처리
+                        console.log(data);
+                        displaySearchResults(data);
+                    })
+                    .catch((error) => {
+                        console.error('오류 발생:', error);
+                    });
+            }
+            // 검색 결과를 표시하는 함수
+            function displaySearchResults(results) {
+                const searchResults = document.getElementById('searchResults');
+                searchResults.innerHTML = ''; // 이전 결과 지우기
+                if (results.length === 0) {
+                    searchResults.innerHTML = '<p>검색 결과가 없습니다.</p>';
+                } else {
+                    results.forEach((result) => {
+                        // 검색 결과를 생성하고 표시
+                        const resultElement = document.createElement('div');
+                        resultElement.classList.add('item-container');
+                        resultElement.onclick = function () {
+                            toggleBackgroundColorAndHiddenBox(this);
+                        };
+                        // 필요한 정보를 추가로 표시
+                        const storeId = result.id; // 상점 ID 추가
+                        //     resultElement.innerHTML = `
+                        //     <div class="item-container" onclick="toggleBackgroundColorAndHiddenBox(this);">
+                        //     <div class="star-rating">
+                        //         <i class="fas fa-star" id="star-icon-${storeId}" onclick="clickLike( '$[user_id]','${storeId}', this)"></i>
+                        //       <span class="place">${result.facility_name}</span>
+                        //       <div class="walk" onclick="window.location.href='walk.html'">안내하기</div>
+                        //     </div>
+                        //     <div class="hidden-box">
+                        //       <span class="place-text">
+                        //         <br>
+                        //         <b>상세주소</b><br>
+                        //         ${result.road_address}<br><hr>
+                        //         평일 운행시간 / ${result.weekday_open_time} - ${result.weekday_close_time}<br>
+                        //         주말 운행시간 / ${result.saturday_open_time} - ${result.saturday_close_time}<br>
+                        //         공휴일 운행시간 / ${result.holiday_open_time} - ${result.holiday_close_time}<br><hr>
+                        //         전화걸기 <b>${result.managing_organization}</b>
+                        //       </span>
+                        //     </div>
+                        //     </div>
+                        //   `;
+                        searchResults.appendChild(resultElement);
+                    });
+                }
+            }
+            function clickLike(user_id, store_id, starIcon) {
+                // API를 호출하여 찜 추가
+                const apiEndpoint = 'http://ec2-52-79-64-36.ap-northeast-2.compute.amazonaws.com/like';
+                const requestData = {
+                    'user_id': 1,
+                    'store_id': store_id,
+                };
+                fetch(apiEndpoint, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(requestData),
+                })
+                    .then((response) => {
+                        if (response.status === 201) { // 찜 추가가 성공하면
+                            starIcon.style.color = '#FFC700'; // 별 아이콘 색깔 변경
+                        } else {
+                            console.error('오류 발생:', response.status);
+                        }
+                    })
+                    .catch((error) => {
+                        console.error('오류 발생:', error);
+                    });
+            }
+            let starColor = '#EAEAEA';
+            let backgroundColor = false;
+            function toggleStarColor(element) {
+                const starIcon = element;
+                if (starColor === '#EAEAEA') starColor = '#FFC700';
+                else starColor = '#EAEAEA';
+                starIcon.style.color = starColor;
+            }
+            function toggleBackgroundColorAndHiddenBox(element) {
+                const itemContainer = element;
+                const hiddenBox = itemContainer.querySelector('.hidden-box');
+                if (hiddenBox.style.display === 'none' || hiddenBox.style.display === '') {
+                    // hidden-box가 숨겨져 있을 때 처리
+                    itemContainer.style.backgroundColor = '#FFE999';
+                    hiddenBox.style.display = 'block';
+                    // 아래 아이템 컨테이너에 193px 여백 주기
+                    const nextItemContainer = itemContainer.nextElementSibling;
+                    if (nextItemContainer && nextItemContainer.classList.contains('item-container')) {
+
+                        nextItemContainer.style.marginTop = '280px';
+                    }
+                } else {
+                    // hidden-box가 보이고 있을 때 처리
+                    itemContainer.style.backgroundColor = ''; // 배경색 초기화
+                    hiddenBox.style.display = 'none'; // hidden-box 숨기기
+                    // 아래 아이템 컨테이너의 여백 초기화
+                    const nextItemContainer = itemContainer.nextElementSibling;
+                    if (nextItemContainer && nextItemContainer.classList.contains('item-container')) {
+                        nextItemContainer.style.marginTop = '0';
+                    }
+                }
+            }
+            let menuOpen = false;
+            function toggleMenu() {
+                const menubox1 = document.getElementById('menubox1');
+                const menubox2 = document.getElementById('menubox2');
+
+                if (menuOpen) {
+
+                    menubox1.style.left = '-100%';
+
+                    menubox2.style.right = '-100%';
+                    menuOpen = false;
+                } else {
+                    menubox1.style.left = '0';
+                    menubox2.style.right = '0';
+                    menuOpen = true;
+                }
+            }
+            function toggleMenuIcon(element) {
+                const navToggle = element;
+                const icon = navToggle.querySelector('i');
+                if (menuOpen) icon.classList.add('bx-x');
+                else icon.classList.remove('bx-x');
+            }
+        </script>
+</body>
+
+</html>
