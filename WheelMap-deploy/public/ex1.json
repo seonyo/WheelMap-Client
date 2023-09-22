@@ -1,0 +1,42 @@
+[
+    {
+        "facility_name": "서울숲공원 커뮤니티센터",
+        "address": "서울특별시 성동구 뚝섬로 273",
+        "weekday_open_time": "10:00",
+        "weekday_close_time": "18:00",
+        "saturday_open_time": "10:00",
+        "saturday_close_time": "18:00",
+        "holiday_open_time": "08:00",
+        "holiday_close_time": "21:00",
+        "number": "02-2286-5430",
+        "latitude": "37.5430702368",
+        "longitude": "127.0417993255"
+    },
+    {
+        "facility_name": "서대문구청",
+        "address": "서울특별시 서대문구 연희로 248",
+        "weekday_open_time": "10:00",
+        "weekday_close_time": "18:00",
+        "saturday_open_time": "10:00",
+        "saturday_close_time": "18:00",
+        "holiday_open_time": "08:00",
+        "holiday_close_time": "21:00",
+        "number": "02-330-1266",
+        "latitude": "37.57915463",
+        "longitude": "126.9367592"
+    },
+    {
+        "facility_name": "서대문보건소",
+        "address": "서울특별시 서대문구 연희로 242",
+        "weekday_open_time": "10:00",
+        "weekday_close_time": "18:00",
+        "saturday_open_time": "10:00",
+        "saturday_close_time": "18:00",
+        "holiday_open_time": "08:00",
+        "holiday_close_time": "21:00",
+        "number": "02-330-1266",
+        "latitude": "37.5786098",
+        "longitude": "126.9362749
+        "
+    }
+]
