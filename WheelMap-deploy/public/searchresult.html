@@ -32,126 +32,70 @@
 </div>
 
 <script>
-        
     // 검색 기능을 호출하는 함수
     function search() {
         // 검색어 가져오기
-        const searchTerm = document.getElementById('searchInput').value;
+        const searchTerm = document.getElementById('searchInput').value.toLowerCase();
 
-        // 서버에 POST 요청 보내기
-        fetch('http://ec2-52-79-64-36.ap-northeast-2.compute.amazonaws.com/search', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({ searchTerm }),
-        })
-            .then((response) => response.json())
-            .then((data) => {
-                // 검색 결과 처리
-                displaySearchResults(data);
+        // ex.json 파일에서 데이터 가져오기
+        fetch('ex.json')
+            .then(response => response.json())
+            .then(data => {
+                // 검색 결과 필터링
+                const results = data.filter(result => result.facility_name.toLowerCase().includes(searchTerm));
+                // 검색 결과를 표시
+                displaySearchResults(results);
             })
-            .catch((error) => {
+            .catch(error => {
                 console.error('오류 발생:', error);
             });
     }
 
     // 검색 결과를 표시하는 함수
     function displaySearchResults(results) {
-  const searchResults = document.getElementById('searchResults');
-  searchResults.innerHTML = ''; // 이전 결과 지우기
+        const searchResults = document.getElementById('searchResults');
+        searchResults.innerHTML = ''; // 이전 결과 지우기
 
-  if (results.length === 0) {
-    searchResults.innerHTML = '<p>검색 결과가 없습니다.</p>';
-  } else {
-    results.forEach((result) => {
-      // 검색 결과를 생성하고 표시
-      const resultElement = document.createElement('div');
-      resultElement.classList.add('item-container');
-      resultElement.onclick = function() {
-        toggleBackgroundColorAndHiddenBox(this);
-      };
-
-      // 필요한 정보를 추가로 표시
-      const storeId = result.id; // 상점 ID 추가
-
-      resultElement.innerHTML = `
-        <div class="star-rating">
-            <i class="fas fa-star" id="star-icon-${storeId}" onclick="clickLike( '$[user_id]','${storeId}', this)"></i>
-          <span class="place">${result.facility_name}</span>
-          <div class="walk" onclick="window.location.href='walk.html'">안내하기</div>
-        </div>
-        <div class="hidden-box">
-          <span class="place-text">
-            <br>
-            <b>상세주소</b><br>
-            ${result.road_address}<br><hr>
-            평일 운행시간 / ${result.weekday_open_time} - ${result.weekday_close_time}<br>
-            주말 운행시간 / ${result.saturday_open_time} - ${result.saturday_close_time}<br>
-            공휴일 운행시간 / ${result.holiday_open_time} - ${result.holiday_close_time}<br><hr>
-            전화걸기 <b>${result.managing_organization}</b>
-          </span>
-        </div>
-      `;
-
-      searchResults.appendChild(resultElement);
-    });
-  }
-}
-function clickUnlike(user_id, store_id, starIcon) {
-    // "좋아요"를 제거하는 API
-    const apiEndpoint = 'http://ec2-52-79-64-36.ap-northeast-2.compute.amazonaws.com/unlike';
-
-    const requestData = {
-        'user_id': 1,
-        'store_id': store_id,
-    };
-
-    fetch(apiEndpoint, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(requestData),
-    })
-    .then((response) => {
-        if (response.status === 200) { // "좋아요" 제거 성공 시
-            starIcon.style.color = ''; // 스타 아이콘 색상을 기본값으로 변경
+        if (results.length === 0) {
+            searchResults.innerHTML = '<p>검색 결과가 없습니다.</p>';
         } else {
-            console.error('오류 발생:', response.status);
-        }
-    })
-    .catch((error) => {
-        console.error('오류 발생:', error);
-    });
-}
-function clickLike(user_id, store_id, starIcon) {
-    // API를 호출하여 찜 추가
-    const apiEndpoint = 'http://ec2-52-79-64-36.ap-northeast-2.compute.amazonaws.com/like';
+            results.forEach(result => {
+                // 검색 결과를 생성하고 표시
+                const resultElement = document.createElement('div');
+                resultElement.classList.add('item-container');
+                resultElement.onclick = function() {
+                    toggleBackgroundColorAndHiddenBox(this);
+                };
 
-    const requestData = {
-        'user_id': 1,
-        'store_id': store_id,
-    };
+                // 필요한 정보를 추가로 표시
+                const storeId = result.id; // 상점 ID 추가
 
-    fetch(apiEndpoint, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(requestData),
-    })
-    .then((response) => {
-        if (response.status === 201) { // 찜 추가가 성공하면
-            starIcon.style.color = '#FFC700'; // 별 아이콘 색깔 변경
-        } else {
-            console.error('오류 발생:', response.status);
+                resultElement.innerHTML = `
+                    <div class="star-rating">
+                        <i class="fas fa-star" id="star-icon-${storeId}" onclick="clickLike('${storeId}', this)"></i>
+                        <span class="place">${result.facility_name}</span>
+                        <div class="walk" onclick="window.location.href='walk.html'">안내하기</div>
+                    </div>
+                    <div class="hidden-box">
+                        <span class="place-text">
+                            <br>
+                            <b>상세주소</b><br>
+                            ${result.road_address}<br><hr>
+                            평일 운행시간 / ${result.weekday_open_time} - ${result.weekday_close_time}<br>
+                            주말 운행시간 / ${result.saturday_open_time} - ${result.saturday_close_time}<br>
+                            공휴일 운행시간 / ${result.holiday_open_time} - ${result.holiday_close_time}<br><hr>
+                            전화걸기 <b>${result.managing_organization}</b>
+                        </span>
+                    </div>
+                `;
+
+                searchResults.appendChild(resultElement);
+            });
         }
-    })
-    .catch((error) => {
-        console.error('오류 발생:', error);
-    });
-}
+    }
+
+    
+
     let starColor = '#EAEAEA';
     let backgroundColor = false;
 
@@ -182,9 +126,24 @@ function clickLike(user_id, store_id, starIcon) {
             const yOffset = nextItemContainerRect.top - itemContainerRect.bottom;
             hiddenBox.style.top = `${yOffset}px`;
         }
-        
+
         if (hiddenBox.style.display === 'none') hiddenBox.style.display = 'block';
         else hiddenBox.style.display = 'none';
+    }
+    let menuOpen = false;
+    function toggleMenu() {
+        const menubox1 = document.getElementById('menubox1');
+        const menubox2 = document.getElementById('menubox2');
+
+        if (menuOpen) {
+            menubox1.style.left = '-100%';
+            menubox2.style.right = '-100%';
+            menuOpen = false;
+        } else {
+            menubox1.style.left = '0';
+            menubox2.style.right = '0';
+            menuOpen = true;
+        }
     }
 </script>
 </body>

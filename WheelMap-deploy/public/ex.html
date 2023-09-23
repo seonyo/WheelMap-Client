@@ -1,90 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="CSS/all.css">
     <link rel="stylesheet" href="CSS/searchmenu.css">
-    <title>검색 애플리케이션</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
 </head>
 <body>
-    <input type="text" id="searchInput" placeholder="장소를 입력하세요">
-    <button id="searchButton">검색</button>
+
+<div id="box">
+    <div class="nav container">
+        <div class="flex">
+            <div class="nav-toggle" id="nav_toggle">
+                <i class='bx bx-menu' style="font-size: 1.5rem;" onclick="window.location.href='menu.html'"></i>
+            </div>
+            <input type="text" placeholder="장소를 입력하세요" onfocus="this.placeholder=''" onblur="this.placeholder='장소를 입력하세요'" id="searchInput">
+            <button onclick="search()">검색</button>
+        </div>
+        <div>
+            <i class='bx bx-search' style="font-size: 1.5rem;"></i>
+        </div>
+    </div>
+
     <div id="searchResults"></div>
 
-    <script>
-        document.getElementById('searchButton').addEventListener('click', function() {
-            var searchTerm = document.getElementById('searchInput').value.toLowerCase();
-            var searchResults = performSearch(searchTerm);
+</div>
 
-            var resultContainer = document.getElementById('searchResults');
-            resultContainer.innerHTML = '';
+<script>
+    // 검색 기능을 호출하는 함수
+    function search() {
+        // 검색어 가져오기
+        const searchTerm = document.getElementById('searchInput').value.toLowerCase();
 
-            if (searchResults.length > 0) {
-                for (var i = 0; i < searchResults.length; i++) {
-                    var result = searchResults[i];
-                    var resultElement = createResultElement(result);ㅠ
-                    resultContainer.appendChild(resultElement);
-                }
-            } else {
-                resultContainer.textContent = '검색 결과가 없습니다.';
-            }
-        });
+        // ex.json 파일에서 데이터 가져오기
+        fetch('ex.json')
+            .then(response => response.json())
+            .then(data => {
+                // 검색 결과 필터링
+                const results = data.filter(result => result.facility_name.toLowerCase().includes(searchTerm));
+                // 검색 결과를 표시
+                displaySearchResults(results);
+            })
+            .catch(error => {
+                console.error('오류 발생:', error);
+            });
+    }
 
-        function performSearch(searchTerm) {
-            var jsonData = []; // JSON 데이터를 저장할 변수
+    // 검색 결과를 표시하는 함수
+    function displaySearchResults(results) {
+        const searchResults = document.getElementById('searchResults');
+        searchResults.innerHTML = ''; // 이전 결과 지우기
 
-            // JSON 파일을 가져오는 비동기 요청
-            var xhr = new XMLHttpRequest();
-            xhr.open('GET', 'ex1.json', false); // false는 동기 요청을 의미
-            xhr.onreadystatechange = function() {
-                if (xhr.readyState === 4 && xhr.status === 200) {
-                    jsonData = JSON.parse(xhr.responseText);
-                }
-            };
-            xhr.send();
+        if (results.length === 0) {
+            searchResults.innerHTML = '<p>검색 결과가 없습니다.</p>';
+        } else {
+            results.forEach(result => {
+                // 검색 결과를 생성하고 표시
+                const resultElement = document.createElement('div');
+                resultElement.classList.add('item-container');
+                resultElement.onclick = function() {
+                    toggleBackgroundColorAndHiddenBox(this);
+                };
 
-            var results = [];
+                // 필요한 정보를 추가로 표시
+                const storeId = result.id; // 상점 ID 추가
 
-            // 검색어와 관련된 결과를 찾아서 results 배열에 추가
-            for (var i = 0; i < jsonData.length; i++) {
-                var result = jsonData[i];
-                var facilityName = result.facility_name.toLowerCase();
-                if (facilityName.includes(searchTerm)) {
-                    results.push(result);
-                }
-            }
+                resultElement.innerHTML = `
+                    <div class="star-rating">
+                        <i class="fas fa-star" id="star-icon-${storeId}" onclick="clickLike('${storeId}', this)"></i>
+                        <span class="place">${result.facility_name}</span>
+                        <div class="walk" onclick="window.location.href='walk.html'">안내하기</div>
+                    </div>
+                    <div class="hidden-box">
+                        <span class="place-text">
+                            <br>
+                            <b>상세주소</b><br>
+                            ${result.road_address}<br><hr>
+                            평일 운행시간 / ${result.weekday_open_time} - ${result.weekday_close_time}<br>
+                            주말 운행시간 / ${result.saturday_open_time} - ${result.saturday_close_time}<br>
+                            공휴일 운행시간 / ${result.holiday_open_time} - ${result.holiday_close_time}<br><hr>
+                            전화걸기 <b>${result.managing_organization}</b>
+                        </span>
+                    </div>
+                `;
 
-            return results;
+                searchResults.appendChild(resultElement);
+            });
+        }
+    }
+
+    
+
+    let starColor = '#EAEAEA';
+    let backgroundColor = false;
+
+    function toggleStarColor(element) {
+        const starIcon = element;
+        if (starColor === '#EAEAEA') starColor = '#FFC700';
+        else starColor = '#EAEAEA';
+        starIcon.style.color = starColor;
+    }
+
+    function toggleBackgroundColorAndHiddenBox(element) {
+        const itemContainer = element;
+        const hiddenBox = itemContainer.querySelector('.hidden-box');
+
+        if (backgroundColor) {
+            itemContainer.style.backgroundColor = '#FFE999';
+            backgroundColor = false;
+        } else {
+            itemContainer.style.backgroundColor = '';
+            backgroundColor = true;
         }
 
-        function createResultElement(result) {
-            var resultElement = document.createElement('div');
-            resultElement.classList.add('item-container');
-
-            var storeId = result.id;
-
-            resultElement.innerHTML = `
-                <div class="star-rating">
-                    <i class="fas fa-star" id="star-icon-${storeId}"></i>
-                    <span class="place">${result.facility_name}</span>
-                    <div class="walk" onclick="window.location.href='walk.html'">안내하기</div>
-                </div>
-                <div class="hidden-box">
-                    <span class="place-text">
-                        <br>
-                        <b>상세주소</b><br>
-                        ${result.address}<br><hr>
-                        평일 운행시간 / ${result.weekday_open_time} - ${result.weekday_close_time}<br>
-                        주말 운행시간 / ${result.saturday_open_time} - ${result.saturday_close_time}<br>
-                        공휴일 운행시간 / ${result.holiday_open_time}
-                        ${result.holiday_close_time ? ' - ' + result.holiday_close_time : ''}<br><hr>
-                        전화걸기 <b>${result.managing_organization}</b>
-                    </span>
-                </div>
-            `;
-            return resultElement;
+        // 아래의 부분을 추가하여 hidden-box를 클릭한 item-container의 아래에 표시합니다.
+        const nextItemContainer = itemContainer.nextElementSibling;
+        if (nextItemContainer && nextItemContainer.classList.contains('item-container')) {
+            const itemContainerRect = itemContainer.getBoundingClientRect();
+            const nextItemContainerRect = nextItemContainer.getBoundingClientRect();
+            const yOffset = nextItemContainerRect.top - itemContainerRect.bottom;
+            hiddenBox.style.top = `${yOffset}px`;
         }
-    </script>
+
+        if (hiddenBox.style.display === 'none') hiddenBox.style.display = 'block';
+        else hiddenBox.style.display = 'none';
+    }
+    let menuOpen = false;
+    function toggleMenu() {
+        const menubox1 = document.getElementById('menubox1');
+        const menubox2 = document.getElementById('menubox2');
+
+        if (menuOpen) {
+            menubox1.style.left = '-100%';
+            menubox2.style.right = '-100%';
+            menuOpen = false;
+        } else {
+            menubox1.style.left = '0';
+            menubox2.style.right = '0';
+            menuOpen = true;
+        }
+    }
+</script>
 </body>
 </html>

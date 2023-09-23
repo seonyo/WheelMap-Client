@@ -53,19 +53,22 @@ input{
     transition: all 0.3s ease;
     display: flex;
     padding: 15px 0;
+    margin-bottom: 10px; 
     border: 2px solid #f2f2f2;
     z-index: 0;
 }
 
 .hidden-box {
     position: absolute;
+    width: auto;
     top: 100%;
-    left: 0;
     display: none;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
     z-index: 1;
     transition: top 0.3s ease;
+    height: auto; /* 텍스트에 맞게 높이 조정 */
 }
+
 .star-rating {
     margin-left: 15px;
     color: black;
@@ -99,16 +102,15 @@ input{
     right: 15px;
 }
 .hidden-box {
-    width: 90%;
     position: absolute;
+    width: auto; /* 텍스트 내용에 맞게 너비 조정 */
     top: 100%;
-    left: 0;
     display: none;
-    background-color: rgba( 255, 255, 255, 0 );    
+    background-color: rgba(255, 255, 255, 0);
     z-index: 1;
     transition: top 0.3s ease;
-    margin-left: 24px;
 }
+
 .hidden-box > hr{
     width: 30%;
     border: 0.5px;
