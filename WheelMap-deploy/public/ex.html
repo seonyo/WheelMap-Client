@@ -107,29 +107,30 @@
     }
 
     function toggleBackgroundColorAndHiddenBox(element) {
-        const itemContainer = element;
-        const hiddenBox = itemContainer.querySelector('.hidden-box');
+                const itemContainer = element;
+                const hiddenBox = itemContainer.querySelector('.hidden-box');
+                if (hiddenBox.style.display === 'none' || hiddenBox.style.display === '') {
+                    // hidden-box가 숨겨져 있을 때 처리
+                    itemContainer.style.backgroundColor = '#FFE999';
+                    hiddenBox.style.display = 'block';
+                    // 아래 아이템 컨테이너에 193px 여백 주기
+                    const nextItemContainer = itemContainer.nextElementSibling;
+                    if (nextItemContainer && nextItemContainer.classList.contains('item-container')) {
 
-        if (backgroundColor) {
-            itemContainer.style.backgroundColor = '#FFE999';
-            backgroundColor = false;
-        } else {
-            itemContainer.style.backgroundColor = '';
-            backgroundColor = true;
-        }
+                        nextItemContainer.style.marginTop = '193px';
+                    }
+                } else {
+                    // hidden-box가 보이고 있을 때 처리
+                    itemContainer.style.backgroundColor = ''; // 배경색 초기화
+                    hiddenBox.style.display = 'none'; // hidden-box 숨기기
+                    // 아래 아이템 컨테이너의 여백 초기화
+                    const nextItemContainer = itemContainer.nextElementSibling;
+                    if (nextItemContainer && nextItemContainer.classList.contains('item-container')) {
+                        nextItemContainer.style.marginTop = '0';
+                    }
+                }
+            }
 
-        // 아래의 부분을 추가하여 hidden-box를 클릭한 item-container의 아래에 표시합니다.
-        const nextItemContainer = itemContainer.nextElementSibling;
-        if (nextItemContainer && nextItemContainer.classList.contains('item-container')) {
-            const itemContainerRect = itemContainer.getBoundingClientRect();
-            const nextItemContainerRect = nextItemContainer.getBoundingClientRect();
-            const yOffset = nextItemContainerRect.top - itemContainerRect.bottom;
-            hiddenBox.style.top = `${yOffset}px`;
-        }
-
-        if (hiddenBox.style.display === 'none') hiddenBox.style.display = 'block';
-        else hiddenBox.style.display = 'none';
-    }
     let menuOpen = false;
     function toggleMenu() {
         const menubox1 = document.getElementById('menubox1');
