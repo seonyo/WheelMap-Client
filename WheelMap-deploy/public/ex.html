@@ -133,106 +133,102 @@
     let starColor = '#EAEAEA';
     let backgroundColor = false;
 
-    // function toggleStarColor(element) {
-    //     const starIcon = element;
-    //     if (starColor === '#EAEAEA') starColor = '#FFC700';
-    //     else starColor = '#EAEAEA';
-    //     starIcon.style.color = starColor;
-    // }
-
     function toggleStarColor(starIcon) {
-            // 현재 색상 가져오기
-            const currentColor = starIcon.style.color;
+        // 현재 색상 가져오기
+        const currentColor = starIcon.style.color;
 
-            // 현재 색상이 #EAEAEA인 경우, #FFC700로 변경
-            if (currentColor === 'rgb(234, 234, 234)' || currentColor === '#EAEAEA') {
-                starIcon.style.color = '#FFC700';
-            } else { // 현재 색상이 #FFC700인 경우, #EAEAEA로 변경
-                starIcon.style.color = '#EAEAEA';
-            }
+        // 현재 색상이 #EAEAEA인 경우, #FFC700로 변경
+        if (currentColor === 'rgb(234, 234, 234)' || currentColor === '#EAEAEA') {
+            starIcon.style.color = '#FFC700';
+        } else { // 현재 색상이 #FFC700인 경우, #EAEAEA로 변경
+            starIcon.style.color = '#EAEAEA';
         }
+    }
 
-        // 별 아이콘 클릭 시 토글 함수를 호출
-        const starIcon = document.getElementById('star-icon');
+    // 별 아이콘 클릭 시 토글 함수를 호출
+    const starIcon = document.getElementById('star-icon');
+    if (starIcon) {
         starIcon.addEventListener('click', function() {
             toggleStarColor(starIcon);
             // 찜하기 동작 수행
             // 여기서는 아무 동작 없이 색만 변경하는 예제입니다.
         });
+    }
 
     function toggleBackgroundColorAndHiddenBox(element) {
-                const itemContainer = element;
-                const hiddenBox = itemContainer.querySelector('.hidden-box');
-                if (hiddenBox.style.display === 'none' || hiddenBox.style.display === '') {
-                    // hidden-box가 숨겨져 있을 때 처리
-                    itemContainer.style.backgroundColor = '#FFE999';
-                    hiddenBox.style.display = 'block';
-                    // 아래 아이템 컨테이너에 193px 여백 주기
-                    const nextItemContainer = itemContainer.nextElementSibling;
-                    if (nextItemContainer && nextItemContainer.classList.contains('item-container')) {
-
-                        nextItemContainer.style.marginTop = '193px';
-                    }
-                } else {
-                    // hidden-box가 보이고 있을 때 처리
-                    itemContainer.style.backgroundColor = ''; // 배경색 초기화
-                    hiddenBox.style.display = 'none'; // hidden-box 숨기기
-                    // 아래 아이템 컨테이너의 여백 초기화
-                    const nextItemContainer = itemContainer.nextElementSibling;
-                    if (nextItemContainer && nextItemContainer.classList.contains('item-container')) {
-                        nextItemContainer.style.marginTop = '0';
-                    }
-                }
+        const itemContainer = element;
+        const hiddenBox = itemContainer.querySelector('.hidden-box');
+        if (hiddenBox.style.display === 'none' || hiddenBox.style.display === '') {
+            // hidden-box가 숨겨져 있을 때 처리
+            itemContainer.style.backgroundColor = '#FFE999';
+            hiddenBox.style.display = 'block';
+            // 아래 아이템 컨테이너에 193px 여백 주기
+            const nextItemContainer = itemContainer.nextElementSibling;
+            if (nextItemContainer && nextItemContainer.classList.contains('item-container')) {
+                nextItemContainer.style.marginTop = '193px';
             }
-
-    let menuOpen = false;
-    function toggleMenu() {
-        const menubox1 = document.getElementById('menubox1');
-        const menubox2 = document.getElementById('menubox2');
-
-        if (menuOpen) {
-            menubox1.style.left = '-100%';
-            menubox2.style.right = '-100%';
-            menuOpen = false;
         } else {
-            menubox1.style.left = '0';
-            menubox2.style.right = '0';
-            menuOpen = true;
+            // hidden-box가 보이고 있을 때 처리
+            itemContainer.style.backgroundColor = ''; // 배경색 초기화
+            hiddenBox.style.display = 'none'; // hidden-box 숨기기
+            // 아래 아이템 컨테이너의 여백 초기화
+            const nextItemContainer = itemContainer.nextElementSibling;
+            if (nextItemContainer && nextItemContainer.classList.contains('item-container')) {
+                nextItemContainer.style.marginTop = '0';
+            }
         }
     }
 
-    function toggleMenuIcon(element) {
-        const navToggle = element;
-        const icon = navToggle.querySelector('i');
-        if (menuOpen) icon.classList.add('bx-x');
-        else icon.classList.remove('bx-x');
+    function clickLike(user_id, store_id, starIcon) {
+        // API를 호출하여 찜 추가
+        const apiEndpoint = 'http://ec2-52-79-64-36.ap-northeast-2.compute.amazonaws.com/like';
+        const requestData = {
+            'user_id': 1,
+            'store_id': store_id,
+        };
+        fetch(apiEndpoint, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(requestData),
+        })
+        .then((response) => {
+            if (response.status === 201) { // 찜 추가가 성공하면
+                starIcon.style.color = '#FFC700'; // 별 아이콘 색깔 변경
+            } else {
+                console.error('오류 발생:', response.status);
+            }
+        })
+        .catch((error) => {
+            console.error('오류 발생:', error);
+        });
     }
 
-    function clickLike(user_id, store_id, starIcon) {
-                // API를 호출하여 찜 추가
-                const apiEndpoint = 'http://ec2-52-79-64-36.ap-northeast-2.compute.amazonaws.com/like';
-                const requestData = {
-                    'user_id': 1,
-                    'store_id': store_id,
-                };
-                fetch(apiEndpoint, {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify(requestData),
-                })
-                    .then((response) => {
-                        if (response.status === 201) { // 찜 추가가 성공하면
-                            starIcon.style.color = '#FFC700'; // 별 아이콘 색깔 변경
-                        } else {
-                            console.error('오류 발생:', response.status);
-                        }
-                    })
-                    .catch((error) => {
-                        console.error('오류 발생:', error);
-                    });
+    let menuOpen = false;
+            function toggleMenu() {
+                const menubox1 = document.getElementById('menubox1');
+                const menubox2 = document.getElementById('menubox2');
+
+                if (menuOpen) {
+
+                    menubox1.style.left = '-100%';
+
+                    menubox2.style.right = '-100%';
+                    menuOpen = false;
+                } else {
+                    menubox1.style.left = '0';
+                    menubox2.style.right = '0';
+                    menuOpen = true;
+                }
             }
+            function toggleMenuIcon(element) {
+                const navToggle = element;
+                const icon = navToggle.querySelector('i');
+                if (menuOpen) icon.classList.add('bx-x');
+                else icon.classList.remove('bx-x');
+            }
+
 </script>
 </body>
 </html>
