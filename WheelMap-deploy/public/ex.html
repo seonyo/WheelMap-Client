@@ -20,14 +20,175 @@
                 <i class='bx bx-menu' style="font-size: 1.5rem;"></i>
             </div>
             <input type="text" placeholder="장소를 입력하세요" onfocus="this.placeholder=''" onblur="this.placeholder='장소를 입력하세요'" id="searchInput">
-            <button onclick="search()">검색</button>
-        </div>
-        <div>
-            <i class='bx bx-search' style="font-size: 1.5rem;"></i>
+            <!-- Replaced the "검색" button text with a search icon -->
+            <i class='bx bx-search' style="font-size: 1.5rem; cursor: pointer;" onclick="search()"></i>
         </div>
     </div>
 
     <div id="searchResults"></div>
+    <div style="padding-top: 15px;"></div>
+    <div class="item-container" onclick="toggleBackgroundColorAndHiddenBox(this);">
+        <div class="star-rating">
+            <i class="fas fa-star" id="star-icon" onclick="toggleStarColor(this)"></i>
+            <span id="place1" class="place"></span>
+            <div class="walk" onclick="window.location.href='walk.html'">안내하기</div>
+        </div>
+        <div class="hidden-box">
+            <span class="place-text">
+                <p> <span style="color: #222227; font-weight: 700; font-size: 18px;">상세주소</span> <br>
+
+                    <span id="address" style="color: #5B5B5B; font-size: 16;">서울 특별시 영등포구 도림동</span>
+                    <hr>
+                    평일 운행시간 <span id="weekday-state"
+                        style="margin-left : 17%; color:#F2BD00; font-weight: 700;">운영중</span>
+                    <span id="weekday-time"
+                        style="float: right;color : #6F6F6F; position:absolute; right: 20px;">9:00 ~
+                        18:00</span><br><br>
+                    주말 운행시간 <span id="weekend-state"
+                        style="margin-left : 14.8%; color:#F2BD00; font-weight: 700;">운영종료</span>
+                    <span id="weekend-time"
+                        style="float: right;color : #6F6F6F; position:absolute; right: 20px;">9:00 ~
+                        18:00</span><br><br>
+                    공휴일 운행시간 <span id="holiday-state"
+                        style="margin-left : 13.3%; color:#F2BD00; font-weight: 700;">운영중</span>
+                    <span id="holiday-time"
+                        style="float: right;color : #6F6F6F; position:absolute; right: 20px;">9:00 ~
+                        18:00</span><br><br>
+                    <hr>
+                    전화걸기 <span id="pnumber" style="margin-left:133px; font-weight:600;">02-2670-1454</span>
+                </p>
+
+            </span>
+        </div>
+    </div>
+    <div class="item-container" onclick="toggleBackgroundColorAndHiddenBox(this);">
+        <div class="star-rating">
+            <i class="fas fa-star" id="star-icon" onclick="toggleStarColor(this)"></i>
+            <span id="place2" class="place">대림2동주민센터</span>
+            <div class="walk" onclick="window.location.href='walk.html'">안내하기</div>
+        </div>
+        <div class="hidden-box">
+            <span class="place-text">
+                <p> <span style="color: #222227; font-weight: 700; font-size: 18px;">상세주소</span> <br>
+                    <span id="address" style="color: #5B5B5B; font-size: 16;">서울 특별시 영등포구 도림동</span>
+                    <hr>
+                    평일 운행시간 <span id="weekday-state"
+                        style="margin-left : 17%; color:#F2BD00; font-weight: 700;">운영중</span>
+                    <span id="weekday-time"
+                        style="float: right;color : #6F6F6F; position:absolute; right: 20px;">9:00 ~
+                        18:00</span><br><br>
+                    주말 운행시간 <span id="weekend-state"
+                        style="margin-left : 14.8%; color:#F2BD00; font-weight: 700;">운영종료</span>
+                    <span id="weekend-time"
+                        style="float: right;color : #6F6F6F; position:absolute; right: 20px;">9:00 ~
+                        18:00</span><br><br>
+                    공휴일 운행시간 <span id="holiday-state"
+                        style="margin-left : 13.3%; color:#F2BD00; font-weight: 700;">운영중</span>
+                    <span id="holiday-time"
+                        style="float: right;color : #6F6F6F; position:absolute; right: 20px;">9:00 ~
+                        18:00</span><br><br>
+                    <hr>
+                    전화걸기 <span id="pnumber" style="margin-left:133px; font-weight:600;">02-2670-1454</span>
+                </p>
+            </span>
+        </div>
+    </div>
+    <div class="item-container" onclick="toggleBackgroundColorAndHiddenBox(this);">
+        <div class="star-rating">
+            <i class="fas fa-star" id="star-icon" onclick="toggleStarColor(this)"></i>
+            <span id="place3" class="place">시립영등포장애인복지관</span>
+            <div class="walk" onclick="window.location.href='walk.html'">안내하기</div>
+        </div>
+        <div class="hidden-box">
+            <span class="place-text">
+                <p> <span style="color: #222227; font-weight: 700; font-size: 18px;">상세주소</span> <br>
+                    <span id="address" style="color: #5B5B5B; font-size: 16;">서울 특별시 영등포구 도림동</span>
+                    <hr>
+                    평일 운행시간 <span id="weekday-state"
+                        style="margin-left : 17%; color:#F2BD00; font-weight: 700;">운영중</span>
+                    <span id="weekday-time"
+                        style="float: right;color : #6F6F6F; position:absolute; right: 20px;">9:00 ~
+                        18:00</span><br><br>
+                    주말 운행시간 <span id="weekend-state"
+                        style="margin-left : 14.8%; color:#F2BD00; font-weight: 700;">운영종료</span>
+                    <span id="weekend-time"
+                        style="float: right;color : #6F6F6F; position:absolute; right: 20px;">9:00 ~
+                        18:00</span><br><br>
+                    공휴일 운행시간 <span id="holiday-state"
+                        style="margin-left : 13.3%; color:#F2BD00; font-weight: 700;">운영중</span>
+                    <span id="holiday-time"
+                        style="float: right;color : #6F6F6F; position:absolute; right: 20px;">9:00 ~
+                        18:00</span><br><br>
+                    <hr>
+                    전화걸기 <span id="pnumber" style="margin-left:133px; font-weight:600;">02-2670-1454</span>
+                </p>
+            </span>
+        </div>
+    </div>
+    <div class="item-container" onclick="toggleBackgroundColorAndHiddenBox(this);">
+        <div class="star-rating">
+            <i class="fas fa-star" id="star-icon" onclick="toggleStarColor(this)"></i>
+            <span id="place4" class="place">시립영등포장애인복지관</span>
+            <div class="walk" onclick="window.location.href='walk.html'">안내하기</div>
+        </div>
+        <div class="hidden-box">
+            <span class="place-text">
+                <p> <span style="color: #222227; font-weight: 700; font-size: 18px;">상세주소</span> <br>
+                    <span id="address" style="color: #5B5B5B; font-size: 16;">서울 특별시 영등포구 도림동</span>
+                    <hr>
+                    평일 운행시간 <span id="weekday-state"
+                        style="margin-left : 17%; color:#F2BD00; font-weight: 700;">운영중</span>
+                    <span id="weekday-time"
+                        style="float: right;color : #6F6F6F; position:absolute; right: 20px;">9:00 ~
+                        18:00</span><br><br>
+                    주말 운행시간 <span id="weekend-state"
+                        style="margin-left : 14.8%; color:#F2BD00; font-weight: 700;">운영종료</span>
+                    <span id="weekend-time"
+                        style="float: right;color : #6F6F6F; position:absolute; right: 20px;">9:00 ~
+                        18:00</span><br><br>
+                    공휴일 운행시간 <span id="holiday-state"
+                        style="margin-left : 13.3%; color:#F2BD00; font-weight: 700;">운영중</span>
+                    <span id="holiday-time"
+                        style="float: right;color : #6F6F6F; position:absolute; right: 20px;">9:00 ~
+                        18:00</span><br><br>
+                    <hr>
+                    전화걸기 <span id="pnumber" style="margin-left:133px; font-weight:600;">02-2670-1454</span>
+                </p>
+            </span>
+        </div>
+    </div>
+    <div class="item-container" onclick="toggleBackgroundColorAndHiddenBox(this);">
+        <div class="star-rating">
+            <i class="fas fa-star" id="star-icon" onclick="toggleStarColor(this)"></i>
+            <span id="place5" class="place">시립영등포장애인복지관</span>
+            <div class="walk" onclick="window.location.href='walk.html'">안내하기</div>
+        </div>
+        <div class="hidden-box">
+            <span class="place-text">
+                <p> <span style="color: #222227; font-weight: 700; font-size: 18px;">상세주소</span> <br>
+                    <span id="address" style="color: #5B5B5B; font-size: 16;">서울 특별시 영등포구 도림동</span>
+                    <hr>
+                    평일 운행시간 <span id="weekday-state"
+                        style="margin-left : 17%; color:#F2BD00; font-weight: 700;">운영중</span>
+                    <span id="weekday-time"
+                        style="float: right;color : #6F6F6F; position:absolute; right: 20px;">9:00 ~
+                        18:00</span><br><br>
+                    주말 운행시간 <span id="weekend-state"
+                        style="margin-left : 14.8%; color:#F2BD00; font-weight: 700;">운영종료</span>
+                    <span id="weekend-time"
+                        style="float: right;color : #6F6F6F; position:absolute; right: 20px;">9:00 ~
+                        18:00</span><br><br>
+                    공휴일 운행시간 <span id="holiday-state"
+                        style="margin-left : 13.3%; color:#F2BD00; font-weight: 700;">운영중</span>
+                    <span id="holiday-time"
+                        style="float: right;color : #6F6F6F; position:absolute; right: 20px;">9:00 ~
+                        18:00</span><br><br>
+                    <hr>
+                    전화걸기 <span id="pnumber" style="margin-left:133px; font-weight:600;">02-2670-1454</span>
+                </p>
+            </span>
+        </div>
+    </div>
 
     <div id="menu">
         <div id="menubox1">
@@ -62,6 +223,9 @@
             </div>
             <div class="clear"></div>
             <a href="./index.html">홈으로 가기</a>
+        </div>
+        <div class="login-button">
+            <a href="login.html">로그인하기</a>
         </div>
         <div id="menubox2"></div>
     </div>
