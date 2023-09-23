@@ -123,7 +123,7 @@
 
         setTimeout(function () {
             const name = localStorage.getItem("name");
-            if (name === null || name === "") {
+            if ((name === null || name === "") && localStorage.getItem("login")!="notlogin") {
                 window.location.href = "login.html";
             }
             else {
