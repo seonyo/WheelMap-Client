@@ -108,7 +108,7 @@
 
                 resultElement.innerHTML = `
                     <div class="star-rating">
-                        <i class="fas fa-star" style="color: #EAEAEA" id="star-icon-${storeId}" class="star-icon" onclick="clickLike('${storeId}', this)"></i>
+                        <i class="fas fa-star" style="color: #EAEAEA" id="star-icon star-icon-${storeId}" onclick="toggleStarColor(this); clickLike('${storeId}', this)"></i>
                         <span class="place">${result.facility_name}</span>
                         <div class="walk" onclick="window.location.href='walk.html'">안내하기</div>
                     </div>
@@ -139,6 +139,26 @@
     //     else starColor = '#EAEAEA';
     //     starIcon.style.color = starColor;
     // }
+
+    function toggleStarColor(starIcon) {
+            // 현재 색상 가져오기
+            const currentColor = starIcon.style.color;
+
+            // 현재 색상이 #EAEAEA인 경우, #FFC700로 변경
+            if (currentColor === 'rgb(234, 234, 234)' || currentColor === '#EAEAEA') {
+                starIcon.style.color = '#FFC700';
+            } else { // 현재 색상이 #FFC700인 경우, #EAEAEA로 변경
+                starIcon.style.color = '#EAEAEA';
+            }
+        }
+
+        // 별 아이콘 클릭 시 토글 함수를 호출
+        const starIcon = document.getElementById('star-icon');
+        starIcon.addEventListener('click', function() {
+            toggleStarColor(starIcon);
+            // 찜하기 동작 수행
+            // 여기서는 아무 동작 없이 색만 변경하는 예제입니다.
+        });
 
     function toggleBackgroundColorAndHiddenBox(element) {
                 const itemContainer = element;
